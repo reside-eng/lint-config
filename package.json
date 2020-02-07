@@ -15,25 +15,21 @@
     "clean": "lerna clean",
     "lint": "eslint '**/*.js' .eslintrc.js --ignore-pattern='!.eslintrc.js'",
     "format": "yarn lint --fix",
-    "test": "echo No Tests for lint config"
+    "test": "echo No Tests for lint-config"
   },
   "husky": {
     "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
-    "concurrent": true,
-    "linters": {
-      "*.{json,md}": [
-        "prettier --write",
-        "git add"
-      ],
-      "*.js": [
-        "eslint --fix",
-        "git add"
-      ]
-    }
+    "*.{json,md}": [
+      "prettier --write"
+    ],
+    "*.js": [
+      "yarn format"
+    ]
   },
   "devDependencies": {
     "@commitlint/cli": "8.3.5",

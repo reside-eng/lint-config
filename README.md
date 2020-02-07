@@ -8,7 +8,7 @@
 ![Verify](https://github.com/reside-eng/lint-config/workflows/Verify/badge.svg)
 </div>
 
-We export a variety of configurations that should be used for code at Side. Installation instructions are included in each of their respective package locations. Check out [all packages](https://github.com/reside-eng/lint-config/tree/master/packages/) available for consumption.
+Installation instructions are included in each of their respective package locations. Check out [all packages](https://github.com/reside-eng/lint-config/tree/master/packages/) available for consumption.
 
 ## Resources
 

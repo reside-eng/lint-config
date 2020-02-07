@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['@lint-config/eslint-config-base', 'airbnb'],
+  extends: ['@side-eng/eslint-config-base', 'airbnb'],
 };

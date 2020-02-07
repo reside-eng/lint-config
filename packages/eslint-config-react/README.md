@@ -8,7 +8,7 @@ Install this package, and ensure to have installed its peer dependencies.
 
 `yarn info @side-eng/eslint-config-react peerDependencies`
 
-`yarn add @lint-config/eslint-config-react`
+`yarn add @side-eng/eslint-config-react`
 
 ## Usage
 
@@ -17,7 +17,7 @@ Once all peer dependencies have been added to your project, extend this configur
 ```javascript
 module.exports = {
   extends: ['@side-eng/react'],
-}
+};
 ```
 
 For more information on configuring ESLint, please [refer to their documentation](https://eslint.org/docs/user-guide/configuring)

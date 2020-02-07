@@ -17,7 +17,7 @@ jobs:
         os: [ubuntu-latest]
         node-version: [12.x]
     env:
-      LERNA_DEFAULT_ARGS: --exact --concurrency 1 --yes --conventional-commits --create-release github
+      LERNA_DEFAULT_ARGS: --exact --concurrency 1 --yes --conventional-commits --create-release github --allow-branch "*"
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - name: Checkout Code
@@ -35,7 +35,7 @@ jobs:
           npm whoami
       - name: Configure Git to CI user
         run: |
-          git config --global user.email camancho@sideinc.com
+          git config --global user.email 23222038+reside-camacho@users.noreply.github.com
           git config --global user.name reside-camacho
       - name: Check Environment Info
         run: |
