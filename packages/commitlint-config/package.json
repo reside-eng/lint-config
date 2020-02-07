@@ -1,0 +1,15 @@
+{
+  "name": "@side-eng/commitlint-config",
+  "version": "0.0.1",
+  "main": "commitlint-config.js",
+  "license": "UNLICENSED",
+  "files": [
+    "commitlint-config.js"
+  ],
+  "dependencies": {
+    "@commitlint/config-conventional": "^8.3.4"
+  },
+  "peerDependencies": {
+    "@commitlint/cli": "^8.3.5"
+  }
+}

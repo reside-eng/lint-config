@@ -1,0 +1,54 @@
+{
+  "name": "lint-config",
+  "description": "Configuration for various lint tools",
+  "author": "Side Platform Engineering",
+  "license": "UNLICENSED",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reside-eng/lint-config.git"
+  },
+  "engines": {
+    "node": ">=10.15.0"
+  },
+  "scripts": {
+    "clean": "lerna clean",
+    "lint": "eslint '**/*.js' .eslintrc.js --ignore-pattern='!.eslintrc.js'",
+    "format": "yarn lint --fix",
+    "test": "echo No Tests for lint config"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "lint-staged": {
+    "concurrent": true,
+    "linters": {
+      "*.{json,md}": [
+        "prettier --write",
+        "git add"
+      ],
+      "*.js": [
+        "eslint --fix",
+        "git add"
+      ]
+    }
+  },
+  "devDependencies": {
+    "@commitlint/cli": "8.3.5",
+    "@commitlint/config-conventional": "8.3.4",
+    "eslint": "6.8.0",
+    "eslint-config-airbnb-base": "14.0.0",
+    "eslint-config-prettier": "6.10.0",
+    "eslint-plugin-import": "2.20.1",
+    "eslint-plugin-prettier": "3.1.2",
+    "husky": "4.2.1",
+    "lerna": "3.20.2",
+    "lint-staged": "10.0.7",
+    "prettier": "1.19.1"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

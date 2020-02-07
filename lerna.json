@@ -1,0 +1,13 @@
+{
+  "version": "independent",
+  "npmClient": "yarn",
+  "packages": ["packages/*"],
+  "useWorkspaces": true,
+  "command": {
+    "publish": {
+      "allowBranch": ["master", "next", "alpha", "beta"],
+      "message": "ci: publish package",
+      "ignoreChanges": ["*.md", "*.mdx", "*.json", "docs", "package.json"]
+    }
+  }
+}

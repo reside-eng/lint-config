@@ -1,0 +1,19 @@
+{
+  "name": "@side-eng/eslint-config-react",
+  "version": "0.0.1",
+  "main": "eslint-config-react.js",
+  "license": "UNLICENSED",
+  "files": [
+    "eslint-config-react.js"
+  ],
+  "dependencies": {
+    "@side-eng/eslint-config-base": "0.0.1",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.18.3"
+  },
+  "peerDependencies": {
+    "eslint": "^6.8.0"
+  }
+}
