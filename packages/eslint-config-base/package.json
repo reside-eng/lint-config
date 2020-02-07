@@ -1,0 +1,17 @@
+{
+  "name": "@side-eng/eslint-config-base",
+  "version": "0.0.1",
+  "main": "eslint-config-base.js",
+  "license": "UNLICENSED",
+  "files": [
+    "eslint-config-base.js"
+  ],
+  "dependencies": {
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1"
+  },
+  "peerDependencies": {
+    "eslint": "^6.8.0",
+    "prettier": "^1.19.1"
+  }
+}

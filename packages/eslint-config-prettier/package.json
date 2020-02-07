@@ -1,0 +1,17 @@
+{
+  "name": "@side-eng/eslint-config-prettier",
+  "version": "0.0.1",
+  "main": "eslint-config-prettier.js",
+  "license": "UNLICENSED",
+  "files": [
+    "eslint-config-prettier.js"
+  ],
+  "dependencies": {
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2"
+  },
+  "peerDependencies": {
+    "eslint": "^6.8.0",
+    "prettier": "^1.19.1"
+  }
+}
