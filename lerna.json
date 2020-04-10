@@ -5,7 +5,7 @@
   "useWorkspaces": true,
   "command": {
     "publish": {
-      "ignoreChanges": ["*.md", "docs", "package.json"]
+      "ignoreChanges": ["*.md", "docs"]
     }
   }
 }
