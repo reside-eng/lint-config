@@ -20,4 +20,16 @@ module.exports = {
 };
 ```
 
+### @side-eng/eslint-config-react/hooks
+
+This entry point enables the linting rules for React hooks (requires v16.8+). To use, add the following to your `.eslintrc.js` file:
+
+```javascript
+module.exports = {
+  extends: ['@side-eng/react', '@side-eng/react/hooks],
+};
+```
+
+NOTE: If you are using Create React App (CRA), this is not needed since they provide that for you already.
+
 For more information on configuring ESLint, please [refer to their documentation](https://eslint.org/docs/user-guide/configuring)
