@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.1](https://github.com/reside-eng/lint-config/compare/@side-eng/eslint-config-prettier@0.1.0...@side-eng/eslint-config-prettier@0.1.1) (2020-04-10)
+
+
+### Bug Fixes
+
+* upgrade peerDependency of Prettier ([77f1bff](https://github.com/reside-eng/lint-config/commit/77f1bff8b1680cc81452b375a76e128c0371f12b))
+
+
+
+
+
 # [0.1.0](https://github.com/reside-eng/lint-config/compare/@side-eng/eslint-config-prettier@0.0.1...@side-eng/eslint-config-prettier@0.1.0) (2020-04-10)
 
 
