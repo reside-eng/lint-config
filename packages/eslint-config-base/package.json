@@ -2,7 +2,7 @@
   "name": "@side-eng/eslint-config-base",
   "version": "0.0.1",
   "main": "eslint-config-base.js",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "files": [
     "eslint-config-base.js"
   ],
