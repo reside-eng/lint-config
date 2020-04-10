@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/reside-eng/lint-config/compare/@side-eng/eslint-config-base@0.1.1...@side-eng/eslint-config-base@0.2.0) (2020-04-10)
+
+
+### Features
+
+* add some additional rules we need for Side ([#5](https://github.com/reside-eng/lint-config/issues/5)) ([9d33552](https://github.com/reside-eng/lint-config/commit/9d33552856604b2d0a867ddccd37ef4560edf3a7))
+
+
+
+
+
 ## [0.1.1](https://github.com/reside-eng/lint-config/compare/@side-eng/eslint-config-base@0.1.0...@side-eng/eslint-config-base@0.1.1) (2020-04-10)
 
 
