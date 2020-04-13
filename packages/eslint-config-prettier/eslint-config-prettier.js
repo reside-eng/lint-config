@@ -1,12 +1,7 @@
 module.exports = {
-  extends: ['plugin:prettier/recommended'],
-  rules: {
-    'prettier/prettier': [
-      'error',
-      {
-        singleQuote: true,
-        trailingComma: 'all',
-      },
-    ],
-  },
+  extends: [
+    'plugin:prettier/recommended',
+    ...['./rules/prettier'].map(require.resolve),
+  ],
+  rules: {},
 };

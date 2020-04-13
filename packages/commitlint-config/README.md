@@ -1,4 +1,4 @@
-# commitlint-config
+# @side-eng/commitlint-config
 
 A base Commitlint configuration which provides defaults for linting all commit messages at Side.
 
