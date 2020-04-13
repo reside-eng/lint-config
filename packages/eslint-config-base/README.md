@@ -1,4 +1,4 @@
-# eslint-config-base
+# @side-eng/eslint-config-base
 
 A base ESLint configuration which extends Airbnb's [eslint-config-airbnb-base](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base)
 
@@ -19,7 +19,7 @@ Once all peer dependencies have been added to your project, extend this configur
 ```javascript
 module.exports = {
   extends: ['@side-eng/base'],
-}
+};
 ```
 
 For more information on configuring ESLint, please [refer to their documentation](https://eslint.org/docs/user-guide/configuring)

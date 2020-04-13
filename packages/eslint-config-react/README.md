@@ -1,4 +1,4 @@
-# eslint-config-react
+# @side-eng/eslint-config-react
 
 An ESLint configuration which extends Airbnb's [eslint-config-airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb), as well as our own [eslint-config-base](https://github.com/reside-eng/lint-config/tree/master/packages/eslint-config-base)
 
@@ -30,6 +30,6 @@ module.exports = {
 };
 ```
 
-NOTE: If you are using Create React App (CRA), this is not needed since they provide that for you already.
+**NOTE:** If you are using Create React App (CRA), this is not needed since they provide that for you already.
 
 For more information on configuring ESLint, please [refer to their documentation](https://eslint.org/docs/user-guide/configuring)
