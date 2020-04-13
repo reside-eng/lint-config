@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/reside-eng/lint-config/compare/@side-eng/eslint-config-react@0.1.3...@side-eng/eslint-config-react@0.3.0) (2020-04-13)
+
+
+### Bug Fixes
+
+* extend airbnb rules first before custom rules ([#6](https://github.com/reside-eng/lint-config/issues/6)) ([cb4f069](https://github.com/reside-eng/lint-config/commit/cb4f06996e1ce3f2026f815497f0ae36e9731873))
+
+
+### Features
+
+* add some additional rules we need for Side ([#5](https://github.com/reside-eng/lint-config/issues/5)) ([9d33552](https://github.com/reside-eng/lint-config/commit/9d33552856604b2d0a867ddccd37ef4560edf3a7))
+
+
+
+
+
 # [0.2.0](https://github.com/reside-eng/lint-config/compare/@side-eng/eslint-config-react@0.1.3...@side-eng/eslint-config-react@0.2.0) (2020-04-10)
 
 

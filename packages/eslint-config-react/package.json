@@ -1,6 +1,6 @@
 {
   "name": "@side-eng/eslint-config-react",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "main": "eslint-config-react.js",
   "license": "UNLICENSED",
   "files": [
@@ -8,7 +8,7 @@
     "hooks.js"
   ],
   "dependencies": {
-    "@side-eng/eslint-config-base": "0.2.0",
+    "@side-eng/eslint-config-base": "0.3.0",
     "eslint-config-airbnb": "^18.1.0",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
