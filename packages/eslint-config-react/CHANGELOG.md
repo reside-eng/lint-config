@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.1](https://github.com/reside-eng/lint-config/compare/@side-eng/eslint-config-react@0.3.0...@side-eng/eslint-config-react@0.3.1) (2020-04-14)
+
+
+### Bug Fixes
+
+* include rules as folder to publish ([#7](https://github.com/reside-eng/lint-config/issues/7)) ([e4651b3](https://github.com/reside-eng/lint-config/commit/e4651b37850b777c3b33ec762817eb55018af7ed))
+
+
+
+
+
 # [0.3.0](https://github.com/reside-eng/lint-config/compare/@side-eng/eslint-config-react@0.1.3...@side-eng/eslint-config-react@0.3.0) (2020-04-13)
 
 

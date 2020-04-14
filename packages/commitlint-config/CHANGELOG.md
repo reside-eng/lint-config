@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.3](https://github.com/reside-eng/lint-config/compare/@side-eng/commitlint-config@0.0.2...@side-eng/commitlint-config@0.0.3) (2020-04-14)
+
+
+### Bug Fixes
+
+* include rules as folder to publish ([#7](https://github.com/reside-eng/lint-config/issues/7)) ([e4651b3](https://github.com/reside-eng/lint-config/commit/e4651b37850b777c3b33ec762817eb55018af7ed))
+
+
+
+
+
 ## [0.0.2](https://github.com/reside-eng/lint-config/compare/@side-eng/commitlint-config@0.0.1...@side-eng/commitlint-config@0.0.2) (2020-04-13)
 
 
