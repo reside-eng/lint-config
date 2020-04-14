@@ -5,7 +5,8 @@
   "license": "UNLICENSED",
   "files": [
     "eslint-config-react.js",
-    "hooks.js"
+    "hooks.js",
+    "rules"
   ],
   "dependencies": {
     "@side-eng/eslint-config-base": "0.3.0",

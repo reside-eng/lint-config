@@ -4,7 +4,8 @@
   "main": "eslint-config-prettier.js",
   "license": "UNLICENSED",
   "files": [
-    "eslint-config-prettier.js"
+    "eslint-config-prettier.js",
+    "rules"
   ],
   "dependencies": {
     "eslint-config-prettier": "^6.10.1",

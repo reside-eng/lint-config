@@ -4,7 +4,8 @@
   "main": "eslint-config-base.js",
   "license": "UNLICENSED",
   "files": [
-    "eslint-config-base.js"
+    "eslint-config-base.js",
+    "rules"
   ],
   "dependencies": {
     "eslint-config-airbnb-base": "^14.1.0",
