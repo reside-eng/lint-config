@@ -4,7 +4,8 @@
   "main": "commitlint-config.js",
   "license": "UNLICENSED",
   "files": [
-    "commitlint-config.js"
+    "commitlint-config.js",
+    "rules"
   ],
   "dependencies": {
     "@commitlint/config-conventional": "^8.3.4"
