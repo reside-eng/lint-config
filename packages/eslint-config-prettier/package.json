@@ -5,6 +5,7 @@
   "license": "UNLICENSED",
   "files": [
     "eslint-config-prettier.js",
+    "react.js",
     "rules"
   ],
   "dependencies": {
