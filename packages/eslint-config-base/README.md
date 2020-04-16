@@ -1,8 +1,9 @@
 # @side-eng/eslint-config-base
 
-A base ESLint configuration which extends Airbnb's [eslint-config-airbnb-base](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base)
+A base ESLint configuration which extends the following:
 
-In addition to eslint-config-airbnb-base, this package provides any specific rules that meet Side's needs.
+- [eslint-config-airbnb-base](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base)
+- [@side-eng/eslint-config-prettier](https://github.com/reside-eng/lint-config/tree/master/packages/eslint-config-prettier)
 
 ## Installation
 

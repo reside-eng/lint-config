@@ -1,6 +1,11 @@
 # @side-eng/eslint-config-react
 
-An ESLint configuration which extends Airbnb's [eslint-config-airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb), as well as our own [eslint-config-base](https://github.com/reside-eng/lint-config/tree/master/packages/eslint-config-base)
+An ESLint configuration which extends the following:
+
+- [eslint-config-airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb)
+- [eslint-plugin-react-hooks](https://github.com/facebook/react/tree/master/packages/eslint-plugin-react-hooks) _(Optional)_
+- [@side-eng/eslint-config-base](https://github.com/reside-eng/lint-config/tree/master/packages/eslint-config-base)
+- [@side-eng/eslint-config-prettier](https://github.com/reside-eng/lint-config/tree/master/packages/eslint-config-prettier)
 
 ## Installation
 
@@ -31,5 +36,7 @@ module.exports = {
 ```
 
 **NOTE:** If you are using Create React App (CRA), this is not needed since they provide that for you already.
+
+## Resources
 
 For more information on configuring ESLint, please [refer to their documentation](https://eslint.org/docs/user-guide/configuring)
