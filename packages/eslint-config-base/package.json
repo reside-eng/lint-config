@@ -1,6 +1,6 @@
 {
   "name": "@side-eng/eslint-config-base",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "main": "eslint-config-base.js",
   "license": "UNLICENSED",
   "files": [
@@ -8,7 +8,7 @@
     "rules"
   ],
   "dependencies": {
-    "@side-eng/eslint-config-prettier": "0.1.3",
+    "@side-eng/eslint-config-prettier": "0.1.4",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-import": "^2.20.2"
   },

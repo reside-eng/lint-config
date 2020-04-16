@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.4](https://github.com/reside-eng/lint-config/compare/@side-eng/eslint-config-prettier@0.1.3...@side-eng/eslint-config-prettier@0.1.4) (2020-04-16)
+
+
+### Bug Fixes
+
+* use prettier/react to override jsx conflicting rules ([#8](https://github.com/reside-eng/lint-config/issues/8)) ([798d539](https://github.com/reside-eng/lint-config/commit/798d5394c484b49b54fcc0a1fdb324ad3ec27197))
+
+
+
+
+
 ## [0.1.3](https://github.com/reside-eng/lint-config/compare/@side-eng/eslint-config-prettier@0.1.2...@side-eng/eslint-config-prettier@0.1.3) (2020-04-14)
 
 
