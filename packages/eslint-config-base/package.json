@@ -5,6 +5,7 @@
   "license": "UNLICENSED",
   "files": [
     "eslint-config-base.js",
+    "core.js",
     "rules"
   ],
   "dependencies": {
