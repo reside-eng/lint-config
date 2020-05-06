@@ -82,7 +82,7 @@ module.exports = {
           'bin/**',
           'scripts/**',
           '**/babel.config.js',
-          '**/*.stories.js',
+          '**/*.stories.{js,jsx}',
         ],
       },
     ],
