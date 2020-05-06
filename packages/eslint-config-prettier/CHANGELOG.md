@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.1](https://github.com/reside-eng/lint-config/compare/@side-eng/eslint-config-prettier@0.2.0...@side-eng/eslint-config-prettier@0.2.1) (2020-05-06)
+
+**Note:** Version bump only for package @side-eng/eslint-config-prettier
+
+
+
+
+
 # [0.2.0](https://github.com/reside-eng/lint-config/compare/@side-eng/eslint-config-prettier@0.1.4...@side-eng/eslint-config-prettier@0.2.0) (2020-05-06)
 
 
