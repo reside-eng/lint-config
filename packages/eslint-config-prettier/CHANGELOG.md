@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/reside-eng/lint-config/compare/@side-eng/eslint-config-prettier@0.1.4...@side-eng/eslint-config-prettier@0.2.0) (2020-05-06)
+
+
+### Features
+
+* upgrade dependencies ([de2fc2d](https://github.com/reside-eng/lint-config/commit/de2fc2dd72f7de6be7d17b0589d97c6227e73bfd))
+
+
+
+
+
 ## [0.1.4](https://github.com/reside-eng/lint-config/compare/@side-eng/eslint-config-prettier@0.1.3...@side-eng/eslint-config-prettier@0.1.4) (2020-04-16)
 
 

@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/reside-eng/lint-config/compare/@side-eng/eslint-config-react@0.3.3...@side-eng/eslint-config-react@0.4.0) (2020-05-06)
+
+
+### Features
+
+* add overrides to no-console and import/no-extraneous-dependencies ([f39cdd9](https://github.com/reside-eng/lint-config/commit/f39cdd9ba41a3af7da7873895915ced4cefb4445))
+* upgrade dependencies ([de2fc2d](https://github.com/reside-eng/lint-config/commit/de2fc2dd72f7de6be7d17b0589d97c6227e73bfd))
+
+
+
+
+
 ## [0.3.3](https://github.com/reside-eng/lint-config/compare/@side-eng/eslint-config-react@0.3.2...@side-eng/eslint-config-react@0.3.3) (2020-05-05)
 
 
