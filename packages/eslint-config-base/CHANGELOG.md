@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.2](https://github.com/reside-eng/lint-config/compare/@side-eng/eslint-config-base@0.4.1...@side-eng/eslint-config-base@0.4.2) (2020-05-06)
+
+
+### Bug Fixes
+
+* support jsx for stories for no-extraneous-dependencies ([#12](https://github.com/reside-eng/lint-config/issues/12)) ([01b72a2](https://github.com/reside-eng/lint-config/commit/01b72a2ec455278968e6cea702e0365d72e917f8))
+
+
+
+
+
 ## [0.4.1](https://github.com/reside-eng/lint-config/compare/@side-eng/eslint-config-base@0.4.0...@side-eng/eslint-config-base@0.4.1) (2020-05-06)
 
 **Note:** Version bump only for package @side-eng/eslint-config-base
