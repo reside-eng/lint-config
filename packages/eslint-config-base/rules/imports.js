@@ -1,3 +1,50 @@
+const { join } = require('path');
+const fs = require('fs');
+const glob = require('glob');
+
+// eslint-disable-next-line import/no-dynamic-require
+const packageJson = require(join(process.cwd(), 'package.json'));
+
+/**
+ * Create overrides based on workspace settings for a repo
+ */
+const getNoExtraneousDepsOverrides = () => {
+  const cwd = process.cwd();
+  const globs =
+    packageJson.workspaces ||
+    (packageJson.lintConfig && packageJson.lintConfig.workspaces) ||
+    [];
+
+  return [
+    ...new Set(
+      globs
+        .map((path) => glob.sync(path))
+        .reduce((acc, val) => acc.concat(val), [])
+        .filter((path) => {
+          return (
+            !path.match(/node_modules/) &&
+            fs.lstatSync(path).isDirectory() &&
+            fs.existsSync(join(path, 'package.json'))
+          );
+        })
+        .map((path) => {
+          const file = join(cwd, path);
+          return {
+            files: [path],
+            rules: {
+              'import/no-extraneous-dependencies': [
+                'error',
+                {
+                  packageDir: [cwd, file],
+                },
+              ],
+            },
+          };
+        }),
+    ),
+  ];
+};
+
 module.exports = {
   rules: {
     'import/no-extraneous-dependencies': [
@@ -32,12 +79,13 @@ module.exports = {
           '**/karma.conf.js', // karma config
           //
           // Side's custom addition
-          'scripts/**/*',
-          'babel.config.js',
+          'bin/**',
+          'scripts/**',
+          '**/babel.config.js',
           '**/*.stories.js',
         ],
-        optionalDependencies: false,
       },
     ],
   },
+  overrides: [...getNoExtraneousDepsOverrides()],
 };

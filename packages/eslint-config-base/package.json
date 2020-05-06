@@ -11,7 +11,8 @@
   "dependencies": {
     "@side-eng/eslint-config-prettier": "0.1.4",
     "eslint-config-airbnb-base": "^14.1.0",
-    "eslint-plugin-import": "^2.20.2"
+    "eslint-plugin-import": "^2.20.2",
+    "glob": "7.1.6"
   },
   "peerDependencies": {
     "eslint": "^6.8.0",

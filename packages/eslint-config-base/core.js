@@ -3,6 +3,6 @@
 // https://github.com/reside-eng/lint-config/blob/master/packages/eslint-config-react/eslint-config-react.js
 // for more info around this need.
 module.exports = {
-  extends: ['./rules/imports'].map(require.resolve),
+  extends: ['./rules/errors', './rules/imports'].map(require.resolve),
   rules: {},
 };
