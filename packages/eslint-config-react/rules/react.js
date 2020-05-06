@@ -1,7 +1,5 @@
 module.exports = {
   rules: {
-    // AirBnB is using .jsx, we want to also allow .js
-    'react/jsx-filename-extension': ['error', { extensions: ['.jsx', '.js'] }],
     'react/jsx-handler-names': [
       'error',
       {
