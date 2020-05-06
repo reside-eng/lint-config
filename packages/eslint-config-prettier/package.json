@@ -8,6 +8,13 @@
     "react.js",
     "rules"
   ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/reside-eng/lint-config.git"
+  },
+  "bugs": {
+    "url": "http://github.com/reside-eng/lint-config/issues"
+  },
   "dependencies": {
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.3"

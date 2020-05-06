@@ -8,6 +8,13 @@
     "hooks.js",
     "rules"
   ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/reside-eng/lint-config.git"
+  },
+  "bugs": {
+    "url": "http://github.com/reside-eng/lint-config/issues"
+  },
   "dependencies": {
     "@side-eng/eslint-config-base": "0.4.0",
     "@side-eng/eslint-config-prettier": "0.2.0",
