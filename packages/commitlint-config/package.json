@@ -7,6 +7,13 @@
     "commitlint-config.js",
     "rules"
   ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/reside-eng/lint-config.git"
+  },
+  "bugs": {
+    "url": "http://github.com/reside-eng/lint-config/issues"
+  },
   "dependencies": {
     "@commitlint/config-conventional": "^8.3.4"
   },
