@@ -83,6 +83,7 @@ module.exports = {
           'scripts/**',
           '**/babel.config.js',
           '**/*.stories.{js,jsx}',
+          '**/.eslintrc.js',
         ],
       },
     ],
