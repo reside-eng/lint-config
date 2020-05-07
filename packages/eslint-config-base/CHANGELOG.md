@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.3](https://github.com/reside-eng/lint-config/compare/@side-eng/eslint-config-base@0.4.2...@side-eng/eslint-config-base@0.4.3) (2020-05-07)
+
+
+### Bug Fixes
+
+* add .eslintrc.js to no-extraneous-dependencies list ([#13](https://github.com/reside-eng/lint-config/issues/13)) ([922de1a](https://github.com/reside-eng/lint-config/commit/922de1abd582608900e45988f9730110dc4988fd))
+
+
+
+
+
 ## [0.4.2](https://github.com/reside-eng/lint-config/compare/@side-eng/eslint-config-base@0.4.1...@side-eng/eslint-config-base@0.4.2) (2020-05-06)
 
 
