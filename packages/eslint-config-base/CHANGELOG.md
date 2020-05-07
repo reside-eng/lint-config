@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/reside-eng/lint-config/compare/@side-eng/eslint-config-base@0.4.3...@side-eng/eslint-config-base@0.5.0) (2020-05-07)
+
+
+### Features
+
+* add jest linting to base config ([#14](https://github.com/reside-eng/lint-config/issues/14)) ([a43422d](https://github.com/reside-eng/lint-config/commit/a43422da4c72a1b1cf9c916ddd822ee587913f2e))
+
+
+
+
+
 ## [0.4.3](https://github.com/reside-eng/lint-config/compare/@side-eng/eslint-config-base@0.4.2...@side-eng/eslint-config-base@0.4.3) (2020-05-07)
 
 
