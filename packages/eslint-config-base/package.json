@@ -18,6 +18,8 @@
   "dependencies": {
     "@side-eng/eslint-config-prettier": "0.2.1",
     "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-chai-friendly": "^0.6.0",
+    "eslint-plugin-cypress": "^2.10.3",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-jest": "23.9.0",
     "glob": "7.1.6"
