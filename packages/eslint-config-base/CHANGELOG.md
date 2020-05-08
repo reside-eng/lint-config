@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.1](https://github.com/reside-eng/lint-config/compare/@side-eng/eslint-config-base@0.5.0...@side-eng/eslint-config-base@0.5.1) (2020-05-08)
+
+
+### Bug Fixes
+
+* ignore cypress files from jest config ([#15](https://github.com/reside-eng/lint-config/issues/15)) ([5f5d975](https://github.com/reside-eng/lint-config/commit/5f5d975a00a88b9e67d25d012ed0589b263cb45c))
+
+
+
+
+
 # [0.5.0](https://github.com/reside-eng/lint-config/compare/@side-eng/eslint-config-base@0.4.3...@side-eng/eslint-config-base@0.5.0) (2020-05-07)
 
 

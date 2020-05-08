@@ -1,6 +1,6 @@
 {
   "name": "@side-eng/eslint-config-base",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "main": "eslint-config-base.js",
   "license": "UNLICENSED",
   "files": [
