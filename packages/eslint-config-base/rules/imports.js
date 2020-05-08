@@ -81,6 +81,7 @@ module.exports = {
           // Side's custom addition
           'bin/**',
           'scripts/**',
+          '**/cypress/**',
           '**/babel.config.js',
           '**/*.stories.{js,jsx}',
           '**/.eslintrc.js',
