@@ -7,8 +7,8 @@ module.exports = {
         'plugin:chai-friendly/recommended',
       ],
       rules: {
-        'cypress/assertion-before-screenshot': 'warn',
-        'cypress/no-force': 'warn',
+        'cypress/assertion-before-screenshot': 'error',
+        'cypress/no-force': 'error',
       },
     },
   ],

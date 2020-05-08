@@ -1,10 +1,6 @@
 # @side-eng/eslint-config-cypress
 
-An ESLint configuration which enables lint rules for Cypress tests
-
-## When Should You Use?
-
-If you are not using any of Side's defined ESLint rules within lint-config, then you can use this library. Otherwise, all the other libraries include this already so it's not needed to install manually.
+An ESLint configuration which enables lint rules for Cypress tests.
 
 ## Installation
 
