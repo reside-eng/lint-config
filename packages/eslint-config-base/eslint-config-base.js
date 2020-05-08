@@ -15,6 +15,7 @@ module.exports = {
         'test-*.{js,jsx}',
         '**/*{.,_}{test,spec}.{js,jsx}',
       ],
+      excludedFiles: ['**/cypress/**/*.js'],
       rules: {
         'jest/prefer-expect-assertions': 0,
         'jest/lowercase-name': [
