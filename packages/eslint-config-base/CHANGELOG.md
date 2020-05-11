@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.8.0](https://github.com/reside-eng/lint-config/compare/@side-eng/eslint-config-base@0.7.0...@side-eng/eslint-config-base@0.8.0) (2020-05-11)
+
+
+### Features
+
+* add Jest as separate lint package ([#18](https://github.com/reside-eng/lint-config/issues/18)) ([6809e19](https://github.com/reside-eng/lint-config/commit/6809e19d63f92353ac5b769c475970f601822733))
+
+
+
+
+
 # [0.7.0](https://github.com/reside-eng/lint-config/compare/@side-eng/eslint-config-base@0.6.0...@side-eng/eslint-config-base@0.7.0) (2020-05-11)
 
 
