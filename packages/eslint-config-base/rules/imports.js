@@ -30,7 +30,7 @@ const getNoExtraneousDepsOverrides = () => {
         .map((path) => {
           const file = join(cwd, path);
           return {
-            files: [path],
+            files: [`${path}/**`],
             rules: {
               'import/no-extraneous-dependencies': [
                 'error',
