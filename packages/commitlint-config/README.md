@@ -8,13 +8,15 @@ Install this package, and ensure you have installed its peer dependencies.
 
 `yarn info @side-eng/commitlint-config peerDependencies`
 
-`yarn add @side-eng/commitlint-config`
+`yarn add -D @side-eng/commitlint-config`
 
 ## Usage
 
 Once all peer dependencies have been added to your project, extend this configuration in your project's `commitlint.config.js`.
 
-```javascript
+**.eslintrc.js**
+
+```js
 module.exports = {
   extends: ['@side-eng/commitlint-config'],
 };

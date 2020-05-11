@@ -19,7 +19,6 @@
     "@side-eng/eslint-config-prettier": "0.3.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-import": "^2.20.2",
-    "eslint-plugin-jest": "23.10.0",
     "glob": "7.1.6"
   },
   "peerDependencies": {

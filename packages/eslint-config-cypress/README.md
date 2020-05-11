@@ -8,7 +8,7 @@ Install this package, and ensure you have installed its peer dependencies.
 
 `yarn info @side-eng/eslint-config-cypress peerDependencies`
 
-`yarn add @side-eng/eslint-config-cypress`
+`yarn add -D @side-eng/eslint-config-cypress`
 
 ## Usage
 
@@ -16,7 +16,7 @@ Once all peer dependencies have been added to your project, extend this configur
 
 **.eslintrc.js**
 
-```javascript
+```js
 module.exports = {
   overrides: [
     {

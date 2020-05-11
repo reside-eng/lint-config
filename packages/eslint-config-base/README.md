@@ -11,13 +11,15 @@ Install this package, and ensure you have installed its peer dependencies.
 
 `yarn info @side-eng/eslint-config-base peerDependencies`
 
-`yarn add @side-eng/eslint-config-base`
+`yarn add -D @side-eng/eslint-config-base`
 
 ## Usage
 
 Once all peer dependencies have been added to your project, extend this configuration in your project's `.eslintrc.js`.
 
-```javascript
+**.eslintrc.js**
+
+```js
 module.exports = {
   extends: ['@side-eng/base'],
 };
