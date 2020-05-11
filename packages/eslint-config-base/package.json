@@ -1,6 +1,6 @@
 {
   "name": "@side-eng/eslint-config-base",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "main": "eslint-config-base.js",
   "license": "UNLICENSED",
   "files": [
@@ -16,7 +16,7 @@
     "url": "http://github.com/reside-eng/lint-config/issues"
   },
   "dependencies": {
-    "@side-eng/eslint-config-prettier": "0.2.1",
+    "@side-eng/eslint-config-prettier": "0.3.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-jest": "23.10.0",

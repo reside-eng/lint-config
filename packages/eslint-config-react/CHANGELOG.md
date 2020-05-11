@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/reside-eng/lint-config/compare/@side-eng/eslint-config-react@0.4.6...@side-eng/eslint-config-react@0.5.0) (2020-05-11)
+
+
+### Features
+
+* upgrade ESLint to v7.0.0 ([#17](https://github.com/reside-eng/lint-config/issues/17)) ([9821399](https://github.com/reside-eng/lint-config/commit/98213995db8f79bfddaabb51881fac0136b80073))
+
+
+
+
+
 ## [0.4.6](https://github.com/reside-eng/lint-config/compare/@side-eng/eslint-config-react@0.4.5...@side-eng/eslint-config-react@0.4.6) (2020-05-08)
 
 **Note:** Version bump only for package @side-eng/eslint-config-react
