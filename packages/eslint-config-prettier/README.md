@@ -16,7 +16,7 @@ Install this package, and ensure you have installed its peer dependencies.
 
 `yarn info @side-eng/eslint-config-prettier peerDependencies`
 
-`yarn add @side-eng/eslint-config-prettier`
+`yarn add -D @side-eng/eslint-config-prettier`
 
 ## Usage
 
@@ -24,9 +24,9 @@ Once all peer dependencies have been added to your project, extend this configur
 
 **Note**: Make sure to put it last, so it gets the chance to override other configs. Please reference the [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier/blob/master/README.md#installation) documentation for more details.
 
-For example:
+**.eslintrc.js**
 
-```javascript
+```js
 module.exports = {
   extends: ['@side-eng/base', '@side-eng/prettier'],
 };
@@ -36,7 +36,9 @@ module.exports = {
 
 This entry point will turn off additional rules if you're using React.
 
-```javascript
+**.eslintrc.js**
+
+```js
 module.exports = {
   extends: ['@side-eng/react', '@side-eng/react/hooks],
 };

@@ -13,13 +13,15 @@ Install this package, and ensure to have installed its peer dependencies.
 
 `yarn info @side-eng/eslint-config-react peerDependencies`
 
-`yarn add @side-eng/eslint-config-react`
+`yarn add -D @side-eng/eslint-config-react`
 
 ## Usage
 
 Once all peer dependencies have been added to your project, extend this configuration in your project's `.eslintrc.js`.
 
-```javascript
+**.eslintrc.js**
+
+```js
 module.exports = {
   extends: ['@side-eng/react'],
 };
@@ -29,7 +31,9 @@ module.exports = {
 
 This entry point enables the linting rules for React hooks (requires v16.8+). To use, add the following to your `.eslintrc.js` file:
 
-```javascript
+**.eslintrc.js**
+
+```js
 module.exports = {
   extends: ['@side-eng/react', '@side-eng/react/hooks],
 };
