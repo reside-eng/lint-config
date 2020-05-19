@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.6.1](https://github.com/reside-eng/lint-config/compare/@side-eng/eslint-config-react@0.6.0...@side-eng/eslint-config-react@0.6.1) (2020-05-19)
+
+
+### Bug Fixes
+
+* ignore default props for functional components ([#19](https://github.com/reside-eng/lint-config/issues/19)) ([41eade8](https://github.com/reside-eng/lint-config/commit/41eade89989d40c68b56ce72aef5a075e9ec9218))
+
+
+
+
+
 # [0.6.0](https://github.com/reside-eng/lint-config/compare/@side-eng/eslint-config-react@0.5.0...@side-eng/eslint-config-react@0.6.0) (2020-05-11)
 
 
