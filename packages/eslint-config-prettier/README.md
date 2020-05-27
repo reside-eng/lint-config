@@ -1,4 +1,4 @@
-# @side-eng/eslint-config-prettier
+# @side/eslint-config-prettier
 
 An ESLint configuration which runs [Prettier](https://github.com/prettier/prettier) as an ESLint rule, and disables other ESLint rules that conflict with Prettier's.
 
@@ -14,9 +14,9 @@ If you are not using any of Side's defined ESLint rules within lint-config, then
 
 Install this package, and ensure you have installed its peer dependencies.
 
-`yarn info @side-eng/eslint-config-prettier peerDependencies`
+`yarn info @side/eslint-config-prettier peerDependencies`
 
-`yarn add -D @side-eng/eslint-config-prettier`
+`yarn add -D @side/eslint-config-prettier`
 
 ## Usage
 
@@ -28,11 +28,11 @@ Once all peer dependencies have been added to your project, extend this configur
 
 ```js
 module.exports = {
-  extends: ['@side-eng/base', '@side-eng/prettier'],
+  extends: ['@side/base', '@side/prettier'],
 };
 ```
 
-### @side-eng/eslint-config-prettier/react
+### @side/eslint-config-prettier/react
 
 This entry point will turn off additional rules if you're using React.
 
@@ -40,10 +40,10 @@ This entry point will turn off additional rules if you're using React.
 
 ```js
 module.exports = {
-  extends: ['@side-eng/react', '@side-eng/react/hooks],
+  extends: ['@side/react', '@side/react/hooks],
 };
 ```
 
-**NOTE:** If you are using this rule, you should not include the default `@side-eng/eslint-config-prettier` rule set since this contains everything you will need.
+**NOTE:** If you are using this rule, you should not include the default `@side/eslint-config-prettier` rule set since this contains everything you will need.
 
 For more information on configuring ESLint, please [refer to their documentation](https://eslint.org/docs/user-guide/configuring)

@@ -1,5 +1,5 @@
 {
-  "name": "@side-eng/eslint-config-cypress",
+  "name": "@side/eslint-config-cypress",
   "version": "0.2.0",
   "main": "eslint-config-cypress.js",
   "license": "UNLICENSED",

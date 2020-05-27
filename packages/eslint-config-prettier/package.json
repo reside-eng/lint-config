@@ -1,5 +1,5 @@
 {
-  "name": "@side-eng/eslint-config-prettier",
+  "name": "@side/eslint-config-prettier",
   "version": "0.3.0",
   "main": "eslint-config-prettier.js",
   "license": "UNLICENSED",

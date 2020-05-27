@@ -1,4 +1,4 @@
-# @side-eng/eslint-config-jest
+# @side/eslint-config-jest
 
 An ESLint configuration which enables lint rules for Jest tests.
 
@@ -6,9 +6,9 @@ An ESLint configuration which enables lint rules for Jest tests.
 
 Install this package, and ensure you have installed its peer dependencies.
 
-`yarn info @side-eng/eslint-config-jest peerDependencies`
+`yarn info @side/eslint-config-jest peerDependencies`
 
-`yarn add -D @side-eng/eslint-config-jest`
+`yarn add -D @side/eslint-config-jest`
 
 ## Usage
 
@@ -29,7 +29,7 @@ module.exports = {
       ],
       // Make sure you exclude any paths where Cypress tests are located
       excludedFiles: ['**/cypress/**/*.js'],
-      extends: ['@side-eng/jest'],
+      extends: ['@side/jest'],
     },
   ],
 };
