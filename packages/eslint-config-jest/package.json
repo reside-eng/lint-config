@@ -1,5 +1,5 @@
 {
-  "name": "@side-eng/eslint-config-jest",
+  "name": "@side/eslint-config-jest",
   "version": "0.1.0",
   "main": "eslint-config-jest.js",
   "license": "UNLICENSED",

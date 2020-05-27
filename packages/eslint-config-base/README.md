@@ -1,17 +1,17 @@
-# @side-eng/eslint-config-base
+# @side/eslint-config-base
 
 A base ESLint configuration which extends the following:
 
 - [eslint-config-airbnb-base](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base)
-- [@side-eng/eslint-config-prettier](https://github.com/reside-eng/lint-config/tree/master/packages/eslint-config-prettier)
+- [@side/eslint-config-prettier](https://github.com/reside-eng/lint-config/tree/master/packages/eslint-config-prettier)
 
 ## Installation
 
 Install this package, and ensure you have installed its peer dependencies.
 
-`yarn info @side-eng/eslint-config-base peerDependencies`
+`yarn info @side/eslint-config-base peerDependencies`
 
-`yarn add -D @side-eng/eslint-config-base`
+`yarn add -D @side/eslint-config-base`
 
 ## Usage
 
@@ -21,13 +21,13 @@ Once all peer dependencies have been added to your project, extend this configur
 
 ```js
 module.exports = {
-  extends: ['@side-eng/base'],
+  extends: ['@side/base'],
 };
 ```
 
 ## Monorepo Support
 
-If you're trying to integrate this library with a monorepo, you will want to tell `@side-eng/eslint-config-base` of the workspaces you have setup so rules such as `import/no-extraneous-dependencies` can properly navigate the correct package.json files. You have two ways you can do this in your root package.json file.
+If you're trying to integrate this library with a monorepo, you will want to tell `@side/eslint-config-base` of the workspaces you have setup so rules such as `import/no-extraneous-dependencies` can properly navigate the correct package.json files. You have two ways you can do this in your root package.json file.
 
 ### Option 1: Yarn/Lerna workspaces location (recommended)
 

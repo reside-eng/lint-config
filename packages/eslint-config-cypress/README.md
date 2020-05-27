@@ -1,4 +1,4 @@
-# @side-eng/eslint-config-cypress
+# @side/eslint-config-cypress
 
 An ESLint configuration which enables lint rules for Cypress tests.
 
@@ -6,9 +6,9 @@ An ESLint configuration which enables lint rules for Cypress tests.
 
 Install this package, and ensure you have installed its peer dependencies.
 
-`yarn info @side-eng/eslint-config-cypress peerDependencies`
+`yarn info @side/eslint-config-cypress peerDependencies`
 
-`yarn add -D @side-eng/eslint-config-cypress`
+`yarn add -D @side/eslint-config-cypress`
 
 ## Usage
 
@@ -21,7 +21,7 @@ module.exports = {
   overrides: [
     {
       files: ['**/cypress/**/*.js'],
-      extends: ['@side-eng/cypress'],
+      extends: ['@side/cypress'],
     },
   ],
 };

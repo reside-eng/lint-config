@@ -1,5 +1,5 @@
 {
-  "name": "@side-eng/commitlint-config",
+  "name": "@side/commitlint-config",
   "version": "0.0.4",
   "main": "commitlint-config.js",
   "license": "UNLICENSED",
