@@ -2,10 +2,10 @@
   "name": "@side/eslint-config-cypress",
   "version": "0.3.0",
   "main": "eslint-config-cypress.js",
-  "license": "UNLICENSED",
   "files": [
     "eslint-config-cypress.js"
   ],
+  "license": "UNLICENSED",
   "repository": {
     "type": "git",
     "url": "http://github.com/reside-eng/lint-config.git"
@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "eslint-plugin-chai-friendly": "^0.6.0",
-    "eslint-plugin-cypress": "^2.10.3"
+    "eslint-plugin-cypress": "^2.11.1"
   },
   "peerDependencies": {
     "eslint": "^7.0.0"

@@ -2,11 +2,11 @@
   "name": "@side/commitlint-config",
   "version": "0.1.0",
   "main": "commitlint-config.js",
-  "license": "UNLICENSED",
   "files": [
     "commitlint-config.js",
     "rules"
   ],
+  "license": "UNLICENSED",
   "repository": {
     "type": "git",
     "url": "http://github.com/reside-eng/lint-config.git"
