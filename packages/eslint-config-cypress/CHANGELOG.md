@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.1](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-cypress@0.3.0...@side/eslint-config-cypress@0.3.1) (2020-05-28)
+
+
+### Bug Fixes
+
+* move to [@side](https://github.com/side) scope ([#21](https://github.com/reside-eng/lint-config/issues/21)) ([496ff99](https://github.com/reside-eng/lint-config/commit/496ff9956d51ae2e746549c7c687c8a11ae14b71))
+
+
+
+
+
 # 0.3.0 (2020-05-27)
 
 
