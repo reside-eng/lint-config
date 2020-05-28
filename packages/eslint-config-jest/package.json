@@ -2,10 +2,10 @@
   "name": "@side/eslint-config-jest",
   "version": "0.2.0",
   "main": "eslint-config-jest.js",
-  "license": "UNLICENSED",
   "files": [
     "eslint-config-jest.js"
   ],
+  "license": "UNLICENSED",
   "repository": {
     "type": "git",
     "url": "http://github.com/reside-eng/lint-config.git"
@@ -14,7 +14,7 @@
     "url": "http://github.com/reside-eng/lint-config/issues"
   },
   "dependencies": {
-    "eslint-plugin-jest": "23.10.0"
+    "eslint-plugin-jest": "23.13.2"
   },
   "peerDependencies": {
     "eslint": "^7.0.0",
