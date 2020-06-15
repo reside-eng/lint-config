@@ -22,56 +22,67 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v2
+
       - run: |
           git fetch --prune --unshallow
+
       - name: Use Node.js ${{ matrix.node-version }} on ${{ matrix.os }}
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
+
       - name: Configure Package Manager
         run: |
-          echo Configuring NPM_TOKEN globally for .npmrc
-          npm config set '//registry.npmjs.org/:_authToken' ${{ secrets.NPM_TOKEN }}
+          echo Configuring NPM_PUBLISH_TOKEN globally for .npmrc
+          npm config set '//registry.npmjs.org/:_authToken' ${{ secrets.NPM_PUBLISH_TOKEN }}
           npm whoami
+
       - name: Configure Git to CI user
         run: |
           git config --global user.email 23222038+reside-camacho@users.noreply.github.com
           git config --global user.name reside-camacho
+
       - name: Check Environment Info
         run: |
           echo Node Version: `node --version`
           echo NPM Version: `npm --version`
           echo Yarn Version: `yarn --version`
+
       - name: Get Yarn Cache
         id: yarn-cache
         run: echo "::set-output name=dir::$(yarn cache dir)"
+
       - uses: actions/cache@v1
         with:
           path: ${{ steps.yarn-cache.outputs.dir }}
           key: ${{ runner.os }}-yarn-${{ hashFiles('yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-yarn-
+
       - name: Install Dependencies
-        env:
-          CI: true
         run: yarn install --frozen-lockfile
+
       - name: Test
         run: |
           yarn lint
           yarn test
+
       - name: Publish to @latest dist-tag
         if: github.ref == 'refs/heads/master'
         run: |
           echo lerna publish $LERNA_DEFAULT_ARGS --conventional-graduate
           yarn lerna publish $LERNA_DEFAULT_ARGS --conventional-graduate
+
       - name: Publish to a prerelease dist-tag
         if: github.ref != 'refs/heads/master'
         run: |
           echo lerna publish $LERNA_DEFAULT_ARGS --conventional-prerelease --dist-tag ${GITHUB_REF##*/} --preid ${GITHUB_REF##*/}
           yarn lerna publish $LERNA_DEFAULT_ARGS --conventional-prerelease --dist-tag ${GITHUB_REF##*/} --preid ${GITHUB_REF##*/}
+
       - name: Archive Workspace on Failure
         if: failure()
         run: zip -r workspace-files ./
+
       - uses: actions/upload-artifact@master
         if: failure()
         with:
