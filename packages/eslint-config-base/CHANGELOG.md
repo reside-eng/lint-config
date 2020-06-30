@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.10.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-base@0.9.1...@side/eslint-config-base@0.10.0) (2020-06-30)
+
+
+### Features
+
+* typescript test extentions for import/no-extraneous-dependencies ([#23](https://github.com/reside-eng/lint-config/issues/23)) ([de300a4](https://github.com/reside-eng/lint-config/commit/de300a44e190bafede950ef3bac0c4961d1d175e))
+
+
+
+
+
 ## [0.9.1](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-base@0.9.0...@side/eslint-config-base@0.9.1) (2020-05-28)
 
 
