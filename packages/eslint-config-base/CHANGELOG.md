@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.10.1](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-base@0.10.0...@side/eslint-config-base@0.10.1) (2020-07-08)
+
+
+### Bug Fixes
+
+* enforce consistent single quote ([#24](https://github.com/reside-eng/lint-config/issues/24)) ([36c5aad](https://github.com/reside-eng/lint-config/commit/36c5aadada37b857456757ad709b6a78b15f6f51))
+
+
+
+
+
 # [0.10.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-base@0.9.1...@side/eslint-config-base@0.10.0) (2020-06-30)
 
 
