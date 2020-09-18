@@ -1,0 +1,27 @@
+# Config references:
+# https://docs.github.com/en/github/administering-a-repository/configuration-options-for-dependency-updates
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    open-pull-requests-limit: 15
+    schedule: 
+      interval: "daily"
+      time: "09:00"
+      timezone: "America/Denver"
+    assignees:
+      - "hershmire"
+      - "prescottprue"
+    reviewers:
+      - "reside-eng/platform"
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+      time: "09:00"
+      timezone: "America/Denver"
+    assignees:
+      - "hershmire"
+      - "prescottprue"
+    reviewers:
+      - "reside-eng/platform"
