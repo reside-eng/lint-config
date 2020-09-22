@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-jest@0.2.1...@side/eslint-config-jest@0.3.0) (2020-09-22)
+
+
+### chore
+
+* **deps:** bump eslint-plugin-jest from 23.13.2 to 24.0.2 ([#33](https://github.com/reside-eng/lint-config/issues/33)) ([a8b25bb](https://github.com/reside-eng/lint-config/commit/a8b25bb91bfcd95c811d14e173b9190efa7b0aaa))
+
+
+### BREAKING CHANGES
+
+* **deps:** - [eslint-plugin-jest major update](https://github.com/jest-community/eslint-plugin-jest/releases)
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+
+
+
+
+
 ## [0.2.1](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-jest@0.2.0...@side/eslint-config-jest@0.2.1) (2020-05-28)
 
 
