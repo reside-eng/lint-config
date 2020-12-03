@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.11.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-base@0.10.1...@side/eslint-config-base@0.11.0) (2020-12-03)
+
+
+### Features
+
+* user 2020 parserOptions to support optional chaining ([#79](https://github.com/reside-eng/lint-config/issues/79)) ([3a61d08](https://github.com/reside-eng/lint-config/commit/3a61d08a9b4331e42802fd542b1674ddcd2930f0))
+
+
+
+
+
 ## [0.10.1](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-base@0.10.0...@side/eslint-config-base@0.10.1) (2020-07-08)
 
 
