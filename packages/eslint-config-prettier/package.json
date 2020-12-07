@@ -1,6 +1,6 @@
 {
   "name": "@side/eslint-config-prettier",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "main": "eslint-config-prettier.js",
   "files": [
     "eslint-config-prettier.js",
