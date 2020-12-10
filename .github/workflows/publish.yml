@@ -27,7 +27,7 @@ jobs:
           git fetch --prune --unshallow
 
       - name: Use Node.js ${{ matrix.node-version }} on ${{ matrix.os }}
-        uses: actions/setup-node@v2.1.2
+        uses: actions/setup-node@v2.1.3
         with:
           node-version: ${{ matrix.node-version }}
 
