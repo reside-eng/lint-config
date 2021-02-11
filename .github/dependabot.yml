@@ -14,6 +14,9 @@ updates:
       - "prescottprue"
     reviewers:
       - "reside-eng/platform"
+    ignore:
+      # We are locking to v4 because v5 is a license change
+      - dependency-name: "husky"
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
