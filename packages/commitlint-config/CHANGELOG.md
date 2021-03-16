@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.4](https://github.com/reside-eng/lint-config/compare/@side/commitlint-config@0.1.3...@side/commitlint-config@0.1.4) (2021-03-16)
+
+
+### Bug Fixes
+
+* **commitlint-config:** increase version range for commitlint/cli [PLAT-684] ([#113](https://github.com/reside-eng/lint-config/issues/113)) ([2cb2cb5](https://github.com/reside-eng/lint-config/commit/2cb2cb53e520d2a13824895b60f7a031eb0e1fcd))
+
+
+
+
+
 ## [0.1.3](https://github.com/reside-eng/lint-config/compare/@side/commitlint-config@0.1.2...@side/commitlint-config@0.1.3) (2021-03-05)
 
 **Note:** Version bump only for package @side/commitlint-config
