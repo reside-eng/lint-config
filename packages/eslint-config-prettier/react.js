@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
     'plugin:prettier/recommended',
-    ...['eslint-config-prettier/react', './rules/prettier'].map(
+    ...['eslint-config-prettier', './rules/prettier'].map(
       require.resolve,
     ),
   ],
