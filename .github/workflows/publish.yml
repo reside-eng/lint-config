@@ -18,7 +18,6 @@ jobs:
         node-version: [14.x]
     env:
       LERNA_DEFAULT_ARGS: --exact --concurrency 1 --yes --conventional-commits --create-release github --allow-branch "*"
-      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - name: Checkout Code
         uses: actions/checkout@v2
@@ -68,16 +67,20 @@ jobs:
           yarn test
 
       - name: Publish to @latest dist-tag
-        if: github.ref == 'refs/heads/master'
         run: |
           echo lerna publish $LERNA_DEFAULT_ARGS --conventional-graduate
           yarn lerna publish $LERNA_DEFAULT_ARGS --conventional-graduate
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        if: github.ref == 'refs/heads/master'
 
       - name: Publish to a prerelease dist-tag
-        if: github.ref != 'refs/heads/master'
         run: |
           echo lerna publish $LERNA_DEFAULT_ARGS --conventional-prerelease --dist-tag ${GITHUB_REF##*/} --preid ${GITHUB_REF##*/}
           yarn lerna publish $LERNA_DEFAULT_ARGS --conventional-prerelease --dist-tag ${GITHUB_REF##*/} --preid ${GITHUB_REF##*/}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        if: github.ref != 'refs/heads/master'
 
       - name: Archive Workspace on Failure
         if: failure()
