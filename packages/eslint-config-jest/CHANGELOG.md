@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.9](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-jest@0.3.8...@side/eslint-config-jest@0.3.9) (2021-04-26)
+
+**Note:** Version bump only for package @side/eslint-config-jest
+
 ## [0.3.8](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-jest@0.3.7...@side/eslint-config-jest@0.3.8) (2021-04-23)
 
 **Note:** Version bump only for package @side/eslint-config-jest
