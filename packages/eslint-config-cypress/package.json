@@ -1,6 +1,6 @@
 {
   "name": "@side/eslint-config-cypress",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "main": "eslint-config-cypress.js",
   "files": [
     "eslint-config-cypress.js"
