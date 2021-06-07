@@ -5,7 +5,7 @@ updates:
   - package-ecosystem: "npm"
     directory: "/"
     open-pull-requests-limit: 15
-    schedule: 
+    schedule:
       interval: "daily"
       time: "09:00"
       timezone: "America/Denver"
@@ -14,9 +14,6 @@ updates:
       - "prescottprue"
     reviewers:
       - "reside-eng/platform"
-    ignore:
-      # We are locking to v4 because v5 is a license change
-      - dependency-name: "husky"
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
