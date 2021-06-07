@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.5](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-prettier@0.4.4...@side/eslint-config-prettier@0.4.5) (2021-06-07)
+
+### Bug Fixes
+
+- **dependabot:** move to fixed dependency versions ([#159](https://github.com/reside-eng/lint-config/issues/159)) ([4823708](https://github.com/reside-eng/lint-config/commit/4823708899919106e20b0d8f768977bd8f7017b5))
+
 ## [0.4.4](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-prettier@0.4.3...@side/eslint-config-prettier@0.4.4) (2021-04-23)
 
 ### Bug Fixes
