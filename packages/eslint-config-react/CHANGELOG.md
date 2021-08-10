@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.9.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-react@0.8.5...@side/eslint-config-react@0.9.0) (2021-08-10)
+
+### Features
+
+- adjust rules to accommodate for Next JS [CORE-3724] ([#183](https://github.com/reside-eng/lint-config/issues/183)) ([aed8b10](https://github.com/reside-eng/lint-config/commit/aed8b10b77294d07ec3e39fd64e12227b1f29624))
+
+### BREAKING CHANGES
+
+- react/react-in-jsx-scope rule is now set to 'off' by default since Next JS applications do not require it. Any CRA apps should now turn this back on in their global .eslintrc.js settings.
+
+* Please be sure to set `'react/react-in-jsx-scope': 'error'` in your CRA projects.
+* To re-enable jsx-props-no-spreading, use this in your eslintrc:
+
+```js
+'react/jsx-props-no-spreading': ['error', {
+  html: 'enforce',
+  custom: 'enforce',
+  explicitSpread: 'ignore',
+  exceptions: [],
+}]
+```
+
 ## [0.8.5](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-react@0.8.4...@side/eslint-config-react@0.8.5) (2021-06-07)
 
 ### Bug Fixes
