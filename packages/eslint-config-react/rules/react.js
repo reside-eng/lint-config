@@ -17,5 +17,9 @@ module.exports = {
         ignoreFunctionalComponents: true,
       },
     ],
+    // Next.JS does not require JSX to be in scope
+    'react/react-in-jsx-scope': 'off',
+    // We're okay with this but use it sparingly and only when this is intentional
+    'react/jsx-props-no-spreading': 'off',
   },
 };
