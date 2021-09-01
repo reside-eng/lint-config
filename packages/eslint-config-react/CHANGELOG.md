@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.10.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-react@0.9.3...@side/eslint-config-react@0.10.0) (2021-09-01)
+
+### Features
+
+- **deps:** bump eslint-plugin-import from 2.24.0 to 2.24.2 ([#188](https://github.com/reside-eng/lint-config/issues/188)) ([4783b41](https://github.com/reside-eng/lint-config/commit/4783b417bc0b5a07fa648bb1af12a220efd9abd7))
+
 ## [0.9.3](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-react@0.9.2...@side/eslint-config-react@0.9.3) (2021-09-01)
 
 **Note:** Version bump only for package @side/eslint-config-react
