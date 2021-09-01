@@ -1,6 +1,6 @@
 {
   "name": "@side/eslint-config-react",
-  "version": "0.9.2",
+  "version": "0.9.3",
   "main": "eslint-config-react.js",
   "files": [
     "eslint-config-react.js",
@@ -16,8 +16,8 @@
     "url": "http://github.com/reside-eng/lint-config/issues"
   },
   "dependencies": {
-    "@side/eslint-config-base": "0.11.6",
-    "@side/eslint-config-prettier": "0.4.5",
+    "@side/eslint-config-base": "0.11.7",
+    "@side/eslint-config-prettier": "0.4.6",
     "eslint-config-airbnb": "18.2.1",
     "eslint-plugin-import": "2.24.0",
     "eslint-plugin-jsx-a11y": "6.4.1",
