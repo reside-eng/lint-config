@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.5](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-cypress@0.3.4...@side/eslint-config-cypress@0.3.5) (2021-09-21)
+
+**Note:** Version bump only for package @side/eslint-config-cypress
+
 ## [0.3.4](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-cypress@0.3.3...@side/eslint-config-cypress@0.3.4) (2021-08-02)
 
 **Note:** Version bump only for package @side/eslint-config-cypress
