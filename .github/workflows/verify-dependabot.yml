@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    name: Build and Verify
+    name: build
     runs-on: ${{ matrix.os }}
     if: github.actor == 'dependabot[bot]'
     strategy:
@@ -18,12 +18,13 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v2.3.4
         with:
-          ref: ${{ github.event.pull_request.head.sha }}
+          ref: refs/pull/${{ github.event.number }}/merge
 
       - name: Use Node.js ${{ matrix.node-version }} on ${{ matrix.os }}
         uses: actions/setup-node@v2.4.0
         with:
           node-version: ${{ matrix.node-version }}
+          cache: 'yarn'
 
       - name: Configure Package Manager
         run: |
@@ -36,17 +37,6 @@ jobs:
           echo Node Version: `node --version`
           echo NPM Version: `npm --version`
           echo Yarn Version: `yarn --version`
-
-      - name: Get Yarn Cache
-        id: yarn-cache
-        run: echo "::set-output name=dir::$(yarn cache dir)"
-
-      - uses: actions/cache@v2.1.6
-        with:
-          path: ${{ steps.yarn-cache.outputs.dir }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-yarn-
 
       - name: Install Dependencies
         run: yarn install --frozen-lockfile
