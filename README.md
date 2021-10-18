@@ -5,11 +5,11 @@
 
 <div align="center">
 
-![@latest](https://github.com/reside-eng/lint-config/workflows/Publish%20to%20NPM/badge.svg?branch=master)
+![@latest](https://github.com/reside-eng/lint-config/workflows/Publish%20to%20NPM/badge.svg?branch=main)
 
 </div>
 
-Installation instructions are included in each of their respective package locations. Check out [all packages](https://github.com/reside-eng/lint-config/tree/master/packages/) available for consumption.
+Installation instructions are included in each of their respective package locations. Check out [all packages](https://github.com/reside-eng/lint-config/tree/main/packages/) available for consumption.
 
 ## Resources
 

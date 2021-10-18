@@ -5,15 +5,18 @@ updates:
   - package-ecosystem: "npm"
     directory: "/"
     open-pull-requests-limit: 15
+    commit-message:
+      prefix: fix
+      prefix-development: chore
+      include: scope
     schedule:
       interval: "daily"
       time: "09:00"
       timezone: "America/Denver"
     assignees:
-      - "hershmire"
-      - "prescottprue"
+      - "reside-eng/platform-engineering"
     reviewers:
-      - "reside-eng/platform"
+      - "reside-eng/platform-engineering"
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
@@ -21,7 +24,6 @@ updates:
       time: "09:00"
       timezone: "America/Denver"
     assignees:
-      - "hershmire"
-      - "prescottprue"
+      - "reside-eng/platform-engineering"
     reviewers:
       - "reside-eng/platform"
