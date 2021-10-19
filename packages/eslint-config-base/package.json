@@ -1,6 +1,6 @@
 {
   "name": "@side/eslint-config-base",
-  "version": "0.12.0",
+  "version": "0.12.1",
   "main": "eslint-config-base.js",
   "files": [
     "eslint-config-base.js",
