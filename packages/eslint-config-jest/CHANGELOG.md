@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.13](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-jest@0.3.12...@side/eslint-config-jest@0.3.13) (2021-10-29)
+
+### Bug Fixes
+
+- switched breaking rule change lowercase-name to prefer-lowercase-title ([#224](https://github.com/reside-eng/lint-config/issues/224)) ([d9a4cd4](https://github.com/reside-eng/lint-config/commit/d9a4cd42595d6267ffedf164e3fd908cf6dde0ac))
+
 ## [0.3.12](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-jest@0.3.11...@side/eslint-config-jest@0.3.12) (2021-10-19)
 
 **Note:** Version bump only for package @side/eslint-config-jest
