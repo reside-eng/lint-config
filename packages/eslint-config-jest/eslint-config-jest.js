@@ -2,7 +2,7 @@ module.exports = {
   extends: ['plugin:jest/all'],
   rules: {
     'jest/prefer-expect-assertions': 0,
-    'jest/lowercase-name': [
+    'jest/prefer-lowercase-title': [
       'error',
       {
         ignore: ['describe'],
