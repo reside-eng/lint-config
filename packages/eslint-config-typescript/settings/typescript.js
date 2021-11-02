@@ -6,5 +6,5 @@ module.exports = {
         extensions: ['.mjs', '.js', '.json', '.jsx', '.ts', '.tsx'],
       },
     },
-  }
+  },
 };
