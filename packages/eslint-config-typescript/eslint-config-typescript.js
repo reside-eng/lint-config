@@ -6,6 +6,7 @@ module.exports = {
     './rules/typescript',
     './settings/typescript',
   ].map(require.resolve),
+  parser: '@typescript-eslint/parser',
   rules: {},
   settings: {},
 };
