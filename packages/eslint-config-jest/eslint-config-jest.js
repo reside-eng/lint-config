@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['plugin:jest/all'],
+  extends: ['plugin:jest/recommended'],
   rules: {
     'jest/prefer-expect-assertions': 0,
     'jest/prefer-lowercase-title': [
