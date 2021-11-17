@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.8](https://github.com/reside-eng/lint-config/compare/@side/commitlint-config@0.1.7...@side/commitlint-config@0.1.8) (2021-11-17)
+
+### Bug Fixes
+
+- **deps:** bump @commitlint/config-conventional from 13.2.0 to 14.1.0 ([#225](https://github.com/reside-eng/lint-config/issues/225)) ([4b3ec50](https://github.com/reside-eng/lint-config/commit/4b3ec50cfbccef73e4730fd13c686645c774e711))
+
 ## [0.1.7](https://github.com/reside-eng/lint-config/compare/@side/commitlint-config@0.1.6...@side/commitlint-config@0.1.7) (2021-10-19)
 
 **Note:** Version bump only for package @side/commitlint-config
