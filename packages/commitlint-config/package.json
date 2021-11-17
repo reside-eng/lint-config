@@ -15,9 +15,9 @@
     "url": "http://github.com/reside-eng/lint-config/issues"
   },
   "dependencies": {
-    "@commitlint/config-conventional": "14.1.0"
+    "@commitlint/config-conventional": "^15.0.0"
   },
   "peerDependencies": {
-    "@commitlint/cli": ">=8.3.5 <13.0.0"
+    "@commitlint/cli": ">=13.0.0"
   }
 }

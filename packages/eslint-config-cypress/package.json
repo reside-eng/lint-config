@@ -14,10 +14,10 @@
     "url": "http://github.com/reside-eng/lint-config/issues"
   },
   "dependencies": {
-    "eslint-plugin-chai-friendly": "0.7.2",
-    "eslint-plugin-cypress": "2.12.1"
+    "eslint-plugin-chai-friendly": "^0.7.2",
+    "eslint-plugin-cypress": "^2.12.1"
   },
   "peerDependencies": {
-    "eslint": "^7.0.0"
+    "eslint": ">=7.14.0"
   }
 }
