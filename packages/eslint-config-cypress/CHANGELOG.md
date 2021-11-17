@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.6](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-cypress@0.3.5...@side/eslint-config-cypress@0.3.6) (2021-11-17)
+
+### Bug Fixes
+
+- upgrade dependencies and use carets moving forward ([#241](https://github.com/reside-eng/lint-config/issues/241)) ([b6e765f](https://github.com/reside-eng/lint-config/commit/b6e765f42023f97a3988a0056ccc5622ee33833f))
+
 ## [0.3.5](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-cypress@0.3.4...@side/eslint-config-cypress@0.3.5) (2021-09-21)
 
 **Note:** Version bump only for package @side/eslint-config-cypress

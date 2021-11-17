@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.9](https://github.com/reside-eng/lint-config/compare/@side/commitlint-config@0.1.8...@side/commitlint-config@0.1.9) (2021-11-17)
+
+### Bug Fixes
+
+- upgrade dependencies and use carets moving forward ([#241](https://github.com/reside-eng/lint-config/issues/241)) ([b6e765f](https://github.com/reside-eng/lint-config/commit/b6e765f42023f97a3988a0056ccc5622ee33833f))
+
 ## [0.1.8](https://github.com/reside-eng/lint-config/compare/@side/commitlint-config@0.1.7...@side/commitlint-config@0.1.8) (2021-11-17)
 
 ### Bug Fixes
