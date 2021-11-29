@@ -89,3 +89,20 @@ jobs:
         with:
           name: workspace
           path: workspace-files.zip
+
+  notification:
+    if: always()
+    name: notification
+    needs: [publish]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2.4.0
+
+      - uses: technote-space/workflow-conclusion-action@v2.0.1
+
+      - uses: reside-eng/workflow-status-notification-action@v1.0.0
+        with:
+          current-status: ${{ env.WORKFLOW_CONCLUSION }}
+          slack-webhook: ${{ secrets.SLACK_WEBHOOK_PLATFORM_PROD }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
