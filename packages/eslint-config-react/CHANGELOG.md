@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.10.4](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-react@0.10.3...@side/eslint-config-react@0.10.4) (2021-11-30)
+
+### Bug Fixes
+
+- revert breaking change that was introduced in last release ([#252](https://github.com/reside-eng/lint-config/issues/252)) ([c031601](https://github.com/reside-eng/lint-config/commit/c0316011e8a3ff7e42ad1b292a90ef21c46e2787))
+
 ## [0.10.3](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-react@0.10.2...@side/eslint-config-react@0.10.3) (2021-11-17)
 
 ### Bug Fixes
