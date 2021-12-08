@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.13.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-base@0.12.2...@side/eslint-config-base@0.13.0) (2021-12-08)
+
+### Features
+
+- update rules for default exports [PLAT-1239] ([#255](https://github.com/reside-eng/lint-config/issues/255)) ([bb96f9a](https://github.com/reside-eng/lint-config/commit/bb96f9aa1ee20267211ade55b2e86f092a63e785))
+
+### BREAKING CHANGES
+
+- Default exports are now disallowed in favor of
+  named exports.
+
 ## [0.12.2](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-base@0.12.1...@side/eslint-config-base@0.12.2) (2021-11-17)
 
 ### Bug Fixes
