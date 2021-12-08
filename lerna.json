@@ -6,7 +6,7 @@
   "command": {
     "publish": {
       "ignoreChanges": ["*.md", "docs"],
-      "message": "chore(release): publish %s"
+      "message": "chore(release): publish"
     }
   }
 }
