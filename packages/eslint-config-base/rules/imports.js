@@ -93,6 +93,21 @@ module.exports = {
         ],
       },
     ],
+    /**
+     * Use named exports over default exports
+     * @link https://github.com/reside-eng/guidelines/blob/main/rfcs/shared-patterns/typescript/001-consistent-import-export.md
+     */
+    'import/prefer-default-export': 'off',
+    'import/no-default-export': 'error',
   },
-  overrides: [...getNoExtraneousDepsOverrides()],
+  overrides: [
+    ...getNoExtraneousDepsOverrides(),
+    // This override enables default exports for files that require them.
+    {
+      files: ['jest.config.{js,mjs,ts}'],
+      rules: {
+        'import/no-default-export': 'off',
+      },
+    },
+  ],
 };

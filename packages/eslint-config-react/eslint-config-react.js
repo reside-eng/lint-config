@@ -8,6 +8,7 @@ module.exports = {
     '@side/eslint-config-base/core',
     '@side/eslint-config-prettier/react',
     './rules/react',
+    './rules/import',
   ].map(require.resolve),
   rules: {},
 };
