@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.11.1](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-react@0.11.0...@side/eslint-config-react@0.11.1) (2021-12-09)
+
+### Bug Fixes
+
+- add missing default export overrides ([#258](https://github.com/reside-eng/lint-config/issues/258)) ([89d2d64](https://github.com/reside-eng/lint-config/commit/89d2d644fc70bf05dd1d661f382a5a383ad8652a))
+
 # [0.11.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-react@0.10.4...@side/eslint-config-react@0.11.0) (2021-12-08)
 
 ### Features
