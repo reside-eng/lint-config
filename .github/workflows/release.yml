@@ -54,7 +54,7 @@ jobs:
         with:
           application_id: ${{ secrets.SIDE_CI_APPLICATION_ID }}
           application_private_key: ${{ secrets.SIDE_CI_APPLICATION_PRIVATE_KEY }}
-          permissions: "administration:write, contents:write"
+          permissions: 'administration:write, contents:write'
 
       - name: Configure Git to CI user
         run: |

@@ -5,7 +5,6 @@ An ESLint configuration which extends the following:
 - [eslint-config-airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb)
 - [eslint-plugin-react-hooks](https://github.com/facebook/react/tree/master/packages/eslint-plugin-react-hooks) _(Optional)_
 - [@side/eslint-config-base](https://github.com/reside-eng/lint-config/tree/master/packages/eslint-config-base)
-- [@side/eslint-config-prettier](https://github.com/reside-eng/lint-config/tree/master/packages/eslint-config-prettier)
 
 ## Installation
 

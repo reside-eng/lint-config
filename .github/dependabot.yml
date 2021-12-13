@@ -2,28 +2,28 @@
 # https://docs.github.com/en/github/administering-a-repository/configuration-options-for-dependency-updates
 version: 2
 updates:
-  - package-ecosystem: "npm"
-    directory: "/"
+  - package-ecosystem: 'npm'
+    directory: '/'
     open-pull-requests-limit: 15
     commit-message:
       prefix: fix
       prefix-development: chore
       include: scope
     schedule:
-      interval: "daily"
-      time: "09:00"
-      timezone: "America/Denver"
+      interval: 'daily'
+      time: '09:00'
+      timezone: 'America/Denver'
     assignees:
-      - "reside-eng/platform-engineering"
+      - 'reside-eng/platform-engineering'
     reviewers:
-      - "reside-eng/platform-engineering"
-  - package-ecosystem: "github-actions"
-    directory: "/"
+      - 'reside-eng/platform-engineering'
+  - package-ecosystem: 'github-actions'
+    directory: '/'
     schedule:
-      interval: "daily"
-      time: "09:00"
-      timezone: "America/Denver"
+      interval: 'daily'
+      time: '09:00'
+      timezone: 'America/Denver'
     assignees:
-      - "reside-eng/platform-engineering"
+      - 'reside-eng/platform-engineering'
     reviewers:
-      - "reside-eng/platform"
+      - 'reside-eng/platform'
