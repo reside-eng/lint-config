@@ -1,0 +1,10 @@
+{
+  "name": "@side/prettier-config",
+  "version": "0.0.0-development",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/reside-eng/lint-config.git"
+  },
+  "main": "index.json"
+}
