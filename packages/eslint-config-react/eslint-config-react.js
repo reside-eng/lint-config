@@ -7,6 +7,7 @@ module.exports = {
     // still want.
     '@side/eslint-config-base/core',
     '@side/eslint-config-prettier/react',
+    './rules/base',
     './rules/react',
     './rules/import',
   ].map(require.resolve),
