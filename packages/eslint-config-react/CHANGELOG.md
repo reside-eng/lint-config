@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.12.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-react@0.11.1...@side/eslint-config-react@0.12.0) (2021-12-15)
+
+### Features
+
+- disallow `React.FC` for React projects ([#247](https://github.com/reside-eng/lint-config/issues/247)) ([aa6a0b4](https://github.com/reside-eng/lint-config/commit/aa6a0b48552b4aa6ede0e432b7eb78ab8bd5427c))
+
+### BREAKING CHANGES
+
+- Adds a new lint rule set to "error".
+
 ## [0.11.1](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-react@0.11.0...@side/eslint-config-react@0.11.1) (2021-12-09)
 
 ### Bug Fixes
