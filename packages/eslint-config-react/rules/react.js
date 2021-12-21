@@ -21,5 +21,8 @@ module.exports = {
     'react/react-in-jsx-scope': 'off',
     // We're okay with this but use it sparingly and only when this is intentional
     'react/jsx-props-no-spreading': 'off',
+    // eslint-config-airbnb became opinionated on this at v19, but the working group has not come to a clear decision
+    // on how to approach this as an organization, although they are unified that they do not with to enforce it as AirBnB has.
+    'react/function-component-definition': 'off',
   },
 };
