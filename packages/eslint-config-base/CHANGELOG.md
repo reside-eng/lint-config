@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.13.1](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-base@0.13.0...@side/eslint-config-base@0.13.1) (2021-12-22)
+
+### Bug Fixes
+
+- **deps:** bump eslint-config-airbnb-base from 14.2.1 to 15.0.0 ([#232](https://github.com/reside-eng/lint-config/issues/232)) ([2fe8eb5](https://github.com/reside-eng/lint-config/commit/2fe8eb5452d6a87ec782d34f4f6b6ee0ca09ec04))
+
 # [0.13.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-base@0.12.2...@side/eslint-config-base@0.13.0) (2021-12-08)
 
 ### Features
