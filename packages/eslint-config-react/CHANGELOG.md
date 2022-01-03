@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.12.4](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-react@0.12.3...@side/eslint-config-react@0.12.4) (2022-01-03)
+
+### Bug Fixes
+
+- update eslint-config-react to meet eslitnt-config-airbnb's peer dependency demands ([#277](https://github.com/reside-eng/lint-config/issues/277)) ([f40c31d](https://github.com/reside-eng/lint-config/commit/f40c31d3b0ff8c56f154c631e481a312754f4303))
+
 ## [0.12.3](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-react@0.12.2...@side/eslint-config-react@0.12.3) (2022-01-03)
 
 **Note:** Version bump only for package @side/eslint-config-react
