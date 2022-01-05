@@ -6,7 +6,6 @@ module.exports = {
     // eslint-config-airbnb-base) without blowing away some of their settings we
     // still want.
     '@side/eslint-config-base/core',
-    '@side/eslint-config-prettier/react',
     './rules/base',
     './rules/react',
     './rules/import',

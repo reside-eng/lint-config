@@ -20,13 +20,12 @@ const getNoExtraneousDepsOverrides = () => {
       globs
         .map((path) => glob.sync(path))
         .reduce((acc, val) => acc.concat(val), [])
-        .filter((path) => {
-          return (
+        .filter(
+          (path) =>
             !path.match(/node_modules/) &&
             fs.lstatSync(path).isDirectory() &&
-            fs.existsSync(join(path, 'package.json'))
-          );
-        })
+            fs.existsSync(join(path, 'package.json')),
+        )
         .map((path) => {
           const file = join(cwd, path);
           return {

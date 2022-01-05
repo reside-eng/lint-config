@@ -15,14 +15,16 @@
     "prepare": "husky install",
     "clean": "lerna clean",
     "lint": "eslint '**/*.js' .eslintrc.js --ignore-pattern='!.eslintrc.js'",
-    "test": "node packages/commitlint-config && node packages/eslint-config-base && node packages/eslint-config-base/core && node packages/eslint-config-react && node packages/eslint-config-react/hooks && node packages/eslint-config-prettier && node packages/eslint-config-prettier/react && node packages/eslint-config-cypress && node packages/eslint-config-jest"
+    "test": "node packages/commitlint-config && node packages/eslint-config-base && node packages/eslint-config-base/core && node packages/eslint-config-react && node packages/eslint-config-react/hooks && node packages/eslint-config-cypress && node packages/eslint-config-jest",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   },
   "lint-staged": {
-    "*.{json,md}": [
-      "prettier --write"
-    ],
     "*.js": [
       "eslint --fix"
+    ],
+    "*.{js,json,md,yaml,yml}": [
+      "prettier --write"
     ]
   },
   "devDependencies": {
@@ -32,7 +34,6 @@
     "eslint-config-airbnb-base": "15.0.0",
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-import": "2.25.3",
-    "eslint-plugin-prettier": "4.0.0",
     "husky": "7.0.4",
     "lerna": "4.0.0",
     "lint-staged": "12.1.4",

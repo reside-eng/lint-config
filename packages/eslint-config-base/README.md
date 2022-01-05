@@ -3,7 +3,6 @@
 A base ESLint configuration which extends the following:
 
 - [eslint-config-airbnb-base](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base)
-- [@side/eslint-config-prettier](https://github.com/reside-eng/lint-config/tree/master/packages/eslint-config-prettier)
 
 ## Installation
 

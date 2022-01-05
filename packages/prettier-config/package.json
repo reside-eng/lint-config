@@ -1,0 +1,14 @@
+{
+  "name": "@side/prettier-config",
+  "description": "Standard Prettier configuration for Side projects",
+  "version": "0.0.0-development",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/reside-eng/lint-config.git"
+  },
+  "bugs": {
+    "url": "http://github.com/reside-eng/lint-config/issues"
+  },
+  "main": "index.json"
+}
