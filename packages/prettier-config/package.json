@@ -1,7 +1,7 @@
 {
   "name": "@side/prettier-config",
   "description": "Standard Prettier configuration for Side projects",
-  "version": "0.0.0-development",
+  "version": "0.0.0",
   "license": "MIT",
   "repository": {
     "type": "git",
