@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.13.3](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-base@0.13.2...@side/eslint-config-base@0.13.3) (2022-01-21)
+
+### Bug Fixes
+
+- turn off class-methods-use-this rule ([#290](https://github.com/reside-eng/lint-config/issues/290)) ([03838ba](https://github.com/reside-eng/lint-config/commit/03838bac6a96fea45dafaa8c9d659f2feda93d34))
+
 ## [0.13.2](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-base@0.13.1...@side/eslint-config-base@0.13.2) (2022-01-05)
 
 **Note:** Version bump only for package @side/eslint-config-base
