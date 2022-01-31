@@ -1,6 +1,6 @@
 {
   "name": "@side/eslint-config-jest",
-  "version": "0.3.15",
+  "version": "0.3.16",
   "main": "eslint-config-jest.js",
   "files": [
     "eslint-config-jest.js"
