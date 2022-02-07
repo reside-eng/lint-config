@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.13.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-react@0.12.6...@side/eslint-config-react@0.13.0) (2022-02-07)
+
+### Features
+
+- allow reordering of function declarations ([#298](https://github.com/reside-eng/lint-config/issues/298)) ([dd1481c](https://github.com/reside-eng/lint-config/commit/dd1481c7915c6f3fdaa313bf9854e32e4f36bf15))
+
 ## [0.12.6](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-react@0.12.5...@side/eslint-config-react@0.12.6) (2022-01-21)
 
 **Note:** Version bump only for package @side/eslint-config-react
