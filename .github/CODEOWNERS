@@ -3,3 +3,10 @@
 
 # Platform (DevOps & Engineering) team
 .github @reside-eng/platform
+
+# Skip assigning dep updates (handled by Renovate)
+package.json
+yarn.lock
+
+# Notify Platform Tools team of updates to Renovate config
+renovate.json @reside-eng/platform-tools
