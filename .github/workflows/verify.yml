@@ -40,7 +40,7 @@ jobs:
         if: failure()
         run: zip -r workspace-files ./
 
-      - uses: actions/upload-artifact@v2.3.1
+      - uses: actions/upload-artifact@v3.0.0
         if: failure()
         with:
           name: workspace
