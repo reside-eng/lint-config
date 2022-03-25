@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.13.4](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-base@0.13.3...@side/eslint-config-base@0.13.4) (2022-03-25)
+
+### Bug Fixes
+
+- disable `arrow-body-style` lint rule ([#331](https://github.com/reside-eng/lint-config/issues/331)) ([f1eb353](https://github.com/reside-eng/lint-config/commit/f1eb35360bb21ce3339fe002f2cfac283ae95c35))
+
 ## [0.13.3](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-base@0.13.2...@side/eslint-config-base@0.13.3) (2022-01-21)
 
 ### Bug Fixes
