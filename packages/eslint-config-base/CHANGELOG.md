@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.13.5](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-base@0.13.4...@side/eslint-config-base@0.13.5) (2022-03-29)
+
+### Bug Fixes
+
+- **base:** include ignore patterns in base config ([#335](https://github.com/reside-eng/lint-config/issues/335)) ([39d0828](https://github.com/reside-eng/lint-config/commit/39d08286a26ab95caf788b423cc1524a37b0ef08))
+
 ## [0.13.4](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-base@0.13.3...@side/eslint-config-base@0.13.4) (2022-03-25)
 
 ### Bug Fixes
