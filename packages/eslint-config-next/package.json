@@ -1,0 +1,23 @@
+{
+  "name": "@side/eslint-config-next",
+  "version": "0.0.0",
+  "main": "eslint-config-next.js",
+  "files": [
+    "eslint-config-next.js"
+  ],
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/reside-eng/lint-config.git"
+  },
+  "bugs": {
+    "url": "http://github.com/reside-eng/lint-config/issues"
+  },
+  "dependencies": {
+    "@side/eslint-config-react": "0.13.2"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.14.0",
+    "next": ">=12.1.0"
+  }
+}

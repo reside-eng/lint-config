@@ -25,7 +25,9 @@ module.exports = {
 
 ### Omitting Strong Type Checks
 
-Many of the recommended rules provided by `@typescript-eslint` require access to the type information produced by the TypeScript compiler. This does add a delay to the linting process, but it is necessary in order to support many of the recommended rules.
+Many of the recommended [rules](https://typescript-eslint.io/rules/) provided by `@typescript-eslint` require access to the type information produced by the TypeScript compiler in order to be recognized by ESLint. This does add a delay to the linting process, but it is necessary in order to support many of the recommended rules.
+
+> See [Linting with Type Information](https://typescript-eslint.io/docs/linting/type-linting) to learn more.
 
 If you wish to disable the strong type checks (which will turn off many of the recommended rules), you can update your `.eslintrc.js` configuration as such:
 

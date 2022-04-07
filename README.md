@@ -16,21 +16,19 @@
 
 Installation instructions are included in each of their respective package locations. Check out [`packages` folder](https://github.com/reside-eng/lint-config/tree/main/packages/) for more details.
 
-| Package 🌎 | Latest Version                                  |
-| ---------- | ----------------------------------------------- |
-| [@side/commitlint-config](https://github.com/reside-eng/lint-config/tree/main/packages/commitlint-config)      | [![NPM version][commitlint-config-npm-image]][commitlint-npm-url]
-| [@side/eslint-config-cypress](https://github.com/reside-eng/lint-config/tree/main/packages/eslint-config-cypress)        | [![NPM version][config-cypress-npm-image]][config-cypress-npm-url]
-| [@side/eslint-config-jest](https://github.com/reside-eng/lint-config/tree/main/packages/eslint-config-jest)        | [![NPM version][config-jest-npm-image]][config-jest-npm-url]
-| [@side/eslint-config-prettier](https://github.com/reside-eng/lint-config/tree/main/packages/eslint-config-prettier)   | [![NPM version][config-prettier-npm-image]][config-prettier-npm-url]
-| [@side/eslint-config-react](https://github.com/reside-eng/lint-config/tree/main/packages/eslint-config-react)   | [![NPM version][config-react-npm-image]][config-react-npm-url]
-| [@side/prettier-config](https://github.com/reside-eng/lint-config/tree/main/packages/prettier-config)  | [![NPM version][prettier-config-npm-image]][prettier-config-npm-url]
-
+| Package 🌎                                                                                                          | Latest Version                                                       |
+| ------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| [@side/commitlint-config](https://github.com/reside-eng/lint-config/tree/main/packages/commitlint-config)           | [![NPM version][commitlint-config-npm-image]][commitlint-npm-url]    |
+| [@side/eslint-config-cypress](https://github.com/reside-eng/lint-config/tree/main/packages/eslint-config-cypress)   | [![NPM version][config-cypress-npm-image]][config-cypress-npm-url]   |
+| [@side/eslint-config-jest](https://github.com/reside-eng/lint-config/tree/main/packages/eslint-config-jest)         | [![NPM version][config-jest-npm-image]][config-jest-npm-url]         |
+| [@side/eslint-config-prettier](https://github.com/reside-eng/lint-config/tree/main/packages/eslint-config-prettier) | [![NPM version][config-prettier-npm-image]][config-prettier-npm-url] |
+| [@side/eslint-config-react](https://github.com/reside-eng/lint-config/tree/main/packages/eslint-config-react)       | [![NPM version][config-react-npm-image]][config-react-npm-url]       |
+| [@side/prettier-config](https://github.com/reside-eng/lint-config/tree/main/packages/prettier-config)               | [![NPM version][prettier-config-npm-image]][prettier-config-npm-url] |
 
 ## Resources
 
 - [NPM Library CI/CD Workflows](https://residenetwork.atlassian.net/wiki/spaces/ENG/pages/1173291063/NPM+Library+CI+CD+Workflow)
 - [CI/CD at Side](https://residenetwork.atlassian.net/wiki/spaces/ENG/pages/1129414678/CI+CD)
-
 
 [commitlint-config-npm-image]: https://img.shields.io/npm/v/@side/commitlint-config.svg?style=flat-square
 [commitlint-npm-url]: https://npmjs.org/package/@side/commitlint-config
