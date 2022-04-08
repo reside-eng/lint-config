@@ -16,21 +16,20 @@
 
 Installation instructions are included in each of their respective package locations. Check out [`packages` folder](https://github.com/reside-eng/lint-config/tree/main/packages/) for more details.
 
-| Package 🌎 | Latest Version                                  |
-| ---------- | ----------------------------------------------- |
-| [@side/commitlint-config](https://github.com/reside-eng/lint-config/tree/main/packages/commitlint-config)      | [![NPM version][commitlint-config-npm-image]][commitlint-npm-url]
-| [@side/eslint-config-cypress](https://github.com/reside-eng/lint-config/tree/main/packages/eslint-config-cypress)        | [![NPM version][config-cypress-npm-image]][config-cypress-npm-url]
-| [@side/eslint-config-jest](https://github.com/reside-eng/lint-config/tree/main/packages/eslint-config-jest)        | [![NPM version][config-jest-npm-image]][config-jest-npm-url]
-| [@side/eslint-config-prettier](https://github.com/reside-eng/lint-config/tree/main/packages/eslint-config-prettier)   | [![NPM version][config-prettier-npm-image]][config-prettier-npm-url]
-| [@side/eslint-config-react](https://github.com/reside-eng/lint-config/tree/main/packages/eslint-config-react)   | [![NPM version][config-react-npm-image]][config-react-npm-url]
-| [@side/prettier-config](https://github.com/reside-eng/lint-config/tree/main/packages/prettier-config)  | [![NPM version][prettier-config-npm-image]][prettier-config-npm-url]
-
+| Package 🌎                                                                                                              | Latest Version                                                           |
+| ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| [@side/commitlint-config](https://github.com/reside-eng/lint-config/tree/main/packages/commitlint-config)               | [![NPM version][commitlint-config-npm-image]][commitlint-npm-url]        |
+| [@side/eslint-config-cypress](https://github.com/reside-eng/lint-config/tree/main/packages/eslint-config-cypress)       | [![NPM version][config-cypress-npm-image]][config-cypress-npm-url]       |
+| [@side/eslint-config-jest](https://github.com/reside-eng/lint-config/tree/main/packages/eslint-config-jest)             | [![NPM version][config-jest-npm-image]][config-jest-npm-url]             |
+| [@side/eslint-config-prettier](https://github.com/reside-eng/lint-config/tree/main/packages/eslint-config-prettier)     | [![NPM version][config-prettier-npm-image]][config-prettier-npm-url]     |
+| [@side/eslint-config-react](https://github.com/reside-eng/lint-config/tree/main/packages/eslint-config-react)           | [![NPM version][config-react-npm-image]][config-react-npm-url]           |
+| [@side/eslint-config-typescript](https://github.com/reside-eng/lint-config/tree/main/packages/eslint-config-typescript) | [![NPM version][config-typescript-npm-image]][config-typescript-npm-url] |
+| [@side/prettier-config](https://github.com/reside-eng/lint-config/tree/main/packages/prettier-config)                   | [![NPM version][prettier-config-npm-image]][prettier-config-npm-url]     |
 
 ## Resources
 
 - [NPM Library CI/CD Workflows](https://residenetwork.atlassian.net/wiki/spaces/ENG/pages/1173291063/NPM+Library+CI+CD+Workflow)
 - [CI/CD at Side](https://residenetwork.atlassian.net/wiki/spaces/ENG/pages/1129414678/CI+CD)
-
 
 [commitlint-config-npm-image]: https://img.shields.io/npm/v/@side/commitlint-config.svg?style=flat-square
 [commitlint-npm-url]: https://npmjs.org/package/@side/commitlint-config
@@ -40,8 +39,10 @@ Installation instructions are included in each of their respective package locat
 [config-prettier-npm-url]: https://npmjs.org/package/@side/eslint-config-prettier
 [config-jest-npm-image]: https://img.shields.io/npm/v/@side/eslint-config-jest.svg?style=flat-square
 [config-jest-npm-url]: https://npmjs.org/package/@side/eslint-config-jest
-[config-react-npm-image]: https://img.shields.io/npm/v/@side/eslint-config-prettier.svg?style=flat-square
+[config-react-npm-image]: https://img.shields.io/npm/v/@side/eslint-config-react.svg?style=flat-square
 [config-react-npm-url]: https://npmjs.org/package/@side/eslint-config-react
+[config-typescript-npm-image]: https://img.shields.io/npm/v/@side/eslint-config-typescript.svg?style=flat-square
+[config-typescript-npm-url]: https://npmjs.org/package/@side/eslint-config-typescript
 [prettier-config-npm-image]: https://img.shields.io/npm/v/@side/prettier-config.svg?style=flat-square
 [prettier-config-npm-url]: https://npmjs.org/package/@side/prettier-config
 [publish-status-image]: https://img.shields.io/github/workflow/status/reside-eng/lint-config/Release?style=flat-square
