@@ -1,6 +1,6 @@
 {
   "name": "@side/eslint-config-typescript",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "eslint-config-typescript.js",
   "files": [
     "eslint-config-typescript.js"
@@ -20,6 +20,5 @@
   "peerDependencies": {
     "eslint": ">=7.14.0",
     "typescript": ">=4.0.0"
-  },
-  "prettier": "@side/prettier-config"
+  }
 }
