@@ -14,12 +14,18 @@ Install this package and its peer dependencies.
 
 ## Usage
 
-Once all peer dependencies have been added to your project, extend this configuration in your project's `.eslintrc.js`.
+Once all peer dependencies have been added to your project, add this configuration to your project's `.eslintrc.js`.
 
 ```js
 // .eslintrc.js
 module.exports = {
   extends: ['@side/typescript'],
+  overrides: [
+    {
+      files: ['*.ts', '*.tsx'], // you may remove '*.tsx' if you don't use React
+      parser: '@typescript-eslint/parser',
+    },
+  ],
 };
 ```
 
@@ -35,6 +41,12 @@ If you wish to disable the strong type checks (which will turn off many of the r
 // .eslintrc.js
 module.exports = {
   extends: ['@side/typescript/without-type-checks'],
+  overrides: [
+    {
+      files: ['*.ts', '*.tsx'],
+      parser: '@typescript-eslint/parser',
+    },
+  ],
 };
 ```
 
