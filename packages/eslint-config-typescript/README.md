@@ -14,19 +14,19 @@ Install this package and its peer dependencies.
 
 ## Usage
 
-Once all peer dependencies have been added to your project, add this configuration to your project's `.eslintrc.js`.
+Once all peer dependencies have been added to your project, add this configuration to your project's ESLint configuration.
 
-```js
-// .eslintrc.js
-module.exports = {
-  extends: ['@side/typescript'],
-  overrides: [
+```jsonc
+// .eslintrc
+{
+  "extends": ["@side/typescript"],
+  "overrides": [
     {
-      files: ['*.ts', '*.tsx'], // you may remove '*.tsx' if you don't use React
-      parser: '@typescript-eslint/parser',
-    },
-  ],
-};
+      "files": ["**/*.ts?(x)"], // you may remove `?(x)` if you don't use React
+      "parser": "@typescript-eslint/parser"
+    }
+  ]
+}
 ```
 
 ### Omitting Strong Type Checks
@@ -35,21 +35,49 @@ Many of the recommended [rules](https://typescript-eslint.io/rules/) provided by
 
 > See [Linting with Type Information](https://typescript-eslint.io/docs/linting/type-linting) to learn more.
 
-If you wish to disable the strong type checks (which will turn off many of the recommended rules), you can update your `.eslintrc.js` configuration as such:
+If you wish to disable the strong type checks (which will turn off many of the recommended rules), you can update your ESLint configuration as such:
 
-```js
-// .eslintrc.js
-module.exports = {
-  extends: ['@side/typescript/without-type-checks'],
-  overrides: [
+```jsonc
+{
+  "extends": ["@side/typescript/without-type-checks"],
+  "overrides": [
     {
-      files: ['*.ts', '*.tsx'],
-      parser: '@typescript-eslint/parser',
-    },
-  ],
-};
+      "files": ["**/*.ts?(x)"],
+      "parser": "@typescript-eslint/parser"
+    }
+  ]
+}
+```
+
+## Troubleshooting
+
+### Multiple `tsconfig.json` Files
+
+You may encounter errors like this if your project has multiple `tsconfig.json` files:
+
+> Parsing error: `parserOptions.project` has been set for @typescript-eslint/parser.
+> The file does not match your project config: `some/file/path.ts`
+> The file must be included in at least one of the projects provided.
+
+This issue occurs when ESLint tries to parse a file that is excluded within the default TypeScript config file (located at `<rootDir>/tsconfig.json`).
+
+To resolve this issue, you will need to configure separate `parserOptions` in ESLint for each additional `tsconfig.json`.
+
+For example: if your `cypress` directory has its own `tsconfig.json`, you could add this override to your ESLint configuration:
+
+```json
+{
+  "overrides": [
+    {
+      "files": ["cypress/**/*"],
+      "parserOptions": {
+        "project": "cypress/tsconfig.json"
+      }
+    }
+  ]
+}
 ```
 
 ## Resources
 
-For more information on configuring ESLint, please [refer to their documentation](https://eslint.org/docs/user-guide/configuring)
+For more information on configuring ESLint, please [refer to their documentation](https://eslint.org/docs/user-guide/configuring).

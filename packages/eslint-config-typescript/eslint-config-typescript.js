@@ -1,9 +1,9 @@
 module.exports = {
   plugins: ['@typescript-eslint'],
-  extends: ['./rules/import'],
+  extends: ['plugin:import/typescript', './rules/import', './rules/react'],
   overrides: [
     {
-      files: ['*.ts', '*.tsx'],
+      files: ['**/*.ts?(x)'],
       extends: [
         './rules/base',
         'plugin:@typescript-eslint/recommended',
