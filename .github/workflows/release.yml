@@ -19,7 +19,7 @@ jobs:
       LERNA_DEFAULT_ARGS: --exact --concurrency 1 --yes --conventional-commits --create-release github --allow-branch "*"
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3.0.0
+        uses: actions/checkout@v3.0.1
         with:
           fetch-depth: 0
           persist-credentials: false
@@ -96,7 +96,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v3.0.0
+        uses: actions/checkout@v3.0.1
 
       - uses: technote-space/workflow-conclusion-action@v2.2.2
 
