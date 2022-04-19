@@ -3,7 +3,7 @@ module.exports = {
   extends: ['./rules/import'],
   overrides: [
     {
-      files: ['*.ts', '*.tsx'],
+      files: ['**/*.ts?(x)'],
       extends: ['./rules/base', 'plugin:@typescript-eslint/recommended'],
       parser: '@typescript-eslint/parser',
     },
