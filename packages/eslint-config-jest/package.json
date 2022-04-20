@@ -1,10 +1,7 @@
 {
   "name": "@side/eslint-config-jest",
   "version": "0.3.16",
-  "main": "eslint-config-jest.js",
-  "files": [
-    "eslint-config-jest.js"
-  ],
+  "main": "index.js",
   "license": "UNLICENSED",
   "repository": {
     "type": "git",
@@ -19,5 +16,8 @@
   "peerDependencies": {
     "eslint": ">=7.14.0",
     "jest": ">=26"
+  },
+  "optionalDependencies": {
+    "eslint-plugin-testing-library": ">=5.3.0"
   }
 }
