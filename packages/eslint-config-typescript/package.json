@@ -1,10 +1,7 @@
 {
   "name": "@side/eslint-config-typescript",
   "version": "0.2.1",
-  "main": "eslint-config-typescript.js",
-  "files": [
-    "eslint-config-typescript.js"
-  ],
+  "main": "index.js",
   "license": "UNLICENSED",
   "repository": {
     "type": "git",

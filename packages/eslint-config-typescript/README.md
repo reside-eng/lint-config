@@ -19,13 +19,7 @@ Once all peer dependencies have been added to your project, add this configurati
 ```jsonc
 // .eslintrc
 {
-  "extends": ["@side/typescript"],
-  "overrides": [
-    {
-      "files": ["**/*.ts?(x)"], // you may remove `?(x)` if you don't use React
-      "parser": "@typescript-eslint/parser"
-    }
-  ]
+  "extends": ["@side/typescript"]
 }
 ```
 
@@ -39,13 +33,7 @@ If you wish to disable the strong type checks (which will turn off many of the r
 
 ```jsonc
 {
-  "extends": ["@side/typescript/without-type-checks"],
-  "overrides": [
-    {
-      "files": ["**/*.ts?(x)"],
-      "parser": "@typescript-eslint/parser"
-    }
-  ]
+  "extends": ["@side/typescript/without-type-checks"]
 }
 ```
 
@@ -63,20 +51,28 @@ This issue occurs when ESLint tries to parse a file that is excluded within the 
 
 To resolve this issue, you will need to configure separate `parserOptions` in ESLint for each additional `tsconfig.json`.
 
-For example: if your `cypress` directory has its own `tsconfig.json`, you could add this override to your ESLint configuration:
+For example: if your `e2e` directory has its own `tsconfig.json`, you could add this override to your ESLint configuration:
 
 ```json
 {
   "overrides": [
     {
-      "files": ["cypress/**/*"],
+      "files": ["e2e/**/*"],
       "parserOptions": {
-        "project": "cypress/tsconfig.json"
+        "project": "e2e/tsconfig.json"
       }
     }
   ]
 }
 ```
+
+### Adding Parser Overrides to this Package
+
+If a parser options override is used between more than one project (cypress is a good example of this), consider adding it directly to this package.
+
+1. Create a new file in [`parser-overrides/`](./parser-overrides/).
+2. Add the necessary glob paths and `parserOptions` to the file.
+3. Within [`index.js`](./index.js), include the path to your file in the `parserOverrides` array.
 
 ## Resources
 

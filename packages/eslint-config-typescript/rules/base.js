@@ -1,7 +1,7 @@
 module.exports = {
   overrides: [
     {
-      files: ['*.ts', '*.tsx'],
+      files: ['**/*.ts?(x)'],
       rules: {
         'no-shadow': 'off',
       },
