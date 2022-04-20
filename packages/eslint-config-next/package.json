@@ -1,0 +1,25 @@
+{
+  "name": "@side/eslint-config-next",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/reside-eng/lint-config.git",
+    "directory": "packages/eslint-config-next"
+  },
+  "bugs": {
+    "url": "http://github.com/reside-eng/lint-config/issues"
+  },
+  "dependencies": {
+    "@next/eslint-plugin-next": "12.1.4",
+    "@side/eslint-config-cypress": "0.3.6",
+    "@side/eslint-config-jest": "0.3.16",
+    "@side/eslint-config-react": "0.13.2",
+    "@side/eslint-config-typescript": "0.2.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.14.0",
+    "next": ">=12.0.0"
+  }
+}
