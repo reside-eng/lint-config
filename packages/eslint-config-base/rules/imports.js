@@ -98,6 +98,18 @@ module.exports = {
      */
     'import/prefer-default-export': 'off',
     'import/no-default-export': 'error',
+    'no-restricted-imports': [
+      'error',
+      {
+        patterns: [
+          {
+            group: ['*/package.json'],
+            message:
+              'Do not import from package.json; use environment variables instead.',
+          },
+        ],
+      },
+    ],
   },
   overrides: [
     ...getNoExtraneousDepsOverrides(),
