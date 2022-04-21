@@ -20,6 +20,15 @@ module.exports = {
      * ```
      */
     'arrow-body-style': 0,
+    // Allow unused variables only when they are prefixed with an underscore (e.g. _foo)
+    'no-unused-vars': [
+      'error',
+      {
+        argsIgnorePattern: '^_',
+        varsIgnorePattern: '^_',
+        caughtErrorsIgnorePattern: '^_',
+      },
+    ],
   },
   overrides: [
     {
