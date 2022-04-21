@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-cypress@0.3.6...@side/eslint-config-cypress@0.4.0) (2022-04-21)
+
+### Features
+
+- create Next.js config [ASP-567] ([#343](https://github.com/reside-eng/lint-config/issues/343)) ([35ce06a](https://github.com/reside-eng/lint-config/commit/35ce06a0fd0219c5d789f8da42c87364791bebbc))
+
 ## [0.3.6](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-cypress@0.3.5...@side/eslint-config-cypress@0.3.6) (2021-11-17)
 
 ### Bug Fixes

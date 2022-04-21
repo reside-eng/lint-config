@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.14.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-react@0.13.2...@side/eslint-config-react@0.14.0) (2022-04-21)
+
+### Features
+
+- create Next.js config [ASP-567] ([#343](https://github.com/reside-eng/lint-config/issues/343)) ([35ce06a](https://github.com/reside-eng/lint-config/commit/35ce06a0fd0219c5d789f8da42c87364791bebbc))
+
 ## [0.13.2](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-react@0.13.1...@side/eslint-config-react@0.13.2) (2022-03-29)
 
 **Note:** Version bump only for package @side/eslint-config-react
