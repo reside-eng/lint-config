@@ -1,12 +1,4 @@
 module.exports = {
-  rules: {
-    'react-hooks/exhaustive-deps': [
-      'warn',
-      {
-        additionalHooks: '(useRecoilCallback|useRecoilTransaction_UNSTABLE)',
-      },
-    ],
-  },
   overrides: [
     /**
      * This override enables default exports for files that require them.

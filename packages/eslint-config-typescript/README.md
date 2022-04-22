@@ -66,14 +66,6 @@ For example: if your `e2e` directory has its own `tsconfig.json`, you could add 
 }
 ```
 
-### Adding Parser Overrides to this Package
-
-If a parser options override is used between more than one project (cypress is a good example of this), consider adding it directly to this package.
-
-1. Create a new file in [`parser-overrides/`](./parser-overrides/).
-2. Add the necessary glob paths and `parserOptions` to the file.
-3. Within [`index.js`](./index.js), include the path to your file in the `parserOverrides` array.
-
 ## Resources
 
 For more information on configuring ESLint, please [refer to their documentation](https://eslint.org/docs/user-guide/configuring).
