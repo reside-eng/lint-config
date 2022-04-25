@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-next@0.2.1...@side/eslint-config-next@1.0.1) (2022-04-25)
+
+### Bug Fixes
+
+- typescript issues ([#349](https://github.com/reside-eng/lint-config/issues/349)) ([dedb17b](https://github.com/reside-eng/lint-config/commit/dedb17b0415be86fbf27bbfca8ee2f3707316114))
+
 ## [0.2.1](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-next@0.2.0...@side/eslint-config-next@0.2.1) (2022-04-25)
 
 ### Bug Fixes
