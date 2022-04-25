@@ -1,6 +1,6 @@
 {
   "name": "@side/eslint-config-next",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "main": "index.js",
   "license": "UNLICENSED",
   "repository": {
@@ -16,7 +16,7 @@
     "@side/eslint-config-cypress": "0.4.0",
     "@side/eslint-config-jest": "0.4.0",
     "@side/eslint-config-react": "0.14.0",
-    "@side/eslint-config-typescript": "0.3.0"
+    "@side/eslint-config-typescript": "0.3.1"
   },
   "peerDependencies": {
     "eslint": ">=7.14.0",
