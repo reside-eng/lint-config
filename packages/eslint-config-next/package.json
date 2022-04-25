@@ -12,11 +12,11 @@
     "url": "http://github.com/reside-eng/lint-config/issues"
   },
   "dependencies": {
-    "@next/eslint-plugin-next": "12.1.4",
+    "@next/eslint-plugin-next": "12.1.5",
     "@side/eslint-config-cypress": "0.4.0",
     "@side/eslint-config-jest": "0.4.0",
     "@side/eslint-config-react": "0.14.0",
-    "@side/eslint-config-typescript": "0.3.0"
+    "@side/eslint-config-typescript": "0.3.1"
   },
   "peerDependencies": {
     "eslint": ">=7.14.0",
