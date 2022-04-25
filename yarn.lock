@@ -1111,6 +1111,15 @@
   dependencies:
     "@octokit/openapi-types" "^11.2.0"
 
+"@side/eslint-config-typescript@0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@side/eslint-config-typescript/-/eslint-config-typescript-0.3.0.tgz#9518bc2664bbe473f83fba369833618c75c2d148"
+  integrity sha512-+U/RakauHuISa9XFdVn0wPCgHq7C2Yq4wMM48twBSZoP4wMHy/HAr0e9gwFcy1mCDIaZ02a6ovhj5PeStTZ6Xw==
+  dependencies:
+    "@typescript-eslint/eslint-plugin" "5.19.0"
+    "@typescript-eslint/parser" "5.19.0"
+    eslint-import-resolver-typescript "2.7.1"
+
 "@tootallnate/once@1":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@tootallnate/once/-/once-1.1.2.tgz#ccb91445360179a04e7fe6aff78c00ffc1eeaf82"

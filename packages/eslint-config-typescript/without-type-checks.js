@@ -1,5 +1,3 @@
-// Note: Parser overrides are not needed when type checks are disabled
-
 module.exports = {
   plugins: ['@typescript-eslint'],
   extends: [
