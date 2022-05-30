@@ -12,8 +12,8 @@
     "url": "http://github.com/reside-eng/lint-config/issues"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "5.23.0",
-    "@typescript-eslint/parser": "5.23.0",
+    "@typescript-eslint/eslint-plugin": "5.26.0",
+    "@typescript-eslint/parser": "5.26.0",
     "eslint-import-resolver-typescript": "2.7.1"
   },
   "peerDependencies": {
