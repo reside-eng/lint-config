@@ -11,5 +11,12 @@ module.exports = {
         'cypress/no-force': 'error',
       },
     },
+    {
+      files: ['cypress.config.ts'],
+      rules: {
+        'import/no-default-export': 0, // cypress expects default output
+        'import/no-extraneous-dependencies': 0,
+      },
+    },
   ],
 };
