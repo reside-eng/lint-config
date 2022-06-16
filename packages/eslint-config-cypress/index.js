@@ -12,7 +12,7 @@ module.exports = {
       },
     },
     {
-      files: ['cypress.config.ts'],
+      files: ['cypress.config.*'],
       rules: {
         'import/no-default-export': 0, // cypress expects default output
         'import/no-extraneous-dependencies': 0, // cypress is a dev-dependency and uses other dev-dependencies
