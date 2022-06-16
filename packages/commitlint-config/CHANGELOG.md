@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.11](https://github.com/reside-eng/lint-config/compare/@side/commitlint-config@0.1.10...@side/commitlint-config@0.1.11) (2022-06-16)
+
+**Note:** Version bump only for package @side/commitlint-config
+
 ## [0.1.10](https://github.com/reside-eng/lint-config/compare/@side/commitlint-config@0.1.9...@side/commitlint-config@0.1.10) (2021-12-29)
 
 ### Bug Fixes
