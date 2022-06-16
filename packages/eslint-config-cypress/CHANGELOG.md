@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-cypress@0.4.0...@side/eslint-config-cypress@0.5.0) (2022-06-16)
+
+### Features
+
+- **cypress:** add support for cypress v10 [PLAT-2348] ([#374](https://github.com/reside-eng/lint-config/issues/374)) ([2273758](https://github.com/reside-eng/lint-config/commit/227375885632d3d97fbfc875395e615b9dd0e977))
+
 # [0.4.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-cypress@0.3.6...@side/eslint-config-cypress@0.4.0) (2022-04-21)
 
 ### Features
