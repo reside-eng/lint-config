@@ -113,7 +113,8 @@ module.exports = {
     /**
      * Handling for firebase-admin >10 module imports [PLAT-1324]
      * NOTE: This is added since eslint-plugin-import does not support exports in package.json
-     * which is what firebase-admin v10 uses. See: https://github.com/import-js/eslint-plugin-import/issues/1810
+     * which is what firebase-admin v10 uses.
+     * @see https://github.com/import-js/eslint-plugin-import/issues/1810
      */
     'import/no-unresolved': [
       2,
