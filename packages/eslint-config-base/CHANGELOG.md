@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.15.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-base@0.14.0...@side/eslint-config-base@0.15.0) (2022-07-01)
+
+### Features
+
+- **config-base:** add support for firebase-admin v10 imports [PLAT-1324] ([#378](https://github.com/reside-eng/lint-config/issues/378)) ([90f322a](https://github.com/reside-eng/lint-config/commit/90f322a3484b6c1527db5921d7423ba10d2701cb))
+
 # [0.14.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-base@0.13.5...@side/eslint-config-base@0.14.0) (2022-04-21)
 
 ### Features
