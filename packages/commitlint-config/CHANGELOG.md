@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.12](https://github.com/reside-eng/lint-config/compare/@side/commitlint-config@0.1.11...@side/commitlint-config@0.1.12) (2022-07-01)
+
+### Bug Fixes
+
+- **commitlint:** add other ticket prefixes ([#382](https://github.com/reside-eng/lint-config/issues/382)) ([94466af](https://github.com/reside-eng/lint-config/commit/94466aff3624bbc42a7e0eeb5a59a3f1ba01f6e0))
+
 ## [0.1.11](https://github.com/reside-eng/lint-config/compare/@side/commitlint-config@0.1.10...@side/commitlint-config@0.1.11) (2022-06-16)
 
 **Note:** Version bump only for package @side/commitlint-config
