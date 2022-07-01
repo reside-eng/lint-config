@@ -3,7 +3,7 @@ module.exports = {
   extends: ['@commitlint/config-conventional'].map(require.resolve),
   parserPreset: {
     parserOpts: {
-      issuePrefixes: ['#', 'PLAT-', 'CORE-', 'CA-'],
+      issuePrefixes: ['#', 'PLAT-', 'CORE-', 'CA-', 'ASP-', 'DBM-', 'ENGFEED'],
       referenceActions: ['jira', 'closes', 'fixes'],
     },
   },
