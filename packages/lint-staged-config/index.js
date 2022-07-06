@@ -12,7 +12,10 @@ const removeIgnoredFiles = async (files) => {
 module.exports = {
   '*.{ts,tsx,js,jsx}': async (files) => {
     const filesToLint = await removeIgnoredFiles(files);
-    return [`eslint --max-warnings=0 --fix ${filesToLint}`, 'prettier --write'];
+    return [
+      `eslint --max-warnings=0 --fix ${filesToLint}`,
+      `prettier --write ${files.join(' ')}`,
+    ];
   },
   '*.{yaml,yml,json,md}': ['prettier --write'],
 };
