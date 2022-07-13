@@ -17,5 +17,7 @@ module.exports = {
       `prettier --write ${files.join(' ')}`,
     ];
   },
-  '*.{yaml,yml,json,md}': (files) => [`prettier --write ${files.join(' ')}`],
+  '*.{yaml,yml,json,md,html,css}': (files) => [
+    `prettier --write ${files.join(' ')}`,
+  ],
 };
