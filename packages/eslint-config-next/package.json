@@ -12,7 +12,7 @@
     "url": "http://github.com/reside-eng/lint-config/issues"
   },
   "dependencies": {
-    "@next/eslint-plugin-next": "12.2.0",
+    "@next/eslint-plugin-next": "12.2.2",
     "@side/eslint-config-cypress": "0.5.0",
     "@side/eslint-config-jest": "0.4.0",
     "@side/eslint-config-react": "0.14.2",
