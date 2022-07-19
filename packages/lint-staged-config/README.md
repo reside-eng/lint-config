@@ -12,10 +12,10 @@ Install lint-staged and this shared configuration package.
 yarn add -D lint-staged @side/lint-staged-config
 ```
 
-Then, create a `.lintstagedrc.js` to use the shared configuration.
+Then, create a `lint-staged.config.js` file to use the shared configuration.
 
 ```js
-// .lintstagedrc.js
+// lint-staged.config.js
 module.exports = {
   ...require('@side/lint-staged-config'),
 };
