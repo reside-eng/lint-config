@@ -9,7 +9,11 @@ module.exports = {
         'jest.setup.{ts,js}',
       ],
       excludedFiles: ['cypress/**/*'],
-      extends: ['plugin:jest/recommended', 'plugin:jest/style'],
+      extends: [
+        'plugin:jest/recommended',
+        'plugin:jest/style',
+        'plugin:jest-formatting/recommended',
+      ],
       rules: {
         'jest/prefer-lowercase-title': ['error', { ignore: ['describe'] }],
         'jest/no-disabled-tests': 0,

@@ -11,6 +11,7 @@
     "url": "http://github.com/reside-eng/lint-config/issues"
   },
   "dependencies": {
+    "eslint-plugin-jest-formatting": "^3.1.0",
     "eslint-plugin-jest": "^26.0.0"
   },
   "peerDependencies": {
