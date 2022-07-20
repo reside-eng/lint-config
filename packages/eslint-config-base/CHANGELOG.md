@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.15.1](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-base@0.15.0...@side/eslint-config-base@0.15.1) (2022-07-20)
+
+### Bug Fixes
+
+- **base:** add lint-staged.config file to imports settings ([#390](https://github.com/reside-eng/lint-config/issues/390)) ([7b23635](https://github.com/reside-eng/lint-config/commit/7b236353dba5545acfd719498be689ee2a969e7e))
+
 # [0.15.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-base@0.14.0...@side/eslint-config-base@0.15.0) (2022-07-01)
 
 ### Features
