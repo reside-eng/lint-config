@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-jest@0.4.0...@side/eslint-config-jest@0.5.0) (2022-07-26)
+
+### Features
+
+- add jest formatting rules ([#389](https://github.com/reside-eng/lint-config/issues/389)) ([8a1aa1f](https://github.com/reside-eng/lint-config/commit/8a1aa1f72ee6731a94c4ee2958a8dec1296050b6))
+
 # [0.4.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-jest@0.3.16...@side/eslint-config-jest@0.4.0) (2022-04-21)
 
 ### Features
