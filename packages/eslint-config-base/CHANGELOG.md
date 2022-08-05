@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.16.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-base@0.15.1...@side/eslint-config-base@0.16.0) (2022-08-05)
+
+### Features
+
+- allow loops over iterators ([#397](https://github.com/reside-eng/lint-config/issues/397)) ([2c8d95c](https://github.com/reside-eng/lint-config/commit/2c8d95cf5ab4169c3dc339f809c9ac7c8505c0ce))
+
 ## [0.15.1](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-base@0.15.0...@side/eslint-config-base@0.15.1) (2022-07-20)
 
 ### Bug Fixes
