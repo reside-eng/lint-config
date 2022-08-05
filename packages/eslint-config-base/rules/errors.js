@@ -29,6 +29,8 @@ module.exports = {
         caughtErrorsIgnorePattern: '^_',
       },
     ],
+    // Allow for-of loops over iterators
+    'no-restricted-syntax': 0,
   },
   overrides: [
     {
