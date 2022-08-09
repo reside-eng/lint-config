@@ -1,4 +1,5 @@
 module.exports = {
+  plugins: ['filenames'],
   overrides: [
     {
       files: [
@@ -24,6 +25,16 @@ module.exports = {
       rules: {
         'jest/require-top-level-describe': 0,
         'import/no-extraneous-dependencies': 0,
+      },
+    },
+    /**
+     * Enforce `.spec` over `.test` file names
+     * {@link https://github.com/reside-eng/guidelines/blob/main/rfcs/ui-patterns/002-unit-test-files.md}
+     */
+    {
+      files: ['**/*.test.*'],
+      rules: {
+        'filenames/match-regex': ['warn', '\\.spec\\.'],
       },
     },
   ],
