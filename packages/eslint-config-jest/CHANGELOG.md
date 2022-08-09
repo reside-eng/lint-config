@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.6.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-jest@0.5.0...@side/eslint-config-jest@0.6.0) (2022-08-09)
+
+### Features
+
+- warn when `.test` is used instead of `.spec` ([#391](https://github.com/reside-eng/lint-config/issues/391)) ([6838559](https://github.com/reside-eng/lint-config/commit/68385596a200ceeb3ca8be3f8bebc45a5d9784d8))
+
 # [0.5.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-jest@0.4.0...@side/eslint-config-jest@0.5.0) (2022-07-26)
 
 ### Features
