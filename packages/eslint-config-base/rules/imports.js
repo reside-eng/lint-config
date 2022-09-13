@@ -99,6 +99,10 @@ module.exports = {
      */
     'import/prefer-default-export': 'off',
     'import/no-default-export': 'error',
+    /**
+     * Restrict import patterns
+     * NOTE: Condig does not apply to UIs due to override in packages/eslint-config-react
+     */
     'no-restricted-imports': [
       'error',
       {
@@ -107,6 +111,12 @@ module.exports = {
             group: ['*/package.json'],
             message:
               'Do not import from package.json; use environment variables instead.',
+          },
+          {
+            name: 'lodash',
+            // TODO [PLAT-2970]: Remove eslint error for top level imports once ESM is supported
+            message:
+              'Please use direct imports (i.e. lodash/*) until services support ESM',
           },
         ],
       },
