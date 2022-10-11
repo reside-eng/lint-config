@@ -1,6 +1,6 @@
 {
   "name": "@side/eslint-config-react",
-  "version": "0.14.4",
+  "version": "0.15.0",
   "main": "eslint-config-react.js",
   "files": [
     "eslint-config-react.js",
