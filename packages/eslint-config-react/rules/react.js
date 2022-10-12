@@ -17,5 +17,6 @@ module.exports = {
     // new rule to cause issues: https://github.com/airbnb/javascript/blame/52e710c14ec0197cfefe131061e1fe41c966f93b/packages/eslint-config-airbnb/rules/react.js#L528-L531
     // discussion for context: https://top-agent.slack.com/archives/C0XU3K155/p1638225804365600?thread_ts=1638204245.354900&cid=C0XU3K155
     'react/function-component-definition': 'off',
+    'react/require-default-props': 'off',
   },
 };
