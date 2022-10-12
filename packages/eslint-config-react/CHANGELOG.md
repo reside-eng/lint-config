@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.16.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-react@0.15.0...@side/eslint-config-react@0.16.0) (2022-10-12)
+
+### Features
+
+- truly disable react/require-default-props ([#420](https://github.com/reside-eng/lint-config/issues/420)) ([2bf3762](https://github.com/reside-eng/lint-config/commit/2bf37621c5b297deff7b8487ed262168fd3413e9))
+
 # [0.15.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-react@0.14.4...@side/eslint-config-react@0.15.0) (2022-10-11)
 
 ### Features
