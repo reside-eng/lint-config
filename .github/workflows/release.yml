@@ -47,6 +47,9 @@ jobs:
       - name: Test
         run: yarn test
 
+      - name: Build
+        run: lerna run build
+
       - name: Get Token
         id: get-workflow-token
         uses: peter-murray/workflow-application-token-action@v1

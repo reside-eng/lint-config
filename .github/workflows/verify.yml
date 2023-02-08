@@ -36,6 +36,9 @@ jobs:
       - name: Test
         run: yarn test
 
+      - name: Build
+        run: lerna run build
+
       - name: Archive workspace on failure
         if: failure()
         run: zip -r workspace-files ./
