@@ -17,7 +17,7 @@ jobs:
         uses: actions/setup-node@v3.5.1
         with:
           node-version: ${{ env.NODE_VERSION }}
-          cache: 'yarn'
+          cache: "yarn"
 
       - name: Configure package manager
         run: |
@@ -35,6 +35,9 @@ jobs:
 
       - name: Test
         run: yarn test
+
+      - name: Build
+        run: lerna run build
 
       - name: Archive workspace on failure
         if: failure()
