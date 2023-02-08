@@ -17,6 +17,7 @@
     "url": "http://github.com/reside-eng/lint-config/issues"
   },
   "scripts": {
+    "prepublish": "yarn build",
     "prebuild": "del ./dist",
     "build": "tsc --project ./tsconfig.json"
   },
