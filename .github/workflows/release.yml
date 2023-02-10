@@ -8,15 +8,10 @@ on:
       - alpha
       - beta
 
-env:
-  NODE_VERSION: 16.x
-
 jobs:
   publish:
     name: publish
     runs-on: ubuntu-latest
-    env:
-      LERNA_DEFAULT_ARGS: --exact --concurrency 1 --yes --conventional-commits --create-release github --allow-branch "*"
     steps:
       - name: Checkout code
         uses: actions/checkout@v3.2.0
@@ -24,11 +19,31 @@ jobs:
           fetch-depth: 0
           persist-credentials: false
 
-      - name: Use Node.js ${{ env.NODE_VERSION }} on ${{ matrix.os }}
+      - name: Use Node.js
         uses: actions/setup-node@v3.5.1
         with:
-          node-version: ${{ env.NODE_VERSION }}
-          cache: 'yarn'
+          node-version: 16
+
+      - uses: pnpm/action-setup@v2
+        name: Install pnpm
+        id: pnpm-install
+        with:
+          version: 7
+          run_install: false
+
+      - name: Get pnpm store directory
+        id: pnpm-cache
+        shell: bash
+        run: |
+          echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
+
+      - uses: actions/cache@v3
+        name: Setup pnpm cache
+        with:
+          path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-
 
       - name: Configure package manager
         run: |
@@ -39,48 +54,25 @@ jobs:
           NPM_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
 
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
-
-      - name: Lint
-        run: yarn lint
+        run: pnpm install
 
       - name: Test
-        run: yarn test
+        run: turbo run test
+
+      - name: Lint
+        run: turbo run lint
 
       - name: Build
-        run: lerna run build
+        run: turbo run build
 
-      - name: Get Token
-        id: get-workflow-token
-        uses: peter-murray/workflow-application-token-action@v1
+      - name: Create release pull request or publish to npm
+        id: changesets
+        uses: changesets/action@v1
         with:
-          application_id: ${{ secrets.SIDE_CI_APPLICATION_ID }}
-          application_private_key: ${{ secrets.SIDE_CI_APPLICATION_PRIVATE_KEY }}
-          permissions: 'administration:write, contents:write'
-
-      - name: Configure Git to CI user
-        run: |
-          git config --global user.email 23222038+reside-camacho@users.noreply.github.com
-          git config --global user.name reside-camacho
-          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/$GITHUB_REPOSITORY
+          # This expects you to have a script called release which does a build for your packages and calls changeset publish
+          publish: pnpm release
         env:
-          GITHUB_TOKEN: ${{ steps.get-workflow-token.outputs.token }}
-
-      - name: Publish to @latest dist-tag
-        run: |
-          echo lerna publish $LERNA_DEFAULT_ARGS --conventional-graduate
-          yarn lerna publish $LERNA_DEFAULT_ARGS --conventional-graduate
-        env:
-          GH_TOKEN: ${{ steps.get-workflow-token.outputs.token }}
-        if: github.ref == 'refs/heads/main'
-
-      - name: Publish to a prerelease dist-tag
-        run: |
-          echo lerna publish $LERNA_DEFAULT_ARGS --conventional-prerelease --dist-tag ${GITHUB_REF##*/} --preid ${GITHUB_REF##*/}
-          yarn lerna publish $LERNA_DEFAULT_ARGS --conventional-prerelease --dist-tag ${GITHUB_REF##*/} --preid ${GITHUB_REF##*/}
-        env:
-          GH_TOKEN: ${{ steps.get-workflow-token.outputs.token }}
-        if: github.ref != 'refs/heads/main'
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Archive workspace on failure
         if: failure()
