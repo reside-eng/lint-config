@@ -10,6 +10,9 @@
   "bugs": {
     "url": "http://github.com/reside-eng/lint-config/issues"
   },
+  "scripts": {
+    "test": "node ./index.js"
+  },
   "dependencies": {
     "eslint-plugin-chai-friendly": "^0.7.2",
     "eslint-plugin-cypress": "^2.12.1"

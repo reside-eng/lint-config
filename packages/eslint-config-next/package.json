@@ -11,6 +11,9 @@
   "bugs": {
     "url": "http://github.com/reside-eng/lint-config/issues"
   },
+  "scripts": {
+    "test": "node ./index.js"
+  },
   "dependencies": {
     "@next/eslint-plugin-next": "12.3.1",
     "@side/eslint-config-cypress": "workspace:*",

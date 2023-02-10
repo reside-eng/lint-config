@@ -15,6 +15,9 @@
   "bugs": {
     "url": "http://github.com/reside-eng/lint-config/issues"
   },
+  "scripts": {
+    "test": "node ./eslint-config-base.js"
+  },
   "dependencies": {
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.25.2",

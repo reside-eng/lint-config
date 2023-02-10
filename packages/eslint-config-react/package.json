@@ -15,6 +15,9 @@
   "bugs": {
     "url": "http://github.com/reside-eng/lint-config/issues"
   },
+  "scripts": {
+    "test": "node ./eslint-config-react.js && node ./hooks.js"
+  },
   "dependencies": {
     "@side/eslint-config-base": "workspace:*",
     "eslint-config-airbnb": "^19.0.4",
