@@ -14,6 +14,8 @@
   "scripts": {
     "prepare": "husky install",
     "lint": "eslint '**/*.js' .eslintrc.js --ignore-pattern='!.eslintrc.js'",
+    "build": "turbo run build",
+    "test": "turbo run test",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "release": "turbo run build && pnpm publish -r"

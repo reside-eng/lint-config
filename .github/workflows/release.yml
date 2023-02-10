@@ -57,13 +57,13 @@ jobs:
         run: pnpm install
 
       - name: Test
-        run: turbo run test
+        run: pnpm test
 
       - name: Lint
-        run: turbo run lint
+        run: pnpm lint
 
       - name: Build
-        run: turbo run build
+        run: pnpm build
 
       - name: Create release pull request or publish to npm
         id: changesets
