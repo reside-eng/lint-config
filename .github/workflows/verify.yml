@@ -59,16 +59,6 @@ jobs:
       - name: Build
         run: pnpm build
 
-      - name: Archive workspace on failure
-        if: failure()
-        run: zip -r workspace-files ./
-
-      - uses: actions/upload-artifact@v3.1.1
-        if: failure()
-        with:
-          name: workspace
-          path: workspace-files.zip
-
   notification:
     if: always()
     name: notification
