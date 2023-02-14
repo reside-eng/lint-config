@@ -17,9 +17,7 @@
     "url": "http://github.com/reside-eng/lint-config/issues"
   },
   "scripts": {
-    "prepublish": "yarn build",
-    "prebuild": "del ./dist",
-    "build": "tsc --project ./tsconfig.json"
+    "build": "del ./dist && tsc --project ./tsconfig.json"
   },
   "devDependencies": {
     "@tsconfig/node-lts-strictest-esm": "18.12.1",
