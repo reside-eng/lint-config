@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.60](https://github.com/reside-eng/lint-config/compare/@side/jest-config-next@0.1.59...@side/jest-config-next@0.1.60) (2023-02-14)
+
+### Bug Fixes
+
+- remove `dist` from git ([#444](https://github.com/reside-eng/lint-config/issues/444)) ([8737cc4](https://github.com/reside-eng/lint-config/commit/8737cc42b1d433a7f6fa204288599c9a5204156e))
+
 ## [0.1.59](https://github.com/reside-eng/lint-config/compare/@side/jest-config-next@0.1.58...@side/jest-config-next@0.1.59) (2023-02-14)
 
 **Note:** Version bump only for package @side/jest-config-next
