@@ -1,7 +1,7 @@
 {
   "name": "@side/jest-config-next",
   "description": "Jest config for Next.js apps",
-  "version": "0.1.36",
+  "version": "0.1.37",
   "type": "module",
   "types": "./dist/index.d.ts",
   "exports": {
