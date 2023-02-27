@@ -1488,10 +1488,10 @@
   resolved "https://registry.yarnpkg.com/@next/env/-/env-13.1.6.tgz#c4925609f16142ded1a5cb833359ab17359b7a93"
   integrity sha512-s+W9Fdqh5MFk6ECrbnVmmAOwxKQuhGMT7xXHrkYIBMBcTiOqNWhv5KbJIboKR5STXxNXl32hllnvKaffzFaWQg==
 
-"@next/eslint-plugin-next@12.3.1":
-  version "12.3.1"
-  resolved "https://registry.yarnpkg.com/@next/eslint-plugin-next/-/eslint-plugin-next-12.3.1.tgz#b821f27b0f175954d8d18e5d323fce040ecc79a6"
-  integrity sha512-sw+lTf6r6P0j+g/n9y4qdWWI2syPqZx+uc0+B/fRENqfR3KpSid6MIKqc9gNwGhJASazEQ5b3w8h4cAET213jw==
+"@next/eslint-plugin-next@13.2.1":
+  version "13.2.1"
+  resolved "https://registry.yarnpkg.com/@next/eslint-plugin-next/-/eslint-plugin-next-13.2.1.tgz#58dea4d53c0adfc59c10195f51eb8d3575fce414"
+  integrity sha512-r0i5rcO6SMAZtqiGarUVMr3k256X0R0j6pEkKg4PxqUW+hG0qgMxRVAJsuoRG5OBFkCOlSfWZJ0mP9fQdCcyNg==
   dependencies:
     glob "7.1.7"
 
