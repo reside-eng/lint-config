@@ -101,7 +101,7 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v3.3.0
 
-      - uses: technote-space/workflow-conclusion-action@v3.0.1
+      - uses: technote-space/workflow-conclusion-action@v3.0.3
 
       - uses: reside-eng/workflow-status-notification-action@v1.2.2
         with:
