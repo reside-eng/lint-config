@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "@tsconfig/node-lts-strictest-esm": "18.12.1",
-    "@types/node": "18.14.2",
+    "@types/node": "18.14.3",
     "del-cli": "5.0.0",
     "jest": "29.4.3",
     "next": "13.2.3",
