@@ -16,6 +16,7 @@
     "clean": "lerna clean",
     "lint": "eslint '**/*.js' .eslintrc.js --ignore-pattern='!.eslintrc.js'",
     "test": "node packages/commitlint-config && node packages/eslint-config-base && node packages/eslint-config-base/core && node packages/eslint-config-react && node packages/eslint-config-react/hooks && node packages/eslint-config-cypress && node packages/eslint-config-jest",
+    "test:cov": "node packages/commitlint-config && node packages/eslint-config-base && node packages/eslint-config-base/core && node packages/eslint-config-react && node packages/eslint-config-react/hooks && node packages/eslint-config-cypress && node packages/eslint-config-jest",
     "format": "prettier --write .",
     "format:check": "prettier --check ."
   },
