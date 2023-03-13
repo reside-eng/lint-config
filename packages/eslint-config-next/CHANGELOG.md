@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.21](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-next@1.0.20...@side/eslint-config-next@1.0.21) (2023-03-13)
+
+### Bug Fixes
+
+- **deps:** weekly npm maintenance release ([#468](https://github.com/reside-eng/lint-config/issues/468)) ([2ab68cd](https://github.com/reside-eng/lint-config/commit/2ab68cd8a2e8cc06899a50beccd99f2b3c9e8d7a))
+
 ## [1.0.20](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-next@1.0.19...@side/eslint-config-next@1.0.20) (2023-02-27)
 
 **Note:** Version bump only for package @side/eslint-config-next
