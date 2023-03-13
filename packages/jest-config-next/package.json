@@ -32,8 +32,8 @@
     "next": "13"
   },
   "dependencies": {
-    "@jest/types": "29.4.2",
-    "boxen": "7.0.1",
+    "@jest/types": "29.5.0",
+    "boxen": "7.0.2",
     "chalk": "5.2.0"
   }
 }
