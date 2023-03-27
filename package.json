@@ -9,7 +9,7 @@
     "url": "https://github.com/reside-eng/lint-config.git"
   },
   "engines": {
-    "node": ">=16.13.0"
+    "node": ">=18"
   },
   "scripts": {
     "prepare": "husky install",
