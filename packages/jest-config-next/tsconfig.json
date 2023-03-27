@@ -1,11 +1,12 @@
 {
   "extends": "@tsconfig/node-lts-strictest-esm/tsconfig.json",
   "compilerOptions": {
-    "module": "ESNext",
+    "composite": true,
+    "module": "NodeNext",
     "declaration": true,
     "outDir": "dist",
     "rootDir": "src",
-    "allowSyntheticDefaultImports": true
+    "esModuleInterop": false
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"]
