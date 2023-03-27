@@ -5,12 +5,16 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "http://github.com/reside-eng/lint-config.git"
+    "url": "http://github.com/reside-eng/lint-config.git",
+    "directory": "packages/lint-staged-config"
   },
   "bugs": {
     "url": "http://github.com/reside-eng/lint-config/issues"
   },
   "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
   "peerDependencies": {
     "eslint": ">=7.14.0",
     "lint-staged": ">=13.0.0",

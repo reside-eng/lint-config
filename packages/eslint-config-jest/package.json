@@ -5,10 +5,14 @@
   "license": "UNLICENSED",
   "repository": {
     "type": "git",
-    "url": "http://github.com/reside-eng/lint-config.git"
+    "url": "http://github.com/reside-eng/lint-config.git",
+    "directory": "packages/eslint-config-jest"
   },
   "bugs": {
     "url": "http://github.com/reside-eng/lint-config/issues"
+  },
+  "scripts": {
+    "test": "node index.js && node react.js"
   },
   "dependencies": {
     "eslint-plugin-filenames": "1.3.2",
