@@ -13,7 +13,7 @@ env:
 
 jobs:
   publish:
-    name: publish
+    name: Publish
     runs-on: ubuntu-latest
     env:
       LERNA_DEFAULT_ARGS: --exact --concurrency 1 --yes --conventional-commits --create-release github --allow-branch "*"
@@ -88,7 +88,7 @@ jobs:
 
   notification:
     if: always()
-    name: notification
+    name: Send Workflow Notification
     needs: [publish]
     runs-on: ubuntu-latest
     steps:
