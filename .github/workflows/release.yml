@@ -32,7 +32,7 @@ jobs:
 
       - name: Install dependencies
         env:
-          YARN_NPM_AUTH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
         run: yarn install --frozen-lockfile
 
       - name: Lint
