@@ -18,7 +18,7 @@
     "url": "http://github.com/reside-eng/lint-config/issues"
   },
   "scripts": {
-    "build": "del ./dist && tsc --build",
+    "build": "del ./dist && tsc",
     "lint": "eslint src/**/*"
   },
   "devDependencies": {
