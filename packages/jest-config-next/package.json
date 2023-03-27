@@ -4,6 +4,11 @@
   "version": "0.1.82",
   "type": "module",
   "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "src",
+    "README.md"
+  ],
   "exports": {
     ".": "./dist/index.js",
     "./package.json": "./package.json"
