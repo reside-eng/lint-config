@@ -30,15 +30,9 @@ jobs:
           node-version: ${{ env.NODE_VERSION }}
           cache: 'yarn'
 
-      - name: Configure package manager
-        run: |
-          echo Configuring NPM_PUBLISH_TOKEN globally for .npmrc
-          npm config set '//registry.npmjs.org/:_authToken' ${{ env.NPM_TOKEN }}
-          npm whoami
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
-
       - name: Install dependencies
+        env:
+          YARN_NPM_AUTH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
         run: yarn install --frozen-lockfile
 
       - name: Lint
