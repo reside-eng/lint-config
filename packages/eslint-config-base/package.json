@@ -1,6 +1,6 @@
 {
   "name": "@side/eslint-config-base",
-  "version": "0.16.1",
+  "version": "0.17.0-alpha.0",
   "main": "eslint-config-base.js",
   "files": [
     "eslint-config-base.js",
@@ -10,10 +10,14 @@
   "license": "UNLICENSED",
   "repository": {
     "type": "git",
-    "url": "http://github.com/reside-eng/lint-config.git"
+    "url": "http://github.com/reside-eng/lint-config.git",
+    "directory": "packages/eslint-config-base"
   },
   "bugs": {
     "url": "http://github.com/reside-eng/lint-config/issues"
+  },
+  "scripts": {
+    "test": "node core.js && node eslint-config-base.js"
   },
   "dependencies": {
     "eslint-config-airbnb-base": "^15.0.0",

@@ -1,6 +1,6 @@
 {
   "name": "@side/eslint-config-typescript",
-  "version": "1.0.19",
+  "version": "1.1.0-alpha.0",
   "main": "index.js",
   "license": "UNLICENSED",
   "repository": {
@@ -10,6 +10,9 @@
   },
   "bugs": {
     "url": "http://github.com/reside-eng/lint-config/issues"
+  },
+  "scripts": {
+    "test": "node index.js && node without-type-checks.js"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "5.54.1",
