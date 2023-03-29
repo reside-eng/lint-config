@@ -45,7 +45,7 @@ jobs:
 
   notification:
     if: always()
-    name: Send Workflow Notification
+    name: Send workflow notification
     needs: [build]
     runs-on: ubuntu-latest
     steps:
