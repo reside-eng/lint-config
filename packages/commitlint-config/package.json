@@ -1,6 +1,6 @@
 {
   "name": "@side/commitlint-config",
-  "version": "0.2.0",
+  "version": "1.0.0-alpha.1",
   "main": "commitlint-config.js",
   "files": [
     "commitlint-config.js",
