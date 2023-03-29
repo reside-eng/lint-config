@@ -5,10 +5,14 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "http://github.com/reside-eng/lint-config.git"
+    "url": "http://github.com/reside-eng/lint-config.git",
+    "directory": "packages/prettier-config"
   },
   "bugs": {
     "url": "http://github.com/reside-eng/lint-config/issues"
   },
-  "main": "index.json"
+  "main": "index.json",
+  "scripts": {
+    "test": "node test.mjs"
+  }
 }

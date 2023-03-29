@@ -3,11 +3,11 @@ name: Verify
 on: [pull_request]
 
 env:
-  NODE_VERSION: 16.x
+  NODE_VERSION: 18.x
 
 jobs:
   build:
-    name: build
+    name: Lint, Test, and Build
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -17,17 +17,11 @@ jobs:
         uses: actions/setup-node@v3.6.0
         with:
           node-version: ${{ env.NODE_VERSION }}
-          cache: 'yarn'
-
-      - name: Configure package manager
-        run: |
-          echo Configuring NPM_READ_TOKEN globally for .npmrc
-          npm config set '//registry.npmjs.org/:_authToken' ${{ env.NPM_TOKEN }}
-          npm whoami
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_READ_TOKEN }}
+          cache: yarn
 
       - name: Install dependencies
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_READ_TOKEN }}
         run: yarn install --frozen-lockfile
 
       - name: Lint
@@ -51,7 +45,7 @@ jobs:
 
   notification:
     if: always()
-    name: notification
+    name: Send Workflow Notification
     needs: [build]
     runs-on: ubuntu-latest
     steps:

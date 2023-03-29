@@ -14,6 +14,9 @@
   "bugs": {
     "url": "http://github.com/reside-eng/lint-config/issues"
   },
+  "scripts": {
+    "test": "node ."
+  },
   "dependencies": {
     "@commitlint/config-conventional": "^17.0.0"
   },
