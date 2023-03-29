@@ -1,7 +1,7 @@
 {
   "name": "@side/jest-config-next",
   "description": "Jest config for Next.js apps",
-  "version": "0.1.82",
+  "version": "0.2.0-alpha.0",
   "type": "module",
   "types": "./dist/index.d.ts",
   "files": [
@@ -27,8 +27,8 @@
     "lint": "eslint src/**/*"
   },
   "devDependencies": {
-    "@side/eslint-config-base": "*",
-    "@side/eslint-config-typescript": "*",
+    "@side/eslint-config-base": "0.17.0-alpha.0",
+    "@side/eslint-config-typescript": "1.1.0-alpha.0",
     "@tsconfig/node-lts-strictest-esm": "18.12.1",
     "@types/node": "18.15.11",
     "del-cli": "5.0.0",
