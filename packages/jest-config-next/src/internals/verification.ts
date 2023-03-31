@@ -9,7 +9,7 @@ import { showError } from './logs.js';
  */
 export function detectBabelJest() {
   // Detect package.json
-  const pkgPath = path.resolve(process.cwd(), 'packages.json');
+  const pkgPath = path.resolve(process.cwd(), 'package.json');
   if (!fs.existsSync(pkgPath)) return;
 
   // Import package.json
