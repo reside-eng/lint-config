@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1](https://github.com/reside-eng/lint-config/compare/@side/jest-config-next@1.0.0...@side/jest-config-next@1.0.1) (2023-03-31)
+
+### Bug Fixes
+
+- **jest-config-next:** include declaration map and fix package.json import ([#496](https://github.com/reside-eng/lint-config/issues/496)) ([21da845](https://github.com/reside-eng/lint-config/commit/21da845eb861d5d180ca8f9ce8c638bf3c285453))
+
 # [1.0.0](https://github.com/reside-eng/lint-config/compare/@side/jest-config-next@0.2.1...@side/jest-config-next@1.0.0) (2023-03-29)
 
 **Note:** Version bump only for package @side/jest-config-next
