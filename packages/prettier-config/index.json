@@ -1,5 +1,13 @@
 {
   "singleQuote": true,
   "trailingComma": "all",
-  "$schema": "http://json.schemastore.org/prettierrc"
+  "$schema": "http://json.schemastore.org/prettierrc",
+  "overrides": [
+    {
+      "files": ["./gha-creds-*.json"],
+      "options": {
+        "requirePragma": true
+      }
+    }
+  ]
 }
