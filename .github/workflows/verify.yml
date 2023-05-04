@@ -1,6 +1,9 @@
 name: Verify
 
-on: [pull_request]
+on:
+  pull_request:
+  merge_group:
+    types: [checks_requested]
 
 env:
   NODE_VERSION: 18.x
