@@ -21,8 +21,8 @@
   },
   "prettier": "@side/prettier-config",
   "devDependencies": {
-    "@commitlint/cli": "17.6.1",
-    "@commitlint/config-conventional": "17.6.1",
+    "@commitlint/cli": "17.6.3",
+    "@commitlint/config-conventional": "17.6.3",
     "husky": "8.0.3",
     "lerna": "6.6.1",
     "prettier": "2.8.8"
