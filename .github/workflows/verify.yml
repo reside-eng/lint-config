@@ -57,7 +57,7 @@ jobs:
 
       - uses: technote-space/workflow-conclusion-action@v3.0.3
 
-      - uses: reside-eng/workflow-status-notification-action@v1.2.3
+      - uses: reside-eng/workflow-status-notification-action@v1.2.4
         with:
           current-status: ${{ env.WORKFLOW_CONCLUSION }}
           slack-webhook: ${{ secrets.SLACK_WEBHOOK_PLATFORM_PROD }}
