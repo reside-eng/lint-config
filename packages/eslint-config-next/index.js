@@ -10,5 +10,6 @@ module.exports = {
     './rules/import',
     './rules/jsx-a11y',
     './rules/react',
+    './rules/graphql',
   ],
 };
