@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-next@2.0.0...@side/eslint-config-next@2.1.0) (2023-06-23)
+
+### Features
+
+- **eslint-config-next:** add graphql operations recommended rules ([#550](https://github.com/reside-eng/lint-config/issues/550)) ([993615d](https://github.com/reside-eng/lint-config/commit/993615d07ad123d8ae55c03ca5e77aa4b0ce34ef))
+
 # [2.0.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-next@1.1.0...@side/eslint-config-next@2.0.0) (2023-03-29)
 
 **Note:** Version bump only for package @side/eslint-config-next
