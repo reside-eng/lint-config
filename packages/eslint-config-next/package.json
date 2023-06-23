@@ -15,6 +15,7 @@
     "test": "node index.js"
   },
   "dependencies": {
+    "@graphql-eslint/eslint-plugin": "3.19.1",
     "@next/eslint-plugin-next": "13.2.4",
     "@side/eslint-config-cypress": "1.0.0",
     "@side/eslint-config-jest": "1.0.0",
@@ -24,8 +25,5 @@
   "peerDependencies": {
     "eslint": ">=7.14.0",
     "next": ">=12.0.0"
-  },
-  "devDependencies": {
-    "@graphql-eslint/eslint-plugin": "3.19.1"
   }
 }
