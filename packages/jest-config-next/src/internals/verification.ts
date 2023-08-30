@@ -22,7 +22,7 @@ export function detectBabelJest() {
     devDependencies?: Record<string, string>;
   };
   if (
-    pkg?.dependencies?.['babel-jest'] ||
+    pkg?.dependencies?.['babel-jest'] ??
     pkg?.devDependencies?.['babel-jest']
   ) {
     showError(

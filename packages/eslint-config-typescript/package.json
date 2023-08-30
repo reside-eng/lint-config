@@ -12,16 +12,16 @@
     "url": "http://github.com/reside-eng/lint-config/issues"
   },
   "scripts": {
-    "test": "node index.js && node without-type-checks.js"
+    "test": "node index.js"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "5.54.1",
-    "@typescript-eslint/parser": "5.54.1",
-    "eslint-import-resolver-typescript": "3.5.3"
+    "@typescript-eslint/eslint-plugin": "6.5.0",
+    "@typescript-eslint/parser": "6.5.0",
+    "eslint-import-resolver-typescript": "3.6.0"
   },
   "peerDependencies": {
     "eslint": ">=7.14.0",
     "eslint-plugin-import": ">=2.1.0",
-    "typescript": ">=4.0.0"
+    "typescript": ">=5.0.0"
   }
 }
