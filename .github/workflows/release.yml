@@ -87,7 +87,7 @@ jobs:
         if: failure()
         run: zip -r workspace-files ./
 
-      - uses: actions/upload-artifact@v3.1.2
+      - uses: actions/upload-artifact@v3.1.3
         if: failure()
         with:
           name: workspace
