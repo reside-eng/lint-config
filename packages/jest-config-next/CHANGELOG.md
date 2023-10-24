@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/reside-eng/lint-config/compare/@side/jest-config-next@1.0.31...@side/jest-config-next@1.1.0) (2023-10-24)
+
+### Features
+
+- update typescript config ([#562](https://github.com/reside-eng/lint-config/issues/562)) ([0a814d7](https://github.com/reside-eng/lint-config/commit/0a814d7ac0513db129556aa2cf206f241955e855))
+
 ## [1.0.31](https://github.com/reside-eng/lint-config/compare/@side/jest-config-next@1.0.30...@side/jest-config-next@1.0.31) (2023-06-03)
 
 **Note:** Version bump only for package @side/jest-config-next
