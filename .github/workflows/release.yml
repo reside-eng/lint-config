@@ -5,107 +5,23 @@ on:
     branches:
       - main
       - next
+      - next-major
       - alpha
       - beta
+      # N.x (maintenance release branches)
+      - '[0-9]+.x'
 
-env:
-  NODE_VERSION: 18.x
+concurrency:
+  group: release-${{ github.ref }}
 
 jobs:
-  publish:
-    name: Publish
-    runs-on: ubuntu-latest
-    env:
-      LERNA_DEFAULT_ARGS: --exact --concurrency 1 --yes --conventional-commits --create-release github --allow-branch "*"
-      HUSKY: 0
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v3.6.0
-        with:
-          fetch-depth: 0
-          persist-credentials: false
-
-      - name: Use Node.js ${{ env.NODE_VERSION }} on ${{ matrix.os }}
-        uses: actions/setup-node@v3.8.1
-        with:
-          node-version: ${{ env.NODE_VERSION }}
-          cache: 'yarn'
-
-      - name: Configure package manager
-        run: |
-          echo Configuring NPM_PUBLISH_TOKEN globally for .npmrc
-          npm config set '//registry.npmjs.org/:_authToken' ${{ env.NPM_TOKEN }}
-          npm whoami
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
-
-      - name: Install dependencies
-        run: yarn install --frozen-lockfile
-
-      - name: Lint
-        run: yarn lint
-
-      - name: Test
-        run: yarn test
-
-      - name: Build
-        run: lerna run build
-
-      - name: Get Token
-        id: get-workflow-token
-        uses: peter-murray/workflow-application-token-action@v2
-        with:
-          application_id: ${{ secrets.SIDE_CI_APPLICATION_ID }}
-          application_private_key: ${{ secrets.SIDE_CI_APPLICATION_PRIVATE_KEY }}
-          permissions: 'administration:write, contents:write'
-
-      - name: Configure Git to CI user
-        run: |
-          git config --global user.email 23222038+reside-camacho@users.noreply.github.com
-          git config --global user.name reside-camacho
-          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/$GITHUB_REPOSITORY
-        env:
-          GITHUB_TOKEN: ${{ steps.get-workflow-token.outputs.token }}
-
-      - name: Publish to @latest dist-tag
-        run: |
-          echo lerna publish $LERNA_DEFAULT_ARGS --conventional-graduate
-          yarn lerna publish $LERNA_DEFAULT_ARGS --conventional-graduate
-        env:
-          GH_TOKEN: ${{ steps.get-workflow-token.outputs.token }}
-        if: github.ref == 'refs/heads/main'
-
-      - name: Publish to a prerelease dist-tag
-        run: |
-          echo lerna publish $LERNA_DEFAULT_ARGS --conventional-prerelease --dist-tag ${GITHUB_REF##*/} --preid ${GITHUB_REF##*/}
-          yarn lerna publish $LERNA_DEFAULT_ARGS --conventional-prerelease --dist-tag ${GITHUB_REF##*/} --preid ${GITHUB_REF##*/}
-        env:
-          GH_TOKEN: ${{ steps.get-workflow-token.outputs.token }}
-        if: github.ref != 'refs/heads/main'
-
-      - name: Archive workspace on failure
-        if: failure()
-        run: zip -r workspace-files ./
-
-      - uses: actions/upload-artifact@v3.1.3
-        if: failure()
-        with:
-          name: workspace
-          path: workspace-files.zip
-
-  notification:
-    if: always()
-    name: Send Workflow Notification
-    needs: [publish]
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Code
-        uses: actions/checkout@v3.6.0
-
-      - uses: technote-space/workflow-conclusion-action@v3.0.3
-
-      - uses: reside-eng/workflow-status-notification-action@v1.2.4
-        with:
-          current-status: ${{ env.WORKFLOW_CONCLUSION }}
-          slack-webhook: ${{ secrets.SLACK_WEBHOOK_PLATFORM_PROD }}
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+  release:
+    name: Reusable release workflow
+    uses: reside-eng/workflow-templates-library/.github/workflows/release_library.yml@v1
+    with:
+      TIMEOUT: 30
+      NODE_VERSION: 18.x
+      PACKAGE_MANAGER: yarn-berry
+      SLACK_NOTIFICATION_SECRET: SLACK_WEBHOOK_PLATFORM_PROD
+      IS_MONOREPO: true
+    secrets: inherit
