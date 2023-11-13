@@ -13,8 +13,8 @@ jobs:
     name: Reusable release workflow
     uses: reside-eng/workflow-templates-library/.github/workflows/release_library.yml@v1
     with:
-      NODE_VERSION: 16.x
-      PACKAGE_MANAGER: yarn
+      NODE_VERSION: 18.x
+      PACKAGE_MANAGER: yarn-berry
       SLACK_NOTIFICATION_SECRET: SLACK_WEBHOOK_PLATFORM_PROD
       IS_MONOREPO: true
     secrets: inherit
