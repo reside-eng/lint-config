@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.1](https://github.com/reside-eng/lint-config/compare/@side/jest-config-next@1.1.0...@side/jest-config-next@1.1.1) (2023-11-13)
+
+### Bug Fixes
+
+- upgrade to yarn berry ([#569](https://github.com/reside-eng/lint-config/issues/569)) ([b6c93e4](https://github.com/reside-eng/lint-config/commit/b6c93e4af37ef681f5f7bd8bff4c4a785510c282))
+
 # [1.1.0](https://github.com/reside-eng/lint-config/compare/@side/jest-config-next@1.0.31...@side/jest-config-next@1.1.0) (2023-10-24)
 
 ### Features
