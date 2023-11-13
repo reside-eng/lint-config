@@ -1,9 +1,14 @@
 {
   "name": "@side/jest-config-next",
   "description": "Jest config for Next.js apps",
-  "version": "0.1.68",
+  "version": "1.1.0",
   "type": "module",
   "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "src",
+    "README.md"
+  ],
   "exports": {
     ".": "./dist/index.js",
     "./package.json": "./package.json"
@@ -11,20 +16,26 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "http://github.com/reside-eng/lint-config.git"
+    "url": "http://github.com/reside-eng/lint-config.git",
+    "directory": "packages/jest-config-next"
   },
   "bugs": {
     "url": "http://github.com/reside-eng/lint-config/issues"
   },
   "scripts": {
-    "build": "del ./dist && tsc --project ./tsconfig.json"
+    "build": "del ./dist && tsc",
+    "lint": "eslint src/**/*"
   },
   "devDependencies": {
+    "@side/eslint-config-base": "1.0.0",
+    "@side/eslint-config-typescript": "1.2.0",
     "@tsconfig/node-lts-strictest-esm": "18.12.1",
-    "@types/node": "18.14.4",
-    "del-cli": "5.0.0",
-    "jest": "29.4.3",
-    "next": "13.2.3",
+    "@types/node": "18.16.16",
+    "del-cli": "5.1.0",
+    "eslint": "8.42.0",
+    "eslint-config-prettier": "9.0.0",
+    "jest": "29.5.0",
+    "next": "13.4.4",
     "typescript": "4.9.5"
   },
   "peerDependencies": {
@@ -32,8 +43,8 @@
     "next": "13"
   },
   "dependencies": {
-    "@jest/types": "29.4.2",
-    "boxen": "7.0.1",
+    "@jest/types": "29.5.0",
+    "boxen": "7.0.2",
     "chalk": "5.2.0"
   }
 }

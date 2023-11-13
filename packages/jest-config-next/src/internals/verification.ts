@@ -1,5 +1,5 @@
-import path from 'node:path';
-import fs from 'node:fs';
+import * as path from 'node:path';
+import * as fs from 'node:fs';
 import chalk from 'chalk';
 import { showError } from './logs.js';
 
@@ -9,7 +9,7 @@ import { showError } from './logs.js';
  */
 export function detectBabelJest() {
   // Detect package.json
-  const pkgPath = path.resolve(process.cwd(), 'packages.json');
+  const pkgPath = path.resolve(process.cwd(), 'package.json');
   if (!fs.existsSync(pkgPath)) return;
 
   // Import package.json
@@ -17,9 +17,12 @@ export function detectBabelJest() {
   if (!pkgFile) return;
 
   // Look for babel-jest
-  const pkg = JSON.parse(pkgFile);
+  const pkg = JSON.parse(pkgFile) as {
+    dependencies?: Record<string, string>;
+    devDependencies?: Record<string, string>;
+  };
   if (
-    pkg?.dependencies?.['babel-jest'] ||
+    pkg?.dependencies?.['babel-jest'] ??
     pkg?.devDependencies?.['babel-jest']
   ) {
     showError(

@@ -1,6 +1,7 @@
 import type { Config } from '@jest/types';
+// eslint-disable-next-line import/extensions
 import createJestConfig from 'next/jest.js';
-import path from 'node:path';
+import * as path from 'node:path';
 import { baseConfig, type DefinedConfig } from './internals/base.js';
 import { detectBabelJest } from './internals/verification.js';
 
@@ -38,6 +39,7 @@ export async function makeConfig({
   const config: DefinedConfig = { ...baseConfig };
 
   // CI max workers
+  // eslint-disable-next-line dot-notation
   if (typeof maxCIWorkerCount === 'number' && process.env['CI'] === 'true') {
     config.maxWorkers = maxCIWorkerCount;
   }

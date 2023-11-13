@@ -3,6 +3,30 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-typescript@1.1.0...@side/eslint-config-typescript@1.2.0) (2023-10-24)
+
+### Features
+
+- update typescript config ([#562](https://github.com/reside-eng/lint-config/issues/562)) ([0a814d7](https://github.com/reside-eng/lint-config/commit/0a814d7ac0513db129556aa2cf206f241955e855))
+
+# [1.1.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-typescript@1.0.19...@side/eslint-config-typescript@1.1.0) (2023-03-29)
+
+### Features
+
+- upgrade lerna ([#492](https://github.com/reside-eng/lint-config/issues/492)) ([54c907b](https://github.com/reside-eng/lint-config/commit/54c907bc7d6dee491fbac3ecb9769284554785cf)), closes [#488](https://github.com/reside-eng/lint-config/issues/488)
+
+# [1.1.0-alpha.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-typescript@1.0.19...@side/eslint-config-typescript@1.1.0-alpha.0) (2023-03-29)
+
+### Features
+
+- upgrade lerna ([#488](https://github.com/reside-eng/lint-config/issues/488)) ([6b10c5e](https://github.com/reside-eng/lint-config/commit/6b10c5ea54a9e68f7e3b04499a48a85b704a93cc))
+
+## [1.0.19](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-typescript@1.0.18...@side/eslint-config-typescript@1.0.19) (2023-03-13)
+
+### Bug Fixes
+
+- **deps:** weekly npm maintenance release ([#468](https://github.com/reside-eng/lint-config/issues/468)) ([2ab68cd](https://github.com/reside-eng/lint-config/commit/2ab68cd8a2e8cc06899a50beccd99f2b3c9e8d7a))
+
 ## [1.0.18](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-typescript@1.0.17...@side/eslint-config-typescript@1.0.18) (2023-02-27)
 
 ### Bug Fixes

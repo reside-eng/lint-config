@@ -1,6 +1,6 @@
 {
   "name": "@side/commitlint-config",
-  "version": "0.1.12",
+  "version": "1.0.0",
   "main": "commitlint-config.js",
   "files": [
     "commitlint-config.js",
@@ -13,6 +13,9 @@
   },
   "bugs": {
     "url": "http://github.com/reside-eng/lint-config/issues"
+  },
+  "scripts": {
+    "test": "node ."
   },
   "dependencies": {
     "@commitlint/config-conventional": "^17.0.0"
