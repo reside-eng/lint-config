@@ -20,4 +20,5 @@ jobs:
       ENABLE_FORMAT_CHECK: true
       ENABLE_TYPES_CHECK: true
       IS_MONOREPO: true
+      ENABLE_COVERAGE: false
     secrets: inherit
