@@ -5,7 +5,7 @@ import * as path from 'node:path';
 import { baseConfig, type DefinedConfig } from './internals/base.js';
 import { detectBabelJest } from './internals/verification.js';
 
-export type MakeConfigOptions = {
+export interface MakeConfigOptions {
   /**
    * Aliases that correspond to any `paths` defined in tsconfig.json
    */
@@ -24,7 +24,7 @@ export type MakeConfigOptions = {
    * Absolute path to Next.js project directory
    */
   dir?: string;
-};
+}
 
 export async function makeConfig({
   moduleAliases = {},
