@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.3.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-next@2.2.0...@side/eslint-config-next@2.3.0) (2023-11-14)
+
+### Features
+
+- **next:** add support for codegen.ts ([#582](https://github.com/reside-eng/lint-config/issues/582)) ([40c4689](https://github.com/reside-eng/lint-config/commit/40c46899c309c6e6fc9ded55f5ac333e52760ebe))
+
 # [2.2.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-next@2.1.0...@side/eslint-config-next@2.2.0) (2023-10-24)
 
 ### Features
