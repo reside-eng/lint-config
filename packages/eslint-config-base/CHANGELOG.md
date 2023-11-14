@@ -3,6 +3,50 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-base@0.17.0...@side/eslint-config-base@1.0.0) (2023-03-29)
+
+**Note:** Version bump only for package @side/eslint-config-base
+
+# [1.0.0-alpha.1](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-base@0.17.0...@side/eslint-config-base@1.0.0-alpha.1) (2023-03-29)
+
+**Note:** Version bump only for package @side/eslint-config-base
+
+# [0.17.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-base@0.16.1...@side/eslint-config-base@0.17.0) (2023-03-29)
+
+### Features
+
+- upgrade lerna ([#492](https://github.com/reside-eng/lint-config/issues/492)) ([54c907b](https://github.com/reside-eng/lint-config/commit/54c907bc7d6dee491fbac3ecb9769284554785cf)), closes [#488](https://github.com/reside-eng/lint-config/issues/488)
+
+# [0.17.0-alpha.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-base@0.16.1...@side/eslint-config-base@0.17.0-alpha.0) (2023-03-29)
+
+### Features
+
+- upgrade lerna ([#488](https://github.com/reside-eng/lint-config/issues/488)) ([6b10c5e](https://github.com/reside-eng/lint-config/commit/6b10c5ea54a9e68f7e3b04499a48a85b704a93cc))
+
+## [0.16.1](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-base@0.16.0...@side/eslint-config-base@0.16.1) (2023-02-27)
+
+### Bug Fixes
+
+- **deps:** update dependency glob to v8 ([#345](https://github.com/reside-eng/lint-config/issues/345)) ([29b3786](https://github.com/reside-eng/lint-config/commit/29b37861876ddd982c3277c6d77a843ed47d061f))
+
+# [0.16.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-base@0.15.1...@side/eslint-config-base@0.16.0) (2022-08-05)
+
+### Features
+
+- allow loops over iterators ([#397](https://github.com/reside-eng/lint-config/issues/397)) ([2c8d95c](https://github.com/reside-eng/lint-config/commit/2c8d95cf5ab4169c3dc339f809c9ac7c8505c0ce))
+
+## [0.15.1](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-base@0.15.0...@side/eslint-config-base@0.15.1) (2022-07-20)
+
+### Bug Fixes
+
+- **base:** add lint-staged.config file to imports settings ([#390](https://github.com/reside-eng/lint-config/issues/390)) ([7b23635](https://github.com/reside-eng/lint-config/commit/7b236353dba5545acfd719498be689ee2a969e7e))
+
+# [0.15.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-base@0.14.0...@side/eslint-config-base@0.15.0) (2022-07-01)
+
+### Features
+
+- **config-base:** add support for firebase-admin v10 imports [PLAT-1324] ([#378](https://github.com/reside-eng/lint-config/issues/378)) ([90f322a](https://github.com/reside-eng/lint-config/commit/90f322a3484b6c1527db5921d7423ba10d2701cb))
+
 # [0.14.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-base@0.13.5...@side/eslint-config-base@0.14.0) (2022-04-21)
 
 ### Features

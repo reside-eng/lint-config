@@ -3,6 +3,36 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0](https://github.com/reside-eng/lint-config/compare/@side/commitlint-config@0.2.0...@side/commitlint-config@1.0.0) (2023-03-29)
+
+**Note:** Version bump only for package @side/commitlint-config
+
+# [1.0.0-alpha.1](https://github.com/reside-eng/lint-config/compare/@side/commitlint-config@0.2.0...@side/commitlint-config@1.0.0-alpha.1) (2023-03-29)
+
+**Note:** Version bump only for package @side/commitlint-config
+
+# [0.2.0](https://github.com/reside-eng/lint-config/compare/@side/commitlint-config@0.1.12...@side/commitlint-config@0.2.0) (2023-03-29)
+
+### Features
+
+- upgrade lerna ([#492](https://github.com/reside-eng/lint-config/issues/492)) ([54c907b](https://github.com/reside-eng/lint-config/commit/54c907bc7d6dee491fbac3ecb9769284554785cf)), closes [#488](https://github.com/reside-eng/lint-config/issues/488)
+
+# [0.2.0-alpha.0](https://github.com/reside-eng/lint-config/compare/@side/commitlint-config@0.1.12...@side/commitlint-config@0.2.0-alpha.0) (2023-03-29)
+
+### Features
+
+- upgrade lerna ([#488](https://github.com/reside-eng/lint-config/issues/488)) ([6b10c5e](https://github.com/reside-eng/lint-config/commit/6b10c5ea54a9e68f7e3b04499a48a85b704a93cc))
+
+## [0.1.12](https://github.com/reside-eng/lint-config/compare/@side/commitlint-config@0.1.11...@side/commitlint-config@0.1.12) (2022-07-01)
+
+### Bug Fixes
+
+- **commitlint:** add other ticket prefixes ([#382](https://github.com/reside-eng/lint-config/issues/382)) ([94466af](https://github.com/reside-eng/lint-config/commit/94466aff3624bbc42a7e0eeb5a59a3f1ba01f6e0))
+
+## [0.1.11](https://github.com/reside-eng/lint-config/compare/@side/commitlint-config@0.1.10...@side/commitlint-config@0.1.11) (2022-06-16)
+
+**Note:** Version bump only for package @side/commitlint-config
+
 ## [0.1.10](https://github.com/reside-eng/lint-config/compare/@side/commitlint-config@0.1.9...@side/commitlint-config@0.1.10) (2021-12-29)
 
 ### Bug Fixes

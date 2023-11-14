@@ -63,7 +63,7 @@ module.exports = {
           'test.{js,jsx}', // repos with a single test file
           'test-*.{js,jsx}', // repos with multiple top-level test files
           '**/*{.,_}{test,spec}.{js,jsx}', // tests where the extension or filename suffix denotes that it is a test
-          '**/jest.config.js', // jest config
+          '**/jest.config.{js,ts}', // jest config
           '**/jest.setup.js', // jest setup
           '**/vue.config.js', // vue-cli config
           '**/webpack.config.js', // webpack config
@@ -84,6 +84,7 @@ module.exports = {
           '**/babel.config.js',
           '**/*.stories.{js,jsx}',
           '**/.eslintrc.js',
+          '**/lint-staged.config.js', // lint-staged config
           //
           // Support for TypeScript extensions
           'test.{ts,tsx}', // repos with a single test file
@@ -107,6 +108,25 @@ module.exports = {
             message:
               'Do not import from package.json; use environment variables instead.',
           },
+        ],
+      },
+    ],
+    /**
+     * Handling for firebase-admin >10 module imports [PLAT-1324]
+     * NOTE: This is added since eslint-plugin-import does not support exports in package.json
+     * which is what firebase-admin v10 uses.
+     * @see https://github.com/import-js/eslint-plugin-import/issues/1810
+     */
+    'import/no-unresolved': [
+      2,
+      {
+        ignore: [
+          'firebase-admin/app',
+          'firebase-admin/auth',
+          'firebase-admin/database',
+          'firebase-admin/firestore',
+          'firebase-admin/functions',
+          'firebase-admin/storage',
         ],
       },
     ],

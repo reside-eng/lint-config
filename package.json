@@ -9,37 +9,28 @@
     "url": "https://github.com/reside-eng/lint-config.git"
   },
   "engines": {
-    "node": ">=16.13.0"
+    "node": ">=18"
   },
   "scripts": {
-    "prepare": "husky install",
-    "clean": "lerna clean",
-    "lint": "eslint '**/*.js' .eslintrc.js --ignore-pattern='!.eslintrc.js'",
-    "test": "node packages/commitlint-config && node packages/eslint-config-base && node packages/eslint-config-base/core && node packages/eslint-config-react && node packages/eslint-config-react/hooks && node packages/eslint-config-cypress && node packages/eslint-config-jest",
+    "prepare": "if [ -d \".git\" ]; then husky install; else echo Skipping Husky install; fi",
+    "test": "lerna run test$@",
+    "test:cov": "lerna run test:cov",
+    "lint": "lerna run lint",
+    "build": "lerna run build",
     "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "types:check": "lerna run types:check"
   },
-  "lint-staged": {
-    "*.js": [
-      "eslint --fix"
-    ],
-    "*.{js,json,md,yaml,yml}": [
-      "prettier --write"
-    ]
-  },
+  "prettier": "@side/prettier-config",
   "devDependencies": {
-    "@commitlint/cli": "16.3.0",
-    "@commitlint/config-conventional": "16.2.4",
-    "eslint": "8.17.0",
-    "eslint-config-airbnb-base": "15.0.0",
-    "eslint-config-prettier": "8.5.0",
-    "eslint-plugin-import": "2.26.0",
-    "husky": "7.0.4",
-    "lerna": "4.0.0",
-    "lint-staged": "12.5.0",
-    "prettier": "2.7.0"
+    "@commitlint/cli": "17.8.1",
+    "@commitlint/config-conventional": "17.8.1",
+    "husky": "8.0.3",
+    "lerna": "7.4.2",
+    "prettier": "3.0.2"
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "packageManager": "yarn@4.0.0"
 }

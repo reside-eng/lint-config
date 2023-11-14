@@ -1,24 +1,23 @@
 {
-  "name": "@side/eslint-config-cypress",
+  "name": "@side/lint-staged-config",
+  "description": "Standard lint staged config for Side projects",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "http://github.com/reside-eng/lint-config.git",
-    "directory": "packages/eslint-config-cypress"
+    "directory": "packages/lint-staged-config"
   },
   "bugs": {
     "url": "http://github.com/reside-eng/lint-config/issues"
   },
+  "main": "index.js",
   "scripts": {
     "test": "node index.js"
   },
-  "dependencies": {
-    "eslint-plugin-chai-friendly": "^0.7.2",
-    "eslint-plugin-cypress": "^2.12.1"
-  },
   "peerDependencies": {
-    "eslint": ">=7.14.0"
+    "eslint": ">=7.14.0",
+    "lint-staged": ">=13.0.0",
+    "prettier": ">=2.7.0"
   }
 }
