@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.3.1](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-next@2.3.0...@side/eslint-config-next@2.3.1) (2023-11-28)
+
+### Bug Fixes
+
+- **next:** allow underscore dangle for typename ([#583](https://github.com/reside-eng/lint-config/issues/583)) ([14408bc](https://github.com/reside-eng/lint-config/commit/14408bc76fba22eb1cdb166005a470c97db8d62b))
+
 # [2.3.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-next@2.2.0...@side/eslint-config-next@2.3.0) (2023-11-14)
 
 ### Features
