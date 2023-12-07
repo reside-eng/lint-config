@@ -13,6 +13,7 @@ module.exports = {
             caughtErrorsIgnorePattern: '^_',
           },
         ],
+        '@typescript-eslint/consistent-type-definitions': 'off',
       },
     },
   ],
