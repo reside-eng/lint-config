@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-typescript@1.2.0...@side/eslint-config-typescript@1.3.0) (2023-12-07)
+
+### Features
+
+- **eslint-typescript:** turn off types/interfaces rule ([#594](https://github.com/reside-eng/lint-config/issues/594)) ([09ae748](https://github.com/reside-eng/lint-config/commit/09ae74877ff7ad192190994c5316fb98f6fe3dd4))
+
 # [1.2.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-typescript@1.1.0...@side/eslint-config-typescript@1.2.0) (2023-10-24)
 
 ### Features
