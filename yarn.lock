@@ -2055,7 +2055,7 @@ __metadata:
     "@side/eslint-config-base": "npm:1.0.0"
     "@side/eslint-config-typescript": "npm:1.2.0"
     "@tsconfig/node-lts-strictest-esm": "npm:18.12.1"
-    "@types/node": "npm:18.19.2"
+    "@types/node": "npm:18.19.3"
     boxen: "npm:7.0.2"
     chalk: "npm:5.2.0"
     del-cli: "npm:5.1.0"
@@ -2300,12 +2300,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.19.2":
-  version: 18.19.2
-  resolution: "@types/node@npm:18.19.2"
+"@types/node@npm:18.19.3":
+  version: 18.19.3
+  resolution: "@types/node@npm:18.19.3"
   dependencies:
     undici-types: "npm:~5.26.4"
-  checksum: ba54b735a8ab8692fa92b5658664dd470ae284e8dc36505d5414ae94fd44d0a7e9a2956c247a5868932dd69920a833867971e05bfb41a5aa32c89e4e7ef304f5
+  checksum: 3ed943d06e9dff70a3da793f794f1192cd93b0ababdb9f07425a05680f17cfce649cbc46734265f6fbe52fd9f277496d3a4da26c013f1193a0345f2420ea6cd0
   languageName: node
   linkType: hard
 
