@@ -3,5 +3,12 @@
   "extends": [
     "github>reside-eng/renovate-config:library",
     ":reviewer(team:platform-tools)"
+  ],
+  "packageRules": [
+    {
+      "description": "Prevent update to v8 of learna until CI supports [PLAT-6675]",
+      "matchPackageNames": ["lerna"],
+      "allowedVersions": "^7"
+    }
   ]
 }
