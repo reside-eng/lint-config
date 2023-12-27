@@ -101,7 +101,7 @@ module.exports = {
     'import/no-default-export': 'error',
     /**
      * Restrict import patterns
-     * NOTE: Condig does not apply to UIs due to override in packages/eslint-config-react
+     * NOTE: Config does not apply to UIs due to override in packages/eslint-config-react
      */
     'no-restricted-imports': [
       'error',
