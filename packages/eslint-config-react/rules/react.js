@@ -8,15 +8,6 @@ module.exports = {
         eventHandlerPropPrefix: 'on',
       },
     ],
-    'react/require-default-props': [
-      'error',
-      {
-        // TODO: Modify this once support for checking functional component's
-        // arguments for default params is supported.
-        // https://github.com/yannickcr/eslint-plugin-react/issues/2396
-        ignoreFunctionalComponents: true,
-      },
-    ],
     // Next.JS does not require JSX to be in scope
     'react/react-in-jsx-scope': 'off',
     // We're okay with this but use it sparingly and only when this is intentional
@@ -26,5 +17,6 @@ module.exports = {
     // new rule to cause issues: https://github.com/airbnb/javascript/blame/52e710c14ec0197cfefe131061e1fe41c966f93b/packages/eslint-config-airbnb/rules/react.js#L528-L531
     // discussion for context: https://top-agent.slack.com/archives/C0XU3K155/p1638225804365600?thread_ts=1638204245.354900&cid=C0XU3K155
     'react/function-component-definition': 'off',
+    'react/require-default-props': 'off',
   },
 };

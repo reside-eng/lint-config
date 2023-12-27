@@ -7,18 +7,4 @@ module.exports = {
     './rules/react',
     './rules/typescript-eslint',
   ],
-  overrides: [
-    {
-      files: ['**/*.ts?(x)'],
-      extends: [
-        'plugin:@typescript-eslint/recommended',
-        'plugin:@typescript-eslint/recommended-requiring-type-checking',
-      ],
-      parser: '@typescript-eslint/parser',
-      parserOptions: {
-        tsconfigRootDir: process.cwd(),
-        project: ['./tsconfig.json'],
-      },
-    },
-  ],
 };

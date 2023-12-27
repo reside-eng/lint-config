@@ -1,64 +1,24 @@
 name: Verify
 
-on: [pull_request]
+on:
+  pull_request:
+  merge_group:
+    types: [checks_requested]
 
-env:
-  NODE_VERSION: 16.x
+concurrency:
+  group: verify-${{ github.head_ref }}
+  cancel-in-progress: true
 
 jobs:
-  build:
-    name: build
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v3.0.2
-
-      - name: Use Node.js ${{ env.NODE_VERSION }}
-        uses: actions/setup-node@v3.4.1
-        with:
-          node-version: ${{ env.NODE_VERSION }}
-          cache: 'yarn'
-
-      - name: Configure package manager
-        run: |
-          echo Configuring NPM_READ_TOKEN globally for .npmrc
-          npm config set '//registry.npmjs.org/:_authToken' ${{ env.NPM_TOKEN }}
-          npm whoami
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_READ_TOKEN }}
-
-      - name: Install dependencies
-        run: yarn install --frozen-lockfile
-
-      - name: Lint
-        run: yarn lint
-
-      - name: Test
-        run: yarn test
-
-      - name: Archive workspace on failure
-        if: failure()
-        run: zip -r workspace-files ./
-
-      - uses: actions/upload-artifact@v3.1.0
-        if: failure()
-        with:
-          name: workspace
-          path: workspace-files.zip
-
-  notification:
-    if: always()
-    name: notification
-    needs: [build]
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Code
-        uses: actions/checkout@v3.0.2
-
-      - uses: technote-space/workflow-conclusion-action@v3.0.1
-
-      - uses: reside-eng/workflow-status-notification-action@v1.0.7
-        with:
-          current-status: ${{ env.WORKFLOW_CONCLUSION }}
-          slack-webhook: ${{ secrets.SLACK_WEBHOOK_PLATFORM_PROD }}
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+  verify:
+    name: Reusable verify workflow
+    uses: reside-eng/workflow-templates-library/.github/workflows/verify_library.yml@v1
+    with:
+      NODE_VERSION: 18.x
+      PACKAGE_MANAGER: yarn-berry
+      SLACK_NOTIFICATION_SECRET: SLACK_WEBHOOK_PLATFORM_PROD
+      ENABLE_FORMAT_CHECK: true
+      ENABLE_TYPES_CHECK: true
+      IS_MONOREPO: true
+      ENABLE_COVERAGE: false
+    secrets: inherit
