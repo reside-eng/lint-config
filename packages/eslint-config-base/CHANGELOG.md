@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-base@1.0.0...@side/eslint-config-base@2.0.0) (2023-12-27)
+
+- feat(base)!: add restricted import rule for lodash (#410) ([c8087c6](https://github.com/reside-eng/lint-config/commit/c8087c625f79fd38bdaa596094477a0d434327ad)), closes [#410](https://github.com/reside-eng/lint-config/issues/410)
+
+### BREAKING CHANGES
+
+- requires change of any top level imports of lodash or date-fns to be switched to direct import (only within services - UIs unaffected)
+
 # [1.0.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-base@0.17.0...@side/eslint-config-base@1.0.0) (2023-03-29)
 
 **Note:** Version bump only for package @side/eslint-config-base
