@@ -106,48 +106,31 @@ module.exports = {
     'no-restricted-imports': [
       'error',
       {
+        paths: [
+          {
+            name: 'lodash',
+            // TODO [PLAT-2970]: Remove eslint error for top level imports once ESM is supported in services
+            message:
+              'Import [module] from lodash/[module] or lodash.* package instead (until ESM is supported in services)',
+          },
+          {
+            name: 'date-fns',
+            // TODO [PLAT-2970]: Remove eslint error for top level imports once ESM is supported in services
+            message:
+              'Import [module] from date-fns/[module] package instead (until ESM is supported in services)',
+          },
+          {
+            name: 'faker',
+            message:
+              'Please use @faker-js/faker instead (faker is no longer supported).',
+          },
+        ],
         patterns: [
           {
             group: ['*/package.json'],
             message:
               'Do not import from package.json; use environment variables instead.',
           },
-          {
-            group: ['faker', '!@faker-js/faker'],
-            message:
-              'Please use @faker-js/faker instead (faker is no longer supported).',
-          },
-          {
-            group: ['lodash', '!lodash/*', '!lodash.*'],
-            // TODO [PLAT-2970]: Remove eslint error for top level imports once ESM is supported
-            message:
-              'Please use direct imports (i.e. lodash/*) or separate lodash.* packages until services support ESM',
-          },
-          {
-            group: ['date-fns', '!date-fns/*'],
-            // TODO [PLAT-2970]: Remove eslint error for top level imports once ESM is supported
-            message:
-              'Please use direct imports (i.e. date-fns/*) until services support ESM',
-          },
-        ],
-      },
-    ],
-    /**
-     * Handling for firebase-admin >10 module imports [PLAT-1324]
-     * NOTE: This is added since eslint-plugin-import does not support exports in package.json
-     * which is what firebase-admin v10 uses.
-     * @see https://github.com/import-js/eslint-plugin-import/issues/1810
-     */
-    'import/no-unresolved': [
-      2,
-      {
-        ignore: [
-          'firebase-admin/app',
-          'firebase-admin/auth',
-          'firebase-admin/database',
-          'firebase-admin/firestore',
-          'firebase-admin/functions',
-          'firebase-admin/storage',
         ],
       },
     ],
