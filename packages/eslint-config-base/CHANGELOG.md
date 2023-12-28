@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.1](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-base@2.0.0...@side/eslint-config-base@2.0.1) (2023-12-28)
+
+### Bug Fixes
+
+- **base:** prevent false negative on restricted imports ([#598](https://github.com/reside-eng/lint-config/issues/598)) ([8fb8df8](https://github.com/reside-eng/lint-config/commit/8fb8df83f470f647a216dc4e5ded4527313d3762))
+
 # [2.0.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-base@1.0.0...@side/eslint-config-base@2.0.0) (2023-12-27)
 
 - feat(base)!: add restricted import rule for lodash (#410) ([c8087c6](https://github.com/reside-eng/lint-config/commit/c8087c625f79fd38bdaa596094477a0d434327ad)), closes [#410](https://github.com/reside-eng/lint-config/issues/410)
