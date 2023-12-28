@@ -113,18 +113,18 @@ module.exports = {
               'Do not import from package.json; use environment variables instead.',
           },
           {
-            group: ['faker'],
+            group: ['faker', '!@faker-js/faker'],
             message:
               'Please use @faker-js/faker instead (faker is no longer supported).',
           },
           {
-            group: ['lodash'],
+            group: ['lodash', '!lodash/*', '!lodash.*'],
             // TODO [PLAT-2970]: Remove eslint error for top level imports once ESM is supported
             message:
-              'Please use direct imports (i.e. lodash/*) until services support ESM',
+              'Please use direct imports (i.e. lodash/*) or separate lodash.* packages until services support ESM',
           },
           {
-            group: ['date-fns'],
+            group: ['date-fns', '!date-fns/*'],
             // TODO [PLAT-2970]: Remove eslint error for top level imports once ESM is supported
             message:
               'Please use direct imports (i.e. date-fns/*) until services support ESM',
