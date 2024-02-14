@@ -12,7 +12,7 @@
     "node": ">=18"
   },
   "scripts": {
-    "prepare": "if [ -d \".git\" ]; then husky install; else echo Skipping Husky install; fi",
+    "prepare": "if [ -d \".git\" ]; then husky; else echo Skipping Husky install; fi",
     "test": "lerna run test$@",
     "test:cov": "lerna run test:cov",
     "lint": "lerna run lint",
