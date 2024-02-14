@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.3](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-typescript@2.0.2...@side/eslint-config-typescript@2.0.3) (2024-02-14)
+
+### Bug Fixes
+
+- **deps:** update typescript-eslint monorepo to v7 (major) ([#626](https://github.com/reside-eng/lint-config/issues/626)) ([4c48223](https://github.com/reside-eng/lint-config/commit/4c4822309cecd55a36eac43966eeca00bbd624ac))
+
 ## [2.0.2](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-typescript@2.0.1...@side/eslint-config-typescript@2.0.2) (2024-02-14)
 
 ### Bug Fixes
