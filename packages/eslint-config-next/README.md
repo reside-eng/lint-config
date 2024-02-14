@@ -17,7 +17,7 @@ Once all peer dependencies have been added to your project, add this configurati
 ```jsonc
 // .eslintrc
 {
-  "extends": ["@side/next"]
+  "extends": ["@side/next"],
 }
 ```
 

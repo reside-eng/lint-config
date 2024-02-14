@@ -17,7 +17,7 @@ Then, update package.json to instruct Prettier to use the shared configuration.
 ```jsonc
 // package.json
 {
-  "prettier": "@side/prettier-config"
+  "prettier": "@side/prettier-config",
 }
 ```
 
@@ -37,8 +37,8 @@ Then, include it in your ESLint configuration file.
   "extends": [
     "foo",
     "bar",
-    "prettier" // `prettier` should always be last in `extends`
-  ]
+    "prettier", // `prettier` should always be last in `extends`
+  ],
 }
 ```
 
@@ -51,8 +51,8 @@ If using lint-staged, update its configuration to run Prettier **_after_** ESLin
 {
   "lint-staged": {
     "*.{js,ts}": ["eslint --fix"],
-    "*.{js,jsx,ts,tsx,yaml,yml,json,html,css}": ["prettier --write"]
-  }
+    "*.{js,jsx,ts,tsx,yaml,yml,json,html,css}": ["prettier --write"],
+  },
 }
 ```
 
@@ -65,8 +65,8 @@ It can be helpful to have scripts that apply and validate formatting with Pretti
 {
   "scripts": {
     "format": "prettier --write .",
-    "format:check": "prettier --check ."
-  }
+    "format:check": "prettier --check .",
+  },
 }
 ```
 
