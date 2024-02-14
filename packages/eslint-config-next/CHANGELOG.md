@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.3.12](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-next@2.3.11...@side/eslint-config-next@2.3.12) (2024-02-14)
+
+**Note:** Version bump only for package @side/eslint-config-next
+
 ## [2.3.11](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-next@2.3.10...@side/eslint-config-next@2.3.11) (2024-02-14)
 
 ### Bug Fixes
