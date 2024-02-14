@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.30](https://github.com/reside-eng/lint-config/compare/@side/jest-config-next@1.1.29...@side/jest-config-next@1.1.30) (2024-02-14)
+
+### Bug Fixes
+
+- **deps:** update nextjs monorepo to v14 (major) ([#625](https://github.com/reside-eng/lint-config/issues/625)) ([1d527e4](https://github.com/reside-eng/lint-config/commit/1d527e4c4700119e79921a4bae73f2852cb107e9))
+
 ## [1.1.29](https://github.com/reside-eng/lint-config/compare/@side/jest-config-next@1.1.28...@side/jest-config-next@1.1.29) (2024-02-14)
 
 **Note:** Version bump only for package @side/jest-config-next
