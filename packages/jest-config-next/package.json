@@ -40,7 +40,7 @@
   },
   "peerDependencies": {
     "jest": "29",
-    "next": "13"
+    "next": "13 || 14"
   },
   "dependencies": {
     "@jest/types": "29.6.3",
