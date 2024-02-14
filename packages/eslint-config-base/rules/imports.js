@@ -1,6 +1,6 @@
 const { join } = require('path');
 const fs = require('fs');
-const glob = require('glob');
+const { glob } = require('glob');
 
 // eslint-disable-next-line import/no-dynamic-require
 const packageJson = require(join(process.cwd(), 'package.json'));
