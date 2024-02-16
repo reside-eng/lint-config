@@ -64,10 +64,12 @@ module.exports = {
           'test-*.{js,jsx}', // repos with multiple top-level test files
           '**/*{.,_}{test,spec}.{js,jsx}', // tests where the extension or filename suffix denotes that it is a test
           '**/jest.config.{js,ts}', // jest config
-          '**/jest.setup.js', // jest setup
+          '**/jest.setup.{js,ts,mjs,cjs}', // jest setup
+          '**/vitest.setup.{js,ts,mjs,cjs}', // Vitest setup
+          '**/vitest.config.{js,ts,mjs,cjs}', // Vitest config
           '**/vue.config.js', // vue-cli config
-          '**/webpack.config.js', // webpack config
-          '**/webpack.config.*.js', // webpack config
+          '**/webpack.config.{js,ts,mjs,cjs}', // webpack config
+          '**/webpack.config.*.{js,ts,mjs,cjs}', // webpack config
           '**/rollup.config.js', // rollup config
           '**/rollup.config.*.js', // rollup config
           '**/gulpfile.js', // gulp config
@@ -83,8 +85,9 @@ module.exports = {
           '**/cypress/**',
           '**/babel.config.js',
           '**/*.stories.{js,jsx}',
-          '**/.eslintrc.js',
-          '**/lint-staged.config.js', // lint-staged config
+          '**/.eslintrc.{js,mjs,cjs}',
+          '**/lint-staged.config.{js,mjs,cjs}', // lint-staged config
+          '**/commitlint.config.{ts,js,mjs,cjs}', // commitlint config
           //
           // Support for TypeScript extensions
           'test.{ts,tsx}', // repos with a single test file
@@ -139,7 +142,7 @@ module.exports = {
     ...getNoExtraneousDepsOverrides(),
     // This override enables default exports for files that require them.
     {
-      files: ['jest.config.{js,mjs,ts}'],
+      files: ['jest.config.{js,ts,mjs,cjs}', 'vitest.config.{js,ts,mjs,cjs}'],
       rules: {
         'import/no-default-export': 'off',
       },
