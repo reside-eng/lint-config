@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-base@2.0.3...@side/eslint-config-base@2.1.0) (2024-02-16)
+
+### Features
+
+- **base:** add cjs/mjs extensions for ESM support ([#631](https://github.com/reside-eng/lint-config/issues/631)) ([4e3ff4b](https://github.com/reside-eng/lint-config/commit/4e3ff4b628bd7bd3e2b1731693cc7361eaedb046))
+
 ## [2.0.3](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-base@2.0.2...@side/eslint-config-base@2.0.3) (2024-02-14)
 
 ### Bug Fixes
