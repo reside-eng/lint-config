@@ -2040,7 +2040,6 @@ __metadata:
     "@jest/types": "npm:29.6.3"
     "@side/eslint-config-base": "npm:2.1.0"
     "@side/eslint-config-typescript": "npm:2.0.3"
-    "@tsconfig/node-lts-strictest-esm": "npm:18.12.1"
     "@types/node": "npm:18.19.26"
     boxen: "npm:7.1.1"
     chalk: "npm:5.3.0"
@@ -2147,13 +2146,6 @@ __metadata:
   version: 2.0.0
   resolution: "@tootallnate/once@npm:2.0.0"
   checksum: 10c0/073bfa548026b1ebaf1659eb8961e526be22fa77139b10d60e712f46d2f0f05f4e6c8bec62a087d41088ee9e29faa7f54838568e475ab2f776171003c3920858
-  languageName: node
-  linkType: hard
-
-"@tsconfig/node-lts-strictest-esm@npm:18.12.1":
-  version: 18.12.1
-  resolution: "@tsconfig/node-lts-strictest-esm@npm:18.12.1"
-  checksum: 10c0/f6fa52557ef42731f6df0c2575eb5a093d61098d9ae31bf9152d5f43db13d4f6a764076d4645a9fe0f0e4ad2b0c804bee6a8975f2c4521a2020a3072f9a39eb2
   languageName: node
   linkType: hard
 
