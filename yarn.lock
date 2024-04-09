@@ -2028,7 +2028,7 @@ __metadata:
     "@jest/types": "npm:29.6.3"
     "@side/eslint-config-base": "npm:2.1.0"
     "@side/eslint-config-typescript": "npm:2.0.4"
-    "@types/node": "npm:18.19.30"
+    "@types/node": "npm:18.19.31"
     boxen: "npm:7.1.1"
     chalk: "npm:5.3.0"
     del-cli: "npm:5.1.0"
@@ -2275,12 +2275,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.19.30":
-  version: 18.19.30
-  resolution: "@types/node@npm:18.19.30"
+"@types/node@npm:18.19.31":
+  version: 18.19.31
+  resolution: "@types/node@npm:18.19.31"
   dependencies:
     undici-types: "npm:~5.26.4"
-  checksum: 10c0/a4416fd6f3e93989ac8aa7e19bb1a199266285945ba6925c3b8d3fa8c1d9448ce979f773bde65463335a78c393cd7dafc0d53101ab24c97cee425fb71cff3589
+  checksum: 10c0/bfebae8389220c0188492c82eaf328f4ba15e6e9b4abee33d6bf36d3b13f188c2f53eb695d427feb882fff09834f467405e2ed9be6aeb6ad4705509822d2ea08
   languageName: node
   linkType: hard
 
