@@ -461,7 +461,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/config-conventional@npm:19.1.0, @commitlint/config-conventional@npm:^19.0.0":
+"@commitlint/config-conventional@npm:19.2.2":
+  version: 19.2.2
+  resolution: "@commitlint/config-conventional@npm:19.2.2"
+  dependencies:
+    "@commitlint/types": "npm:^19.0.3"
+    conventional-changelog-conventionalcommits: "npm:^7.0.2"
+  checksum: 10c0/2f2a07ee318ac42ffda488521bd84f28268a6d2ea10b332abcad6106559d8a64a765cc58ddea106fd67fce376228cb24059000a584f4986e0e8f972cedd85442
+  languageName: node
+  linkType: hard
+
+"@commitlint/config-conventional@npm:^19.0.0":
   version: 19.1.0
   resolution: "@commitlint/config-conventional@npm:19.1.0"
   dependencies:
@@ -7419,7 +7429,7 @@ __metadata:
   resolution: "lint-config@workspace:."
   dependencies:
     "@commitlint/cli": "npm:19.2.2"
-    "@commitlint/config-conventional": "npm:19.1.0"
+    "@commitlint/config-conventional": "npm:19.2.2"
     husky: "npm:9.0.11"
     lerna: "npm:7.4.2"
     prettier: "npm:3.2.5"
