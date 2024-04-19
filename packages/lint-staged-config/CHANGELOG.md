@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1](https://github.com/reside-eng/lint-config/compare/@side/lint-staged-config@1.0.0...@side/lint-staged-config@1.0.1) (2024-04-19)
+
+### Bug Fixes
+
+- **lint-staged-config:** skip prettier on lint ignored files ([#657](https://github.com/reside-eng/lint-config/issues/657)) ([f000b0e](https://github.com/reside-eng/lint-config/commit/f000b0e6bd908f8d7573bdc0e0289ffa04a02af1))
+
 # [1.0.0](https://github.com/reside-eng/lint-config/compare/@side/lint-staged-config@0.2.0...@side/lint-staged-config@1.0.0) (2023-03-29)
 
 **Note:** Version bump only for package @side/lint-staged-config
