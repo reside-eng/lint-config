@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.2](https://github.com/reside-eng/lint-config/compare/@side/lint-staged-config@1.0.1...@side/lint-staged-config@1.0.2) (2024-04-19)
+
+### Bug Fixes
+
+- **lint-staged-config:** use ignore-path instead of custom files list ([#658](https://github.com/reside-eng/lint-config/issues/658)) ([c5b7b7b](https://github.com/reside-eng/lint-config/commit/c5b7b7b2702533bf42b09e4ae8c4849e67dc5250))
+
 ## [1.0.1](https://github.com/reside-eng/lint-config/compare/@side/lint-staged-config@1.0.0...@side/lint-staged-config@1.0.1) (2024-04-19)
 
 ### Bug Fixes
