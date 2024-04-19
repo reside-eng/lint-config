@@ -14,10 +14,10 @@ module.exports = {
     const filesToLint = await removeIgnoredFiles(files);
     return [
       `eslint --max-warnings=0 --fix ${filesToLint}`,
-      `prettier --write ${files.join(' ')}`,
+      `prettier --write ${filesToLint}`,
     ];
   },
   '*.{yaml,yml,json,md,html,css}': (files) => [
-    `prettier --write ${files.join(' ')}`,
+    `prettier --write ${filesToLint}`,
   ],
 };
