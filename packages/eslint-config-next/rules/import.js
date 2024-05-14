@@ -13,6 +13,13 @@ module.exports = {
         'import/no-extraneous-dependencies': 0,
       },
     },
+    // Next.js default exports
+    {
+      files: ['app/**', 'src/pages/**', 'pages/**', 'next.config.{js,mjs}'],
+      rules: {
+        'import/no-default-export': 'off',
+      },
+    },
     {
       files: ['codegen.ts'],
       rules: {

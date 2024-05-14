@@ -8,16 +8,6 @@ module.exports = {
       files: [
         // Storybook stories
         '**/*.stories.{jsx,tsx}',
-
-        // Next.js app router
-        'app/**',
-
-        // Next.js pages router
-        'src/pages/**',
-        'pages/**',
-
-        // Next.js config
-        'next.config.{js,mjs}',
       ],
       rules: {
         'import/no-default-export': 'off',
