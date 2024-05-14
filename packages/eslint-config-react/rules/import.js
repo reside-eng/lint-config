@@ -9,13 +9,12 @@ module.exports = {
         // Storybook stories
         '**/*.stories.{jsx,tsx}',
 
-        // Next.js pages
-        'src/pages/**/*.{jsx,tsx}',
-        'pages/**/*.{jsx,tsx}',
+        // Next.js app router
+        'app/**',
 
-        // Next.js API routes
-        'src/pages/api/**/*.{js,ts}',
-        'pages/api/**/*.{js,ts}',
+        // Next.js pages router
+        'src/pages/**',
+        'pages/**',
 
         // Next.js config
         'next.config.{js,mjs}',
