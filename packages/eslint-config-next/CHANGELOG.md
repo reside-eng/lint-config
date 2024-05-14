@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.3.15](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-next@2.3.14...@side/eslint-config-next@2.3.15) (2024-05-14)
+
+### Bug Fixes
+
+- allow default exports in app directory ([#665](https://github.com/reside-eng/lint-config/issues/665)) ([5301cce](https://github.com/reside-eng/lint-config/commit/5301cce52b35c69497fa6e40ebce0b297bf68952))
+
 ## [2.3.14](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-next@2.3.13...@side/eslint-config-next@2.3.14) (2024-03-20)
 
 ### Bug Fixes

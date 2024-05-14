@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.6](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-react@1.0.5...@side/eslint-config-react@1.0.6) (2024-05-14)
+
+### Bug Fixes
+
+- allow default exports in app directory ([#665](https://github.com/reside-eng/lint-config/issues/665)) ([5301cce](https://github.com/reside-eng/lint-config/commit/5301cce52b35c69497fa6e40ebce0b297bf68952))
+
 ## [1.0.5](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-react@1.0.4...@side/eslint-config-react@1.0.5) (2024-02-16)
 
 **Note:** Version bump only for package @side/eslint-config-react
