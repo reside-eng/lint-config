@@ -23,7 +23,7 @@ module.exports = {
         mjs: 'never',
         ts: 'never',
         tsx: 'never',
-        cjs: 'never'
+        cjs: 'never',
       },
     ],
   },
