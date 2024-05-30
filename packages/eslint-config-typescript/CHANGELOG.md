@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.6](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-typescript@2.0.5...@side/eslint-config-typescript@2.0.6) (2024-05-30)
+
+### Bug Fixes
+
+- include mts and cts in import/extensions ([#667](https://github.com/reside-eng/lint-config/issues/667)) ([6e439a3](https://github.com/reside-eng/lint-config/commit/6e439a3b01dc981a2d6d56c1461794b4917e8beb))
+
 ## [2.0.5](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-typescript@2.0.4...@side/eslint-config-typescript@2.0.5) (2024-05-30)
 
 ### Bug Fixes
