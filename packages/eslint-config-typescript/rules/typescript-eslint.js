@@ -31,6 +31,9 @@ module.exports = {
         ],
         // NOTE: prefer-top-level causes duplicate imports for types
         'import/no-duplicates': ['error', { 'prefer-inline': true }],
+        // Disable jsdoc type arguments since types are defined in typescript
+        'jsdoc/require-returns-type': 0,
+        'jsdoc/require-param-type': 0,
       },
     },
   ],
