@@ -142,7 +142,13 @@ module.exports = {
     ...getNoExtraneousDepsOverrides(),
     // This override enables default exports for files that require them.
     {
-      files: ['jest.config.{js,ts,mjs,cjs}', 'vitest.config.{js,ts,mjs,cjs}'],
+      files: [
+        'jest.config.{js,ts,mjs,cjs}',
+        'vitest.config.{js,ts,mjs,cjs}',
+        'commitlint.config.{js,ts,mjs,cjs}',
+        'lint-staged.config.{js,ts,mjs,cjs}',
+        'release.config.{js,ts,mjs,cjs}',
+      ],
       rules: {
         'import/no-default-export': 'off',
       },
