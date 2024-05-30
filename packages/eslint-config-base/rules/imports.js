@@ -153,5 +153,17 @@ module.exports = {
         'import/no-default-export': 'off',
       },
     },
+    // Support vitest nested imports within vitest.config
+    {
+      files: ['./vitest.config.ts'],
+      rules: {
+        'import/no-unresolved': [
+          'error',
+          {
+            ignore: ['^vitest/.+'],
+          },
+        ],
+      },
+    },
   ],
 };
