@@ -3,10 +3,10 @@ module.exports = {
     'import/parsers': {
       [require.resolve('@typescript-eslint/parser')]: ['.ts', '.tsx', '.d.ts'],
     },
-    'import/extensions': ['.js', '.jsx', '.mjs', '.ts', '.tsx'],
+    'import/extensions': ['.js', '.jsx', '.mjs', '.ts', '.tsx', '.cjs'],
     'import/resolver': {
       node: {
-        extensions: ['.js', '.jsx', '.mjs', '.json', '.ts', '.tsx'],
+        extensions: ['.js', '.jsx', '.mjs', '.json', '.ts', '.tsx', '.cjs'],
       },
       typescript: {
         alwaysTryTypes: true,
@@ -23,6 +23,7 @@ module.exports = {
         mjs: 'never',
         ts: 'never',
         tsx: 'never',
+        cjs: 'never',
       },
     ],
   },
