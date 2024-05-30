@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.1.1](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-base@2.1.0...@side/eslint-config-base@2.1.1) (2024-05-30)
+
+### Bug Fixes
+
+- support default export in config files for ESM repos ([#666](https://github.com/reside-eng/lint-config/issues/666)) ([c10aff3](https://github.com/reside-eng/lint-config/commit/c10aff3c331cbff35f7d28dbf67114f96867a0a0))
+
 # [2.1.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-base@2.0.3...@side/eslint-config-base@2.1.0) (2024-02-16)
 
 ### Features
