@@ -2,6 +2,9 @@
   "name": "@side/lint-staged-config",
   "description": "Standard lint staged config for Side projects",
   "version": "1.0.2",
+  "engines": {
+    "node": ">=20"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",

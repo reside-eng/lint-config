@@ -1,6 +1,9 @@
 {
   "name": "@side/eslint-config-react",
   "version": "1.0.8",
+  "engines": {
+    "node": ">=20"
+  },
   "main": "eslint-config-react.js",
   "files": [
     "eslint-config-react.js",

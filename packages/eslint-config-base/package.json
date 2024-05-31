@@ -1,6 +1,9 @@
 {
   "name": "@side/eslint-config-base",
   "version": "2.1.2",
+  "engines": {
+    "node": ">=20"
+  },
   "main": "eslint-config-base.js",
   "files": [
     "eslint-config-base.js",
@@ -22,7 +25,7 @@
   "dependencies": {
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.25.2",
-    "glob": "^10.0.0"
+    "glob": "^10.4.1"
   },
   "peerDependencies": {
     "eslint": ">=7.14.0"
