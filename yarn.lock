@@ -1923,7 +1923,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@side/eslint-config-base@npm:2.1.2, @side/eslint-config-base@workspace:packages/eslint-config-base":
+"@side/eslint-config-base@npm:2.2.0, @side/eslint-config-base@workspace:packages/eslint-config-base":
   version: 0.0.0-use.local
   resolution: "@side/eslint-config-base@workspace:packages/eslint-config-base"
   dependencies:
@@ -1935,7 +1935,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@side/eslint-config-cypress@npm:1.0.0, @side/eslint-config-cypress@workspace:packages/eslint-config-cypress":
+"@side/eslint-config-cypress@npm:1.1.0, @side/eslint-config-cypress@workspace:packages/eslint-config-cypress":
   version: 0.0.0-use.local
   resolution: "@side/eslint-config-cypress@workspace:packages/eslint-config-cypress"
   dependencies:
@@ -1946,7 +1946,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@side/eslint-config-jest@npm:1.0.0, @side/eslint-config-jest@workspace:packages/eslint-config-jest":
+"@side/eslint-config-jest@npm:1.1.0, @side/eslint-config-jest@workspace:packages/eslint-config-jest":
   version: 0.0.0-use.local
   resolution: "@side/eslint-config-jest@workspace:packages/eslint-config-jest"
   dependencies:
@@ -1969,21 +1969,21 @@ __metadata:
   dependencies:
     "@graphql-eslint/eslint-plugin": "npm:3.20.1"
     "@next/eslint-plugin-next": "npm:14.1.3"
-    "@side/eslint-config-cypress": "npm:1.0.0"
-    "@side/eslint-config-jest": "npm:1.0.0"
-    "@side/eslint-config-react": "npm:1.0.8"
-    "@side/eslint-config-typescript": "npm:2.0.6"
+    "@side/eslint-config-cypress": "npm:1.1.0"
+    "@side/eslint-config-jest": "npm:1.1.0"
+    "@side/eslint-config-react": "npm:1.1.0"
+    "@side/eslint-config-typescript": "npm:2.1.0"
   peerDependencies:
     eslint: ">=7.14.0"
     next: ">=12.0.0"
   languageName: unknown
   linkType: soft
 
-"@side/eslint-config-react@npm:1.0.8, @side/eslint-config-react@workspace:packages/eslint-config-react":
+"@side/eslint-config-react@npm:1.1.0, @side/eslint-config-react@workspace:packages/eslint-config-react":
   version: 0.0.0-use.local
   resolution: "@side/eslint-config-react@workspace:packages/eslint-config-react"
   dependencies:
-    "@side/eslint-config-base": "npm:2.1.2"
+    "@side/eslint-config-base": "npm:2.2.0"
     eslint-config-airbnb: "npm:^19.0.4"
     eslint-plugin-import: "npm:^2.25.3"
     eslint-plugin-jsx-a11y: "npm:^6.5.1"
@@ -1994,7 +1994,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@side/eslint-config-typescript@npm:2.0.6, @side/eslint-config-typescript@workspace:packages/eslint-config-typescript":
+"@side/eslint-config-typescript@npm:2.1.0, @side/eslint-config-typescript@workspace:packages/eslint-config-typescript":
   version: 0.0.0-use.local
   resolution: "@side/eslint-config-typescript@workspace:packages/eslint-config-typescript"
   dependencies:
@@ -2013,8 +2013,8 @@ __metadata:
   resolution: "@side/jest-config-next@workspace:packages/jest-config-next"
   dependencies:
     "@jest/types": "npm:29.6.3"
-    "@side/eslint-config-base": "npm:2.1.2"
-    "@side/eslint-config-typescript": "npm:2.0.6"
+    "@side/eslint-config-base": "npm:2.2.0"
+    "@side/eslint-config-typescript": "npm:2.1.0"
     "@types/node": "npm:20.12.13"
     boxen: "npm:7.1.1"
     chalk: "npm:5.3.0"

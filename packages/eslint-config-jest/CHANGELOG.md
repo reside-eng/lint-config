@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-jest@1.0.0...@side/eslint-config-jest@1.1.0) (2024-05-31)
+
+### Features
+
+- upgrade NodeJS to 20 ([#668](https://github.com/reside-eng/lint-config/issues/668)) ([bc4b8dd](https://github.com/reside-eng/lint-config/commit/bc4b8dd9d0ad450840a93cd5dafe118170115242))
+
 # [1.0.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-jest@0.7.0...@side/eslint-config-jest@1.0.0) (2023-03-29)
 
 **Note:** Version bump only for package @side/eslint-config-jest
