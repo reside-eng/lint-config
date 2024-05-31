@@ -1,6 +1,9 @@
 {
   "name": "@side/eslint-config-jest",
   "version": "1.0.0",
+  "engines": {
+    "node": ">=20"
+  },
   "main": "index.js",
   "license": "UNLICENSED",
   "repository": {

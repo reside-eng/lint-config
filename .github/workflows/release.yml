@@ -20,7 +20,7 @@ jobs:
     uses: reside-eng/workflow-templates-library/.github/workflows/release_library.yml@v1
     with:
       TIMEOUT: 30
-      NODE_VERSION: 18.x
+      NODE_VERSION: 20.x
       PACKAGE_MANAGER: yarn-berry
       SLACK_NOTIFICATION_SECRET: SLACK_WEBHOOK_PLATFORM_PROD
       IS_MONOREPO: true
