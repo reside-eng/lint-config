@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.1](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-jest@1.1.0...@side/eslint-config-jest@1.1.1) (2024-07-09)
+
+### Bug Fixes
+
+- **deps:** update dependency eslint-plugin-jest to v28 ([#682](https://github.com/reside-eng/lint-config/issues/682)) ([5309f77](https://github.com/reside-eng/lint-config/commit/5309f77f7363454819e6a7b0b58a352228413028))
+
 # [1.1.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-jest@1.0.0...@side/eslint-config-jest@1.1.0) (2024-05-31)
 
 ### Features
