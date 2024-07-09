@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.1](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-cypress@1.1.0...@side/eslint-config-cypress@1.1.1) (2024-07-09)
+
+### Bug Fixes
+
+- **deps:** update dependency eslint-plugin-cypress to v3 ([#681](https://github.com/reside-eng/lint-config/issues/681)) ([4c95f3a](https://github.com/reside-eng/lint-config/commit/4c95f3a9e40f92a63c522b8c0728c9c049013e89))
+
 # [1.1.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-cypress@1.0.0...@side/eslint-config-cypress@1.1.0) (2024-05-31)
 
 ### Features
