@@ -18,7 +18,7 @@
     "test": "node index.js"
   },
   "dependencies": {
-    "eslint-plugin-chai-friendly": "^0.7.2",
+    "eslint-plugin-chai-friendly": "^1.0.0",
     "eslint-plugin-cypress": "^3.0.0"
   },
   "peerDependencies": {
