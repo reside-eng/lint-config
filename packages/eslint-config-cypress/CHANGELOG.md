@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.2](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-cypress@1.1.1...@side/eslint-config-cypress@1.1.2) (2024-07-10)
+
+### Bug Fixes
+
+- **deps:** update dependency eslint-plugin-chai-friendly to v1 ([#680](https://github.com/reside-eng/lint-config/issues/680)) ([4c92ab7](https://github.com/reside-eng/lint-config/commit/4c92ab7a49768437240317be69b9983849d7f1e5))
+
 ## [1.1.1](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-cypress@1.1.0...@side/eslint-config-cypress@1.1.1) (2024-07-09)
 
 ### Bug Fixes
