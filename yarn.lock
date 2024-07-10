@@ -1939,7 +1939,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@side/eslint-config-cypress@workspace:packages/eslint-config-cypress"
   dependencies:
-    eslint-plugin-chai-friendly: "npm:^0.7.2"
+    eslint-plugin-chai-friendly: "npm:^1.0.0"
     eslint-plugin-cypress: "npm:^3.0.0"
   peerDependencies:
     eslint: ">=7.14.0"
@@ -4676,12 +4676,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-chai-friendly@npm:^0.7.2":
-  version: 0.7.4
-  resolution: "eslint-plugin-chai-friendly@npm:0.7.4"
+"eslint-plugin-chai-friendly@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "eslint-plugin-chai-friendly@npm:1.0.0"
   peerDependencies:
     eslint: ">=3.0.0"
-  checksum: 10c0/b161e4796de4db304042ea8da1bd467d63d22e89f74e85134c2a6755c49c53021ac2e48003af06d41b7a1b1b5e8cceacca6dc18ffaee02afd79a1c243728b8a7
+  checksum: 10c0/80cded00860a28cd35a6d63ef96148b787aa703c0a9fe788c5d2ec732ba3acea19da9aab09b9337b26a84a97e3e318beadc2897fac14163a87bc870a0b5c3d93
   languageName: node
   linkType: hard
 
