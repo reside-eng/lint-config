@@ -1,8 +1,15 @@
 import type { Config } from '@jest/types';
 
+const reporters: Config.InitialOptions['reporters'] = [];
+if (process.env['CI']) {
+  reporters.push(['github-actions', { silent: false }]);
+}
+reporters.push('default');
+
 export const baseConfig = {
   testEnvironment: 'jsdom',
   coverageReporters: ['lcov', 'json-summary'],
+  reporters,
   fakeTimers: {
     enableGlobally: true,
   },
