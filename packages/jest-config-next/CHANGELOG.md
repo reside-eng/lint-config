@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/reside-eng/lint-config/compare/@side/jest-config-next@1.2.17...@side/jest-config-next@1.3.0) (2024-08-20)
+
+### Features
+
+- add GitHub Actions reporters [PAY-7640] ([#703](https://github.com/reside-eng/lint-config/issues/703)) ([7c25cbe](https://github.com/reside-eng/lint-config/commit/7c25cbeb45af3bbc0d7fa0d29fe5d7ff4cc7b65f))
+
 ## [1.2.17](https://github.com/reside-eng/lint-config/compare/@side/jest-config-next@1.2.16...@side/jest-config-next@1.2.17) (2024-08-19)
 
 **Note:** Version bump only for package @side/jest-config-next
