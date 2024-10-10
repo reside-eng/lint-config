@@ -52,7 +52,7 @@ module.exports = {
         devDependencies: [
           // From Airbnb:
           // https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb-base/rules/imports.js#L71
-          //
+          // Unused removed such as gulp, vue, karma, protractor
           // We want to still allow everything that Airbnb set as default but
           // also want to provide some additional items specific to Side's needs
           'test/**', // tape, common npm pattern
@@ -63,21 +63,14 @@ module.exports = {
           'test.{js,jsx}', // repos with a single test file
           'test-*.{js,jsx}', // repos with multiple top-level test files
           '**/*{.,_}{test,spec}.{js,jsx}', // tests where the extension or filename suffix denotes that it is a test
-          '**/jest.config.{js,ts}', // jest config
-          '**/jest.setup.{js,ts,mjs,cjs}', // jest setup
-          '**/vitest.setup.{js,ts,mjs,cjs}', // Vitest setup
-          '**/vitest.config.{js,ts,mjs,cjs}', // Vitest config
-          '**/vue.config.js', // vue-cli config
-          '**/webpack.config.{js,ts,mjs,cjs}', // webpack config
-          '**/webpack.config.*.{js,ts,mjs,cjs}', // webpack config
-          '**/rollup.config.js', // rollup config
-          '**/rollup.config.*.js', // rollup config
-          '**/gulpfile.js', // gulp config
-          '**/gulpfile.*.js', // gulp config
-          '**/Gruntfile{,.js}', // grunt config
-          '**/protractor.conf.js', // protractor config
-          '**/protractor.conf.*.js', // protractor config
-          '**/karma.conf.js', // karma config
+          '**/jest.config.{js,ts,mjs,cjs,mts,cts}', // jest config
+          '**/jest.setup.{js,ts,mjs,cjs,mts,cts}', // jest setup
+          '**/vitest.setup.{js,ts,mjs,cjs,mts,cts}', // Vitest setup
+          '**/vitest.config.{js,ts,mjs,cjs,mts,cts}', // Vitest config
+          '**/webpack.config.{js,ts,mjs,cjs,mts,cts}', // webpack config
+          '**/webpack.config.*.{js,ts,mjs,cjs,mts,cts}', // webpack config
+          '**/rollup.config.{js,ts,mjs,cjs,mts,cts}', // rollup config
+          '**/rollup.config.*.{js,ts,mjs,cjs,mts,cts}', // rollup config
           //
           // Side's custom addition
           'bin/**',
@@ -143,11 +136,12 @@ module.exports = {
     // This override enables default exports for files that require them.
     {
       files: [
-        'jest.config.{js,ts,mjs,cjs}',
-        'vitest.config.{js,ts,mjs,cjs}',
-        'commitlint.config.{js,ts,mjs,cjs}',
-        'lint-staged.config.{js,ts,mjs,cjs}',
-        'release.config.{js,ts,mjs,cjs}',
+        'jest.config.{js,ts,mjs,cjs,mts,cts}',
+        'vitest.config.{js,ts,mjs,cjs,mts,cts}',
+        'commitlint.config.{js,ts,mjs,cjs,mts,cts}',
+        'lint-staged.config.{js,ts,mjs,cjs,mts,cts}',
+        'release.config.{js,ts,mjs,cjs,mts,cts}',
+        'rollup.config.{js,ts,mjs,cjs,mts,cts}'
       ],
       rules: {
         'import/no-default-export': 'off',
@@ -155,7 +149,7 @@ module.exports = {
     },
     // Support vitest nested imports within vitest.config
     {
-      files: ['./vitest.config.{js,ts,mjs,cjs}'],
+      files: ['./vitest.config.{js,ts,mjs,cjs,mts,cts}'],
       rules: {
         'import/no-unresolved': [
           'error',
