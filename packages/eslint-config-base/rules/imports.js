@@ -141,7 +141,7 @@ module.exports = {
         'commitlint.config.{js,ts,mjs,cjs,mts,cts}',
         'lint-staged.config.{js,ts,mjs,cjs,mts,cts}',
         'release.config.{js,ts,mjs,cjs,mts,cts}',
-        'rollup.config.{js,ts,mjs,cjs,mts,cts}'
+        'rollup.config.{js,ts,mjs,cjs,mts,cts}',
       ],
       rules: {
         'import/no-default-export': 'off',
