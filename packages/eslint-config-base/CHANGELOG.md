@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.3.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-base@2.2.0...@side/eslint-config-base@2.3.0) (2024-10-19)
+
+### Features
+
+- **base:** support mts configs ([#738](https://github.com/reside-eng/lint-config/issues/738)) ([9d4db28](https://github.com/reside-eng/lint-config/commit/9d4db288a1adc4ac7f900ffa9f7eb4baedba8e78))
+
 # [2.2.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-base@2.1.2...@side/eslint-config-base@2.2.0) (2024-05-31)
 
 ### Features

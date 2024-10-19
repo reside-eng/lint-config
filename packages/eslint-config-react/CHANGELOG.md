@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.1](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-react@1.1.0...@side/eslint-config-react@1.1.1) (2024-10-19)
+
+**Note:** Version bump only for package @side/eslint-config-react
+
 # [1.1.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-react@1.0.8...@side/eslint-config-react@1.1.0) (2024-05-31)
 
 ### Features
