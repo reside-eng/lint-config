@@ -15,7 +15,6 @@ jobs:
     uses: reside-eng/workflow-templates-library/.github/workflows/verify_library.yml@v1
     with:
       NODE_VERSION: 20.x
-      PACKAGE_MANAGER: yarn-berry
       SLACK_NOTIFICATION_SECRET: SLACK_WEBHOOK_PLATFORM_PROD
       ENABLE_FORMAT_CHECK: true
       ENABLE_TYPES_CHECK: true

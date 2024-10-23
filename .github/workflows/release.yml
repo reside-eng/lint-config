@@ -21,7 +21,6 @@ jobs:
     with:
       TIMEOUT: 30
       NODE_VERSION: 20.x
-      PACKAGE_MANAGER: yarn-berry
       SLACK_NOTIFICATION_SECRET: SLACK_WEBHOOK_PLATFORM_PROD
       IS_MONOREPO: true
       ENABLE_COVERAGE: false
