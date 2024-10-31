@@ -1992,6 +1992,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@side/eslint-config-pantry@workspace:packages/eslint-config-pantry":
+  version: 0.0.0-use.local
+  resolution: "@side/eslint-config-pantry@workspace:packages/eslint-config-pantry"
+  languageName: unknown
+  linkType: soft
+
 "@side/eslint-config-react@npm:1.1.1, @side/eslint-config-react@workspace:packages/eslint-config-react":
   version: 0.0.0-use.local
   resolution: "@side/eslint-config-react@workspace:packages/eslint-config-react"
