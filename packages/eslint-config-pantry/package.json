@@ -1,0 +1,18 @@
+{
+  "name": "@side/eslint-config-pantry",
+  "description": "Pantry lint configuration for Side projects",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reside-eng/pantry.git",
+    "directory": "lint-config"
+  },
+  "bugs": {
+    "url": "https://github.com/reside-eng/pantry/issues"
+  },
+  "main": "index.json"
+}
