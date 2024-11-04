@@ -21,78 +21,78 @@ module.exports = {
           {
             name: '@mui/material',
             importNames: ['Alert'],
-            message: 'Please use Alert from Pantry instead.'
+            message: 'Please use Alert from Pantry instead.',
           },
           {
             name: '@mui/material',
             importNames: ['AlertColor'],
-            message: 'Please use AlertColor from Pantry instead.'
+            message: 'Please use AlertColor from Pantry instead.',
           },
           {
             name: '@mui/material',
             importNames: ['Chip'],
-            message: 'Please use Chip from Pantry instead.'
+            message: 'Please use Chip from Pantry instead.',
           },
           {
             name: '@mui/material',
             importNames: ['DataGrid'],
-            message: 'Please use DataGrid from Pantry instead.'
+            message: 'Please use DataGrid from Pantry instead.',
           },
           {
             name: '@mui/x-date-pickers/DesktopDatePicker',
             importNames: ['DesktopDatePicker'],
-            message: 'Please use DatePicker from Pantry instead.'
+            message: 'Please use DatePicker from Pantry instead.',
           },
           {
             name: '@mui/material',
             importNames: ['Dialog'],
-            message: 'Please use Dialog from Pantry instead.'
+            message: 'Please use Dialog from Pantry instead.',
           },
           {
             name: '@mui/material',
             importNames: ['DialogActions'],
-            message: 'Please use DialogActions from Pantry instead.'
+            message: 'Please use DialogActions from Pantry instead.',
           },
           {
             name: '@mui/material',
             importNames: ['DialogContent'],
-            message: 'Please use DialogContent from Pantry instead.'
+            message: 'Please use DialogContent from Pantry instead.',
           },
           {
             name: '@mui/material',
             importNames: ['DialogTitle'],
-            message: 'Please use DialogTitle from Pantry instead.'
+            message: 'Please use DialogTitle from Pantry instead.',
           },
           {
             name: '@mui/material',
             importNames: ['FormHelperText'],
-            message: 'Please use HelperText from Pantry instead.'
+            message: 'Please use HelperText from Pantry instead.',
           },
           {
             name: 'react-hot-toast',
             importNames: ['hotToast'],
-            message: 'Please use toast or loadingToast from Pantry instead.'
+            message: 'Please use toast or loadingToast from Pantry instead.',
           },
           {
             name: '@mui/material',
             importNames: ['LoadingButton'],
-            message: 'Please use LoadingButton from Pantry instead.'
+            message: 'Please use LoadingButton from Pantry instead.',
           },
           {
             name: '@mui/material',
             importNames: ['TextField'],
-            message: 'Please use TextField from Pantry instead.'
+            message: 'Please use TextField from Pantry instead.',
           },
           {
             name: '@mui/material',
             importNames: ['Tooltip'],
-            message: 'Please use Tooltip from Pantry instead.'
+            message: 'Please use Tooltip from Pantry instead.',
           },
           {
             name: '@mui/material',
             importNames: ['Pagination'],
-            message: 'Please use TraditionalPagination from Pantry instead.'
-          }
+            message: 'Please use TraditionalPagination from Pantry instead.',
+          },
         ],
       },
     ],
