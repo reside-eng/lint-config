@@ -1984,7 +1984,7 @@ __metadata:
     "@next/eslint-plugin-next": "npm:14.2.16"
     "@side/eslint-config-cypress": "npm:1.1.2"
     "@side/eslint-config-jest": "npm:1.1.1"
-    "@side/eslint-config-react": "npm:1.1.1"
+    "@side/eslint-config-react": "npm:1.2.0"
     "@side/eslint-config-typescript": "npm:2.1.1"
   peerDependencies:
     eslint: ">=7.14.0"
@@ -1992,7 +1992,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@side/eslint-config-react@npm:1.1.1, @side/eslint-config-react@workspace:packages/eslint-config-react":
+"@side/eslint-config-react@npm:1.2.0, @side/eslint-config-react@workspace:packages/eslint-config-react":
   version: 0.0.0-use.local
   resolution: "@side/eslint-config-react@workspace:packages/eslint-config-react"
   dependencies:

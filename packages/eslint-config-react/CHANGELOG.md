@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-react@1.1.1...@side/eslint-config-react@1.2.0) (2024-11-05)
+
+### Features
+
+- add pantry lint config [CORE-13574] ([#759](https://github.com/reside-eng/lint-config/issues/759)) ([a222953](https://github.com/reside-eng/lint-config/commit/a222953aa0107ca37dd928ba71e41f1f3efaa9f4))
+
 ## [1.1.1](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-react@1.1.0...@side/eslint-config-react@1.1.1) (2024-10-19)
 
 **Note:** Version bump only for package @side/eslint-config-react
