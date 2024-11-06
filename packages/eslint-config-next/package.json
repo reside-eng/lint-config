@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@graphql-eslint/eslint-plugin": "3.20.1",
-    "@next/eslint-plugin-next": "14.2.16",
+    "@next/eslint-plugin-next": "15.0.2",
     "@side/eslint-config-cypress": "1.1.2",
     "@side/eslint-config-jest": "1.1.1",
     "@side/eslint-config-react": "1.2.0",
