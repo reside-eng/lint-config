@@ -17,7 +17,7 @@ concurrency:
 jobs:
   release:
     name: Reusable release workflow
-    uses: reside-eng/workflow-templates-library/.github/workflows/release_library.yml@v1
+    uses: reside-eng/workflow-templates-library/.github/workflows/release_library.yml@testing_ref
     with:
       TIMEOUT: 30
       NODE_VERSION: 20.x
@@ -25,4 +25,3 @@ jobs:
       IS_MONOREPO: true
       ENABLE_COVERAGE: false
     secrets: inherit
-# testing
