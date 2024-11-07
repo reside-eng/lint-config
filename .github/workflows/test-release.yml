@@ -1,0 +1,18 @@
+name: Release-test
+
+on: [workflow_dispatch]
+
+concurrency:
+  group: release-${{ github.ref }}
+
+jobs:
+  release:
+    name: Release Test
+    uses: reside-eng/workflow-templates-library/.github/workflows/release_library.yml@add_dep_stats_workflow
+    with:
+      TIMEOUT: 30
+      NODE_VERSION: 20.x
+      SLACK_NOTIFICATION_SECRET: SLACK_WEBHOOK_PLATFORM_NONPROD
+      IS_MONOREPO: true
+      ENABLE_COVERAGE: false
+    secrets: inherit
