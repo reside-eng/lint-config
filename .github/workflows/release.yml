@@ -17,7 +17,7 @@ concurrency:
 jobs:
   release:
     name: Reusable release workflow
-    uses: reside-eng/workflow-templates-library/.github/workflows/release_library.yml@add_dep_stats_workflow
+    uses: reside-eng/workflow-templates-library/.github/workflows/release_library.yml@v1
     with:
       TIMEOUT: 30
       NODE_VERSION: 20.x
