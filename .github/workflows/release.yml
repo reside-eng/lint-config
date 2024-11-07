@@ -1,6 +1,15 @@
-name: Release-test
+name: Release
 
-on: [workflow_dispatch]
+on:
+  push:
+    branches:
+      - main
+      - next
+      - next-major
+      - alpha
+      - beta
+      # N.x (maintenance release branches)
+      - '[0-9]+.x'
 
 concurrency:
   group: release-${{ github.ref }}
