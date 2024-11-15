@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.37](https://github.com/reside-eng/lint-config/compare/@side/jest-config-next@1.3.36...@side/jest-config-next@1.3.37) (2024-11-15)
+
+### Bug Fixes
+
+- **deps:** update dependency boxen to v8 ([#730](https://github.com/reside-eng/lint-config/issues/730)) ([c1f4325](https://github.com/reside-eng/lint-config/commit/c1f432569e2d51730fb31ba0739b897a7dc5b634))
+
 ## [1.3.36](https://github.com/reside-eng/lint-config/compare/@side/jest-config-next@1.3.35...@side/jest-config-next@1.3.36) (2024-11-15)
 
 **Note:** Version bump only for package @side/jest-config-next
