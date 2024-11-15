@@ -1,6 +1,6 @@
 {
   "name": "@side/eslint-config-react",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "engines": {
     "node": ">=20"
   },
@@ -23,7 +23,7 @@
     "test": "node eslint-config-react.js && node hooks.js"
   },
   "dependencies": {
-    "@side/eslint-config-base": "2.3.0",
+    "@side/eslint-config-base": "2.3.1",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-jsx-a11y": "^6.5.1",

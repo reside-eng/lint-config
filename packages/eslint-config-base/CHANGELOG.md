@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.3.1](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-base@2.3.0...@side/eslint-config-base@2.3.1) (2024-11-15)
+
+### Bug Fixes
+
+- **deps:** update dependency glob to v11 ([#731](https://github.com/reside-eng/lint-config/issues/731)) ([d999316](https://github.com/reside-eng/lint-config/commit/d9993166d348928b66fd1f65f1f300679b5cb06e))
+
 # [2.3.0](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-base@2.2.0...@side/eslint-config-base@2.3.0) (2024-10-19)
 
 ### Features
