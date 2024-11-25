@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.1.4](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-typescript@2.1.3...@side/eslint-config-typescript@2.1.4) (2024-11-25)
+
+### Bug Fixes
+
+- **deps:** update weekly npm maintenance release to v8.15.0 ([#774](https://github.com/reside-eng/lint-config/issues/774)) ([53bca70](https://github.com/reside-eng/lint-config/commit/53bca706e976d77af36474e523fe0d1803520418))
+
 ## [2.1.3](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-typescript@2.1.2...@side/eslint-config-typescript@2.1.3) (2024-11-18)
 
 ### Bug Fixes
