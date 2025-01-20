@@ -1,6 +1,6 @@
 {
   "name": "@side/eslint-config-typescript",
-  "version": "2.1.9",
+  "version": "2.1.10",
   "engines": {
     "node": ">=20"
   },
