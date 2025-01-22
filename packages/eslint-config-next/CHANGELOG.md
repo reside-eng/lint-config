@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.4.19](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-next@2.4.18...@side/eslint-config-next@2.4.19) (2025-01-22)
+
+### Bug Fixes
+
+- **deps:** update dependency @graphql-eslint/eslint-plugin to v4 ([#783](https://github.com/reside-eng/lint-config/issues/783)) ([d99505f](https://github.com/reside-eng/lint-config/commit/d99505f32ee0fbe045973695bf775afc514486c0))
+
 ## [2.4.18](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-next@2.4.17...@side/eslint-config-next@2.4.18) (2025-01-20)
 
 **Note:** Version bump only for package @side/eslint-config-next

@@ -1,6 +1,6 @@
 {
   "name": "@side/eslint-config-next",
-  "version": "2.4.18",
+  "version": "2.4.19",
   "engines": {
     "node": ">=20"
   },
