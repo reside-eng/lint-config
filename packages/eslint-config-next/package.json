@@ -1,6 +1,6 @@
 {
   "name": "@side/eslint-config-next",
-  "version": "2.4.19",
+  "version": "2.4.20",
   "engines": {
     "node": ">=20"
   },
@@ -20,7 +20,7 @@
   "dependencies": {
     "@graphql-eslint/eslint-plugin": "4.3.0",
     "@next/eslint-plugin-next": "15.1.4",
-    "@side/eslint-config-cypress": "1.1.2",
+    "@side/eslint-config-cypress": "1.1.3",
     "@side/eslint-config-jest": "1.1.1",
     "@side/eslint-config-react": "1.2.1",
     "@side/eslint-config-typescript": "2.1.10"
