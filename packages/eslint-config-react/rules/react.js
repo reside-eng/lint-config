@@ -18,5 +18,7 @@ module.exports = {
     // discussion for context: https://top-agent.slack.com/archives/C0XU3K155/p1638225804365600?thread_ts=1638204245.354900&cid=C0XU3K155
     'react/function-component-definition': 'off',
     'react/require-default-props': 'off',
+    // React 19 does not support defaultProps
+    'react/no-default-props': 'error',
   },
 };
