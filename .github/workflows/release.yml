@@ -20,7 +20,7 @@ jobs:
     uses: reside-eng/workflow-templates-library/.github/workflows/release_library.yml@v1
     with:
       TIMEOUT: 30
-      NODE_VERSION: 20.x
+      NODE_VERSION: 22.x
       SLACK_NOTIFICATION_SECRET: SLACK_WEBHOOK_PLATFORM_NONPROD
       IS_MONOREPO: true
       ENABLE_COVERAGE: false
