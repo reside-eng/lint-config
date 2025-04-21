@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.1.11](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-typescript@2.1.10...@side/eslint-config-typescript@2.1.11) (2025-04-21)
+
+### Bug Fixes
+
+- **deps:** update dependency eslint-import-resolver-typescript to v4 ([#853](https://github.com/reside-eng/lint-config/issues/853)) ([bd80ed6](https://github.com/reside-eng/lint-config/commit/bd80ed68864a088deffc9965592180a66372df48))
+
 ## [2.1.10](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-typescript@2.1.9...@side/eslint-config-typescript@2.1.10) (2025-01-20)
 
 ### Bug Fixes
