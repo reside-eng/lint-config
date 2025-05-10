@@ -18,9 +18,9 @@
     "test": "node index.js"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "8.20.0",
-    "@typescript-eslint/parser": "8.20.0",
-    "eslint-import-resolver-typescript": "4.3.2"
+    "@typescript-eslint/eslint-plugin": "8.32.0",
+    "@typescript-eslint/parser": "8.32.0",
+    "eslint-import-resolver-typescript": "4.3.4"
   },
   "peerDependencies": {
     "eslint": ">=7.14.0",
