@@ -18,8 +18,8 @@
     "test": "node index.js"
   },
   "dependencies": {
-    "@graphql-eslint/eslint-plugin": "4.3.0",
-    "@next/eslint-plugin-next": "15.1.4",
+    "@graphql-eslint/eslint-plugin": "4.4.0",
+    "@next/eslint-plugin-next": "15.3.3",
     "@side/eslint-config-cypress": "1.1.3",
     "@side/eslint-config-jest": "1.1.1",
     "@side/eslint-config-react": "1.2.1",
