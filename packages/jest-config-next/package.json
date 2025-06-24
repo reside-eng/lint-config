@@ -1,7 +1,7 @@
 {
   "name": "@side/jest-config-next",
   "description": "Jest config for Next.js apps",
-  "version": "1.3.120",
+  "version": "1.3.121",
   "engines": {
     "node": ">=20"
   },
