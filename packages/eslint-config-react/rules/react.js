@@ -19,4 +19,30 @@ module.exports = {
     'react/function-component-definition': 'off',
     'react/require-default-props': 'off',
   },
+  overrides: [
+    {
+      files: ['**/*.{tsx}', '!src/components/DataGrid.tsx', '!src/components/DataGrid/DataGrid.tsx'],
+      rules: {
+        'no-restricted-imports': [
+          'error',
+            {
+              paths: [
+                {
+                  name: '@mui/x-data-grid',
+                  importNames: ['DataGrid'],
+                  message:
+                    'Please import `DataGrid` from `src/components/DataGrid` instead.',
+                },
+                {
+                  name: '@side/pantry',
+                  importNames: ['DataGrid'],
+                  message:
+                    'Please import `DataGrid` from `src/components/DataGrid` instead.',
+                },
+              ],
+            },
+          ],
+      },
+    },
+  ]
 };
