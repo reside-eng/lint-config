@@ -2277,7 +2277,7 @@ __metadata:
     "@side/eslint-config-cypress": "npm:1.1.3"
     "@side/eslint-config-jest": "npm:1.1.1"
     "@side/eslint-config-react": "npm:1.2.1"
-    "@side/eslint-config-typescript": "npm:2.1.21"
+    "@side/eslint-config-typescript": "npm:2.1.22"
   peerDependencies:
     eslint: ">=7.14.0"
     next: ">=12.0.0"
@@ -2299,7 +2299,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@side/eslint-config-typescript@npm:2.1.21, @side/eslint-config-typescript@workspace:packages/eslint-config-typescript":
+"@side/eslint-config-typescript@npm:2.1.22, @side/eslint-config-typescript@workspace:packages/eslint-config-typescript":
   version: 0.0.0-use.local
   resolution: "@side/eslint-config-typescript@workspace:packages/eslint-config-typescript"
   dependencies:
@@ -2319,7 +2319,7 @@ __metadata:
   dependencies:
     "@jest/types": "npm:29.6.3"
     "@side/eslint-config-base": "npm:2.3.1"
-    "@side/eslint-config-typescript": "npm:2.1.21"
+    "@side/eslint-config-typescript": "npm:2.1.22"
     "@types/node": "npm:22.17.2"
     boxen: "npm:8.0.1"
     chalk: "npm:5.6.0"
