@@ -32,7 +32,7 @@
   "devDependencies": {
     "@side/eslint-config-base": "2.3.1",
     "@side/eslint-config-typescript": "2.1.22",
-    "@types/node": "22.17.2",
+    "@types/node": "22.18.0",
     "del-cli": "6.0.0",
     "eslint": "8.57.1",
     "eslint-config-prettier": "10.1.8",
