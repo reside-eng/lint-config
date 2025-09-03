@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.152](https://github.com/reside-eng/lint-config/compare/@side/jest-config-next@1.3.151...@side/jest-config-next@1.3.152) (2025-09-03)
+
+### Bug Fixes
+
+- **deps:** update jest monorepo to v30 (major) ([#907](https://github.com/reside-eng/lint-config/issues/907)) ([a69f123](https://github.com/reside-eng/lint-config/commit/a69f123cd28b61a6ce2e7f8f43ff49eb367160de))
+
 ## [1.3.151](https://github.com/reside-eng/lint-config/compare/@side/jest-config-next@1.3.150...@side/jest-config-next@1.3.151) (2025-09-01)
 
 **Note:** Version bump only for package @side/jest-config-next
