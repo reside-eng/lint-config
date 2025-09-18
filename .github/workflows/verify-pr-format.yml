@@ -1,0 +1,20 @@
+name: Verify PR format
+
+on:
+  pull_request:
+    branches:
+      - main
+    types:
+      - opened
+      - reopened
+      - edited
+      - synchronize
+  merge_group:
+    types: [checks_requested]
+
+jobs:
+  build:
+    name: Verify PR title
+    uses: reside-eng/workflow-templates/.github/workflows/verify-pr-title.yml@v10
+    with:
+      WORKFLOW_NAME: Verify PR title
