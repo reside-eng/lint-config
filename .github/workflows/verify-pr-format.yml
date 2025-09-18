@@ -4,6 +4,12 @@ on:
   pull_request:
     branches:
       - main
+      - next
+      - next-major
+      - alpha
+      - beta
+      # N.x (maintenance release branches)
+      - '[0-9]+.x'
     types:
       - opened
       - reopened
