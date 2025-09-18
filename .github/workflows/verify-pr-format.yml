@@ -21,6 +21,6 @@ on:
 jobs:
   build:
     name: Verify PR title
-    uses: reside-eng/workflow-templates/.github/workflows/verify-pr-title.yml@v10
+    uses: reside-eng/workflow-templates-library/.github/workflows/verify-pr-title.yml@v1
     with:
       WORKFLOW_NAME: Verify PR title
