@@ -2323,7 +2323,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@side/eslint-config-jest@npm:1.1.1, @side/eslint-config-jest@workspace:packages/eslint-config-jest":
+"@side/eslint-config-jest@npm:1.1.2, @side/eslint-config-jest@workspace:packages/eslint-config-jest":
   version: 0.0.0-use.local
   resolution: "@side/eslint-config-jest@workspace:packages/eslint-config-jest"
   dependencies:
@@ -2347,7 +2347,7 @@ __metadata:
     "@graphql-eslint/eslint-plugin": "npm:4.4.0"
     "@next/eslint-plugin-next": "npm:15.5.2"
     "@side/eslint-config-cypress": "npm:1.1.3"
-    "@side/eslint-config-jest": "npm:1.1.1"
+    "@side/eslint-config-jest": "npm:1.1.2"
     "@side/eslint-config-react": "npm:1.2.1"
     "@side/eslint-config-typescript": "npm:2.1.23"
   peerDependencies:
