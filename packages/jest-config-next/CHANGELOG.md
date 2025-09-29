@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.161](https://github.com/reside-eng/lint-config/compare/@side/jest-config-next@1.3.160...@side/jest-config-next@1.3.161) (2025-09-29)
+
+### Bug Fixes
+
+- **deps:** update weekly npm maintenance release ([#982](https://github.com/reside-eng/lint-config/issues/982)) ([4970936](https://github.com/reside-eng/lint-config/commit/4970936fe81ceacd5d8953872b6f5f3f54b3e1f2))
+
 ## [1.3.160](https://github.com/reside-eng/lint-config/compare/@side/jest-config-next@1.3.159...@side/jest-config-next@1.3.160) (2025-09-28)
 
 **Note:** Version bump only for package @side/jest-config-next
