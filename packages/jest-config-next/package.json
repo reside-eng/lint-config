@@ -45,7 +45,7 @@
     "next": "13 || 14 || 15"
   },
   "dependencies": {
-    "@jest/types": "30.0.5",
+    "@jest/types": "30.2.0",
     "boxen": "8.0.1",
     "chalk": "5.6.2"
   }
