@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.2](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-react@1.2.1...@side/eslint-config-react@1.2.2) (2025-10-22)
+
+### Bug Fixes
+
+- **deps:** update dependency eslint-plugin-react-hooks to v6 ([#987](https://github.com/reside-eng/lint-config/issues/987)) ([5cd1903](https://github.com/reside-eng/lint-config/commit/5cd19038c5aa86d471a45868510d650203e3b08a))
+
 ## [1.2.1](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-react@1.2.0...@side/eslint-config-react@1.2.1) (2024-11-15)
 
 ### Bug Fixes
