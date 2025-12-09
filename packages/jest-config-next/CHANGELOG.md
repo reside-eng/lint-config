@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.180](https://github.com/reside-eng/lint-config/compare/@side/jest-config-next@1.3.179...@side/jest-config-next@1.3.180) (2025-12-09)
+
+**Note:** Version bump only for package @side/jest-config-next
+
 ## [1.3.179](https://github.com/reside-eng/lint-config/compare/@side/jest-config-next@1.3.178...@side/jest-config-next@1.3.179) (2025-12-08)
 
 **Note:** Version bump only for package @side/jest-config-next
