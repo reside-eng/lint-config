@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.4.49](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-next@2.4.48...@side/eslint-config-next@2.4.49) (2026-02-09)
+
+### Bug Fixes
+
+- **deps:** update dependency @next/eslint-plugin-next to v15.5.12 ([#1050](https://github.com/reside-eng/lint-config/issues/1050)) ([2531837](https://github.com/reside-eng/lint-config/commit/2531837a57d64bc94bd268fdd1b4d58fd7867d10))
+
 ## [2.4.48](https://github.com/reside-eng/lint-config/compare/@side/eslint-config-next@2.4.47...@side/eslint-config-next@2.4.48) (2026-02-02)
 
 ### Bug Fixes
