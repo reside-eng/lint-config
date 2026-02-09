@@ -1799,12 +1799,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/eslint-plugin-next@npm:15.5.11":
-  version: 15.5.11
-  resolution: "@next/eslint-plugin-next@npm:15.5.11"
+"@next/eslint-plugin-next@npm:15.5.12":
+  version: 15.5.12
+  resolution: "@next/eslint-plugin-next@npm:15.5.12"
   dependencies:
     fast-glob: "npm:3.3.1"
-  checksum: 10c0/4a9667ad428107b9dbaa6d1c3d931b386a2c33a481f120bee5e0ea3be2ee3d8e442bb64ca96f9caa70df85eee643d025a5c5bf803bbcd45069d37218620cf521
+  checksum: 10c0/c9a88aa628ad77c8ab12112835227ef093db72846223ce559881b0fc99ce7b61324f1bcd987309b4682c397293f633f4ad4f38a3d8527a84c7b51521b89a7dd9
   languageName: node
   linkType: hard
 
@@ -2373,7 +2373,7 @@ __metadata:
   resolution: "@side/eslint-config-next@workspace:packages/eslint-config-next"
   dependencies:
     "@graphql-eslint/eslint-plugin": "npm:4.4.0"
-    "@next/eslint-plugin-next": "npm:15.5.11"
+    "@next/eslint-plugin-next": "npm:15.5.12"
     "@side/eslint-config-cypress": "npm:1.1.3"
     "@side/eslint-config-jest": "npm:1.1.2"
     "@side/eslint-config-react": "npm:1.2.2"
