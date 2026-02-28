@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "eslint-plugin-chai-friendly": "^1.0.0",
-    "eslint-plugin-cypress": "^4.0.0"
+    "eslint-plugin-cypress": "^6.0.0"
   },
   "peerDependencies": {
     "eslint": ">=7.14.0"
