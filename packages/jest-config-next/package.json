@@ -38,7 +38,7 @@
     "eslint-config-prettier": "10.1.8",
     "jest": "30.3.0",
     "next": "15.5.14",
-    "typescript": "5.4.5"
+    "typescript": "6.0.2"
   },
   "peerDependencies": {
     "jest": "29 || 30",
